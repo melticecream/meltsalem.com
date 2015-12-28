@@ -1,0 +1,20 @@
+# Site settings
+title: Melt Ice Cream
+email: christiana@meltsalem.com
+description: > # this means to ignore newlines until "baseurl:"
+  Melt Ice Cream homemade ice cream
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://meltsalem.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+timezone: US/Eastern
+sass:
+  style: :compressed
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
