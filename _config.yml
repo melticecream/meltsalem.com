@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://meltsalem.com" # the base hostname & protocol for your site
 
 # Build settings
+exclude: [bower_components]
 markdown: kramdown
 timezone: US/Eastern
 sass:
