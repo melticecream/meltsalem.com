@@ -1,21 +1,14 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-12">
-      <h2>{{ site.title }}</h2>
+      <div class="text-xs-center">
+        <address>
+          60 Washington St<br>
+          Salem, MA 01970<br>
+          <a href="tel:9788265703">(978) 826-5703</a><br>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </address>
+      </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-sm-6">
-      <ul class="list-unstyled">
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
-
-    <div class="col-sm-6">
-      <p>{{ site.description }}</p>
-    </div>
-  </div>
-
 </div>
