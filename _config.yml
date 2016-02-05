@@ -4,14 +4,19 @@ email: christiana@meltsalem.com
 description: > # this means to ignore newlines until "baseurl:"
   Melt Ice Cream homemade ice cream
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://meltsalem.com" # the base hostname & protocol for your site
+url: https://meltsalem.com # the base hostname & protocol for your site
 
 # Build settings
-exclude: [bower_components]
+gems:
+  - jekyll-assets
+exclude:
+  - bin
+  - bower_components
+  - bower.json
+  - Gemfile
+  - Gemfile.lock
 markdown: kramdown
 timezone: US/Eastern
-sass:
-  style: :compressed
 defaults:
   -
     scope:
