@@ -1,7 +1,25 @@
 @charset "utf-8";
 
-$brand-primary: rgb(173, 220, 210);
-$body-bg: rgb(82, 53, 40);
-$body-color: #fff;
+//$brand-primary: rgb(173, 220, 210);
+$brand-primary: rgb(82, 53, 40);
+//$body-color: #fff;
+
+//$navbar-light-color:                rgb(82, 53, 40);
+//$navbar-light-hover-color:          rgba(0,0,0,.6) !default;
+//$navbar-light-active-color:         rgba(0,0,0,.8) !default;
+//$navbar-light-disabled-color:       rgba(0,0,0,.15) !default;
 
 @import "../../bower_components/bootstrap/scss/bootstrap-flex";
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 70px;
+}
+
+footer {
+  padding: 30px 0;
+}
