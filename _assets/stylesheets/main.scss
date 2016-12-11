@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-//$brand-primary: rgb(173, 220, 210);
-$brand-primary: rgb(82, 53, 40);
-//$body-color: #fff;
-
+//$brand-primary: rgb(173, 220, 210); blue-teal
+$brand-primary: rgb(82, 53, 40); // brown
 $enable-flex: true;
 
 @import "../../bower_components/bootstrap/scss/variables";
@@ -22,10 +20,6 @@ $enable-flex: true;
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-
-body {
-  padding-top: 70px;
 }
 
 footer {

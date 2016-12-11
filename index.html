@@ -1,28 +1,27 @@
 ---
 layout: default
 ---
-
-<nav class="navbar navbar-fixed-top navbar-dark bg-primary">
-  <div class="container">
-    <ul class="nav navbar-nav">
-      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
-      <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-{% image MELT_Primary_Hi-Res_Brown.png class:"center-block" width:"300" height:"248" %}
-
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-12">
-      <div class="text-xs-center">
-        <ul class="list-unstyled">
-          <li>Sunday - Thursday: 12pm - 9pm</li>
-          <li>Friday - Saturday: 12pm - 10pm</li>
-        </ul>
-      </div>
+    <div class="col-xs-2">
+      <a class="nav-link" href="#">Home</a>
+    </div>
+    <div class="col-xs-2">
+      <a class="nav-link" href="/#about">About</a>
+    </div>
+    <div class="col-xs-2">
+      <a class="nav-link" href="/#contact">Contact</a>
     </div>
   </div>
+</div>
+
+<div class="text-xs-center">
+  {% image MELT_Primary_Hi-Res_Brown.png class:"center-block" width:"300" height:"248" %}
+
+  <h4>Closing for the season on December 11</h4>
+  <p>Thanks for a great first year!</p>
+  <ul class="list-unstyled">
+    <li>Monday: Closed</li>
+    <li>Tuesday - Sunday: 1pm - 8pm</li>
+  </ul>
 </div>
