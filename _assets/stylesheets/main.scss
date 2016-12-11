@@ -4,12 +4,20 @@
 $brand-primary: rgb(82, 53, 40);
 //$body-color: #fff;
 
-//$navbar-light-color:                rgb(82, 53, 40);
-//$navbar-light-hover-color:          rgba(0,0,0,.6) !default;
-//$navbar-light-active-color:         rgba(0,0,0,.8) !default;
-//$navbar-light-disabled-color:       rgba(0,0,0,.15) !default;
+$enable-flex: true;
 
-@import "../../bower_components/bootstrap/scss/bootstrap-flex";
+@import "../../bower_components/bootstrap/scss/variables";
+@import "../../bower_components/bootstrap/scss/mixins/breakpoints";
+@import "../../bower_components/bootstrap/scss/mixins/clearfix";
+@import "../../bower_components/bootstrap/scss/mixins/grid-framework";
+@import "../../bower_components/bootstrap/scss/mixins/grid";
+@import "../../bower_components/bootstrap/scss/mixins/hover";
+@import "../../bower_components/bootstrap/scss/mixins/tab-focus";
+
+@import "../../bower_components/bootstrap/scss/grid";
+@import "../../bower_components/bootstrap/scss/normalize";
+@import "../../bower_components/bootstrap/scss/print";
+@import "../../bower_components/bootstrap/scss/reboot";
 
 html,
 body {
