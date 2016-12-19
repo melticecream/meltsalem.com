@@ -3,19 +3,102 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="site">
     {% include analytics.html %}
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          {{ content }}
-        </div>
+    <header>
+      <a href="#">{% image MELT_Icon_hi-res_brown.png %}</a>
+      <div class="spacer"></div>
+      <a href="/#flavors">Flavors</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+    </header>
+
+    <main class="site-content">
+      <h4>Closed for the season. Opening in March!</h4>
+      <p>Thanks for a great first year!</p>
+
+      <div id="flavors">
+        <h2>Flavors</h2>
+        <ul>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+          <li>Blah blah</li>
+        </ul>
       </div>
-    </div>
 
-    {% include footer.html %}
+      <div id="about">
+        <h2>About</h2>
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+        About us About us About us About us
+      </div>
+    </main>
 
+    <footer>
+      <div id="contact">
+        <h2>Contact</h2>
+        <address>
+          60 Washington St<br>
+          Salem, MA 01970<br>
+          <a href="tel:9788265703">(978) 826-5703</a><br>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </address>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/meltsalem/">
+              {% image FB-f-Logo__blue_512.png class:"center-block" width:"30" height:"30" %}
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/meltsalem/">
+              {% image glyph-logo_May2016.png class:"center-block" width:"30" height:"30" %}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 
 </html>
