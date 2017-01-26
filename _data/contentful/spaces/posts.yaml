@@ -1,45 +1,6 @@
 ---
 2wKn6yEnZewu2SCCkus4as:
 - sys:
-    id: 3ObHCn51xYcAYS2emkQiqE
-  title: Hai 23
-  slug: hai
-  author:
-  - sys:
-      id: 6EczfGnuHCIYGGwEwIqiq2
-    name: Lewis Carroll
-    website: http://en.wikipedia.org/wiki/Lewis_Carroll
-    profilePhoto:
-      title: Lewis Carroll
-      description: Taken on January 1, 1855
-      url: "//images.contentful.com/37yop5vw50a1/2ReMHJhXoAcy4AyamgsgwQ/d12b3647e4019afaa4944eefe97b7292/lewis-carroll-1.jpg"
-    biography: "Charles Lutwidge Dodgson (27 January 1832 – 14 January 1898), better
-      known by his pen name, Lewis Carroll, was an English writer, mathematician,
-      logician, Anglican deacon and photographer. \n\nHis most famous writings are
-      Alice's Adventures in Wonderland, its sequel Through the Looking-Glass, which
-      includes the poem Jabberwocky, and the poem The Hunting of the Snark, all examples
-      of the genre of literary nonsense. \n\nHe is noted for his facility at word
-      play, logic, and fantasy. There are societies in many parts of the world (including
-      the United Kingdom, Japan, the United States, and New Zealand[3]) dedicated
-      to the enjoyment and promotion of his works and the investigation of his life.
-      In 1982, his great-nephew unveiled his memorial stone in Poets' Corner, Westminster
-      Abbey."
-  body: |-
-    Hai ____test____
-
-    <a href="https://www.instagram.com/p/BPl6gjIA6CJ/?taken-by=therock&hl=en" class="embedly-card" data-card-width="100%" data-card-controls="0">Embedded content: https://www.instagram.com/p/BPl6gjIA6CJ/?taken-by=therock&hl=en</a>
-
-    ![Ernest Hemingway (1950)][1]
-
-    ____MORA____
-
-
-    [1]: //images.contentful.com/37yop5vw50a1/3S1ngcWajSia6I4sssQwyK/1f6952829496653f011ac88331a2bd41/BerkleyJediCold.jpg
-  featuredImage:
-    title: Ernest Hemingway (1950)
-    description: Hemingway in the cabin of his boat Pilar, off the coast of Cuba
-    url: "//images.contentful.com/37yop5vw50a1/3S1ngcWajSia6I4sssQwyK/1f6952829496653f011ac88331a2bd41/BerkleyJediCold.jpg"
-- sys:
     id: A96usFSlY4G0W4kwAqswk
   title: Seven Tips From Ernest Hemingway on How to Write Fiction
   slug: seven-tips-from-ernest-hemingway-on-how-to-write-fiction
@@ -224,3 +185,37 @@
     url: "//images.contentful.com/37yop5vw50a1/bXvdSYHB3Guy2uUmuEco8/a7227c32fefd744baace2566bf4de18c/alice-in-wonderland.gif"
   date: !ruby/object:DateTime 1865-11-26 00:00:00.000000000 Z
   comments: false
+- sys:
+    id: 3ObHCn51xYcAYS2emkQiqE
+  title: Hai 23
+  slug: hai
+  author:
+  - sys:
+      id: 6EczfGnuHCIYGGwEwIqiq2
+    name: Lewis Carroll
+    website: http://en.wikipedia.org/wiki/Lewis_Carroll
+    profilePhoto:
+      title: Lewis Carroll
+      description: Taken on January 1, 1855
+      url: "//images.contentful.com/37yop5vw50a1/2ReMHJhXoAcy4AyamgsgwQ/d12b3647e4019afaa4944eefe97b7292/lewis-carroll-1.jpg"
+    biography: "Charles Lutwidge Dodgson (27 January 1832 – 14 January 1898), better
+      known by his pen name, Lewis Carroll, was an English writer, mathematician,
+      logician, Anglican deacon and photographer. \n\nHis most famous writings are
+      Alice's Adventures in Wonderland, its sequel Through the Looking-Glass, which
+      includes the poem Jabberwocky, and the poem The Hunting of the Snark, all examples
+      of the genre of literary nonsense. \n\nHe is noted for his facility at word
+      play, logic, and fantasy. There are societies in many parts of the world (including
+      the United Kingdom, Japan, the United States, and New Zealand[3]) dedicated
+      to the enjoyment and promotion of his works and the investigation of his life.
+      In 1982, his great-nephew unveiled his memorial stone in Poets' Corner, Westminster
+      Abbey."
+  body: "Hai \n\n{% highlight ruby %}\ndef foo\n  puts 'foo'\nend\n{% endhighlight
+    %}\n\n![Ernest Hemingway (1950)](//images.contentful.com/37yop5vw50a1/3S1ngcWajSia6I4sssQwyK/1f6952829496653f011ac88331a2bd41/BerkleyJediCold.jpg)\n\nMORA\n"
+  featuredImage:
+    title: Ernest Hemingway (1950)
+    description: Hemingway in the cabin of his boat Pilar, off the coast of Cuba
+    url: "//images.contentful.com/37yop5vw50a1/3S1ngcWajSia6I4sssQwyK/1f6952829496653f011ac88331a2bd41/BerkleyJediCold.jpg"
+  template:
+    sys:
+      id: yu6kvyHzxeUGgwWQukG4Q
+    name: Case study 1

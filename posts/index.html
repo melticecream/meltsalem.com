@@ -1,0 +1,11 @@
+---
+layout: posts
+---
+
+<ul>
+  {% for post in site.data.contentful.spaces.posts.2wKn6yEnZewu2SCCkus4as %}
+    <li>
+      <h2><a href="{{ post.slug }}">{{ post.slug}}</a></h2>
+    </li>
+  {% endfor %}
+</ul>

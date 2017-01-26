@@ -40,3 +40,13 @@ contentful:
         access_token: 1d19ff9eb08cb9db6b49c57d387904edeea0e4d7904e9a13be9b1e0850576fbf
         cda_query:
           content_type: '2wKn6yEnZewu2SCCkus4as'
+page_gen-dirs: true
+page_gen:
+  - data: 'contentful.spaces.posts'
+    template: 'post'
+    name: 'slug'
+    dir: 'posts'
+  - data: 'contentful.spaces.authors'
+    template: 'default'
+    name: 'name'
+    dir: 'authors'
