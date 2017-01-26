@@ -23,3 +23,20 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+contentful:
+  spaces:
+    - authors: # Jekyll _data folder identifier - Required
+        space: 37yop5vw50a1
+        access_token: 1d19ff9eb08cb9db6b49c57d387904edeea0e4d7904e9a13be9b1e0850576fbf
+        cda_query:
+          content_type: '1kUEViTN4EmGiEaaeC6ouY'
+    - categories: # Jekyll _data folder identifier - Required
+        space: 37yop5vw50a1
+        access_token: 1d19ff9eb08cb9db6b49c57d387904edeea0e4d7904e9a13be9b1e0850576fbf
+        cda_query:
+          content_type: '5KMiN6YPvi42icqAUQMCQe'
+    - posts: # Jekyll _data folder identifier - Required
+        space: 37yop5vw50a1
+        access_token: 1d19ff9eb08cb9db6b49c57d387904edeea0e4d7904e9a13be9b1e0850576fbf
+        cda_query:
+          content_type: '2wKn6yEnZewu2SCCkus4as'
