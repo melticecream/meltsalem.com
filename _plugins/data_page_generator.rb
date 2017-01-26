@@ -87,7 +87,7 @@ module Jekyll
                 records = records[level]
               end
             end
-            records.each do |record|
+            records.to_a[0][1].each do |record|
               site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
             end
           else
@@ -125,4 +125,3 @@ module Jekyll
 end
 
 Liquid::Template.register_filter(Jekyll::DataPageLinkGenerator)
-
