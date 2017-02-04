@@ -4,11 +4,13 @@
 $brand-primary: rgb(82, 53, 40); // brown
 
 @import "../../bower_components/bootstrap/scss/bootstrap-reboot";
+@import "../../bower_components/bootstrap/scss/images";
 @import "../../bower_components/bootstrap/scss/grid";
 @import "../../bower_components/bootstrap/scss/print";
 @import "../../bower_components/bootstrap/scss/utilities/display";
 @import "../../bower_components/bootstrap/scss/utilities/flex";
 @import "../../bower_components/bootstrap/scss/utilities/spacing";
+@import "../../bower_components/bootstrap/scss/utilities/text";
 
 html,
 body {
