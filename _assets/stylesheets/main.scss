@@ -2,10 +2,17 @@
 
 //$brand-primary: rgb(173, 220, 210); blue-teal
 $brand-primary: rgb(82, 53, 40); // brown
+$enable-flex: true;
 
 @import "../../bower_components/bootstrap/scss/variables";
+@import "../../bower_components/bootstrap/scss/mixins/breakpoints";
+@import "../../bower_components/bootstrap/scss/mixins/clearfix";
+@import "../../bower_components/bootstrap/scss/mixins/grid-framework";
+@import "../../bower_components/bootstrap/scss/mixins/grid";
 @import "../../bower_components/bootstrap/scss/mixins/hover";
 @import "../../bower_components/bootstrap/scss/mixins/tab-focus";
+
+@import "../../bower_components/bootstrap/scss/grid";
 @import "../../bower_components/bootstrap/scss/normalize";
 @import "../../bower_components/bootstrap/scss/print";
 @import "../../bower_components/bootstrap/scss/reboot";
@@ -15,34 +22,6 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.header {
-  height: 5em;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.header .spacer {
-  visibility: hidden;
-  flex-grow: 1;
-}
-
-.header a {
-  width: 5em;
-}
-
-.header img {
-  width: 100%;
-  height: 100%;
-}
-
 footer {
-  padding-top: 5em;
+  padding: 30px 0;
 }
