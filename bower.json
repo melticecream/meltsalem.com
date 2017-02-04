@@ -2,6 +2,6 @@
   "name": "meltsalem.com",
   "private": true,
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.5"
+    "bootstrap": "v4.0.0-alpha.6"
   }
 }
