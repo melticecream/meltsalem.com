@@ -1,13 +1,16 @@
 @charset "utf-8";
 
-//$brand-primary: rgb(173, 220, 210); blue-teal
-$brand-primary: rgb(82, 53, 40); // brown
+$blue-teal: rgb(173, 220, 210); // blue-teal
+$brown: rgb(82, 53, 40);
+$red: rgb(210, 35, 42);
+$brand-primary: $brown;
 
 @import "../../bower_components/bootstrap/scss/bootstrap-reboot";
 @import "../../bower_components/bootstrap/scss/buttons";
 @import "../../bower_components/bootstrap/scss/images";
 @import "../../bower_components/bootstrap/scss/grid";
 @import "../../bower_components/bootstrap/scss/print";
+@import "../../bower_components/bootstrap/scss/type";
 @import "../../bower_components/bootstrap/scss/utilities/borders";
 @import "../../bower_components/bootstrap/scss/utilities/display";
 @import "../../bower_components/bootstrap/scss/utilities/flex";
@@ -21,10 +24,32 @@ body {
   //overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
-.nav-link {
-  border: 1px solid $brand-primary;
+.flavors-heading {
+  background-color: $red;
+  border: 1px solid $red;
   border-radius: 50%;
+  color: #fff;
   height: 100px;
   width: 100px;
+  text-align: center;
+
+  h5 {
+    line-height: 100px;
+    transform: rotateZ(-20deg);
+  }
 }
 
+footer {
+  background-color: $brand-primary;
+  color: #fff;
+  margin-top: 4rem;
+  padding: 4rem 0;
+}
+
+footer a {
+  color: $blue-teal;
+
+  &:hover {
+    color: darken($blue-teal, 15%);
+  }
+}

@@ -2,38 +2,39 @@
 layout: default
 ---
 <div class="container-fluid">
-  <div class="row align-items-center justify-content-center">
-    <div class="col-sm-3 push-sm-4">
+  <div class="row align-items-center">
+    <div class="col-md-4 push-md-4">
       {% image MELT_Primary_Hi-Res_Brown.png class:"img-fluid" %}
     </div>
-    <div class="col-sm-2 pull-sm-3 text-center mb-2">
-      <div class="nav-link">
-        <a class="btn btn-outline-primary btn-block" href="/#flavors">Flavors</a>
-      </div>
+    <div class="col-md-4 pull-md-4">
+      <h4>Opening March 3!</h4>
+      <ul class="list-unstyled">
+      </ul>
     </div>
-    <div class="col-sm-2 pull-sm-3 text-center mb-2">
-      <div class="nav-link">
-        <a class="btn btn-outline-primary btn-block" href="/#location">Location</a>
-      </div>
-    </div>
-    <div class="col-sm-2 text-center">
-      <div class="nav-link">
-        <a class="btn btn-outline-primary" href="/#about">About</a>
-      </div>
-    </div>
-    <div class="col-sm-2 text-center mb-2">
-      <div class="nav-link">
-        <a class="btn btn-outline-primary btn-block" href="/#contact">Contact</a>
-      </div>
+    <div class="col-md-4 text-md-right">
+      <address>
+        60 Washington St<br>
+        Salem, MA 01970<br>
+        <a href="tel:9788265703">(978) 826-5703</a><br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </address>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/meltsalem/">
+            {% image FB-f-Logo__blue_512.png class:"center-block" width:"30" height:"30" %}
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/meltsalem/">
+            {% image glyph-logo_May2016.png class:"center-block" width:"30" height:"30" %}
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
-
-<div class="text-center">
-
-  <h4>Closing for the season on December 11</h4>
-  <p>Thanks for a great first year!</p>
-  <ul class="list-unstyled">
-    <li>Monday: Closed</li>
-    <li>Tuesday - Sunday: 1pm - 8pm</li>
-  </ul>
+  <div class="d-flex justify-content-center">
+    <div class="flavors-heading">
+      <h5>Flavors</h5>
+    </div>
+  </div>
 </div>
