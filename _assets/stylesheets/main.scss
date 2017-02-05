@@ -4,11 +4,14 @@
 $brand-primary: rgb(82, 53, 40); // brown
 
 @import "../../bower_components/bootstrap/scss/bootstrap-reboot";
+@import "../../bower_components/bootstrap/scss/buttons";
 @import "../../bower_components/bootstrap/scss/images";
 @import "../../bower_components/bootstrap/scss/grid";
 @import "../../bower_components/bootstrap/scss/print";
+@import "../../bower_components/bootstrap/scss/utilities/borders";
 @import "../../bower_components/bootstrap/scss/utilities/display";
 @import "../../bower_components/bootstrap/scss/utilities/flex";
+@import "../../bower_components/bootstrap/scss/utilities/sizing";
 @import "../../bower_components/bootstrap/scss/utilities/spacing";
 @import "../../bower_components/bootstrap/scss/utilities/text";
 
@@ -17,3 +20,11 @@ body {
   // TODO Do I still need this?
   //overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
+
+.nav-link {
+  border: 1px solid $brand-primary;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
