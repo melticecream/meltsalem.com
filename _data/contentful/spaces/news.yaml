@@ -1,0 +1,12 @@
+---
+news:
+- sys:
+    id: 6O76cz7foIGeeCckoyaOaU
+  headline: Opening March 3!
+  hours:
+  - sys:
+      id: ASICAbfJKKgKckYg4I06u
+    dailyHours: 'Monday - Saturday: 12 - 10pm'
+  - sys:
+      id: 1fqnfdynksu26YCkc0yMSC
+    dailyHours: 'Sunday: 12 - 8pm'

@@ -23,3 +23,10 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+contentful:
+  spaces:
+    - news: # Jekyll _data folder identifier - Required
+        space: ENV_CONTENTFUL_SPACE_ID
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN
+        cda_query:
+          content_type: 'news'
