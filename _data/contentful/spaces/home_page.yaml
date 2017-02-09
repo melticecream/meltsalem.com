@@ -1,0 +1,38 @@
+---
+homePage:
+- sys:
+    id: 7WM0hPXbX2qwMeqEyOQIY
+  news: Opening March 3!
+  dailyHours:
+  - sys:
+      id: ASICAbfJKKgKckYg4I06u
+    dailyHours: 'Monday - Saturday: 12 - 10pm'
+  - sys:
+      id: 1fqnfdynksu26YCkc0yMSC
+    dailyHours: 'Sunday: 12 - 8pm'
+  flavors:
+  - sys:
+      id: 6fp09qxUhqwCyMyo6k0uyu
+    name: Salted Caramel with Sea Salt Brownies
+    description: Homemade salted caramel with sea salt brownies from Jodi Bee Bakes
+      mixed in.
+  - sys:
+      id: 6Xo1rSHnNeywYuiyCKcg2E
+    name: Chocolate
+    description: Taza chocolate from Somerville, MA
+  - sys:
+      id: 2X3lr7BNgsm0kcWCuGo242
+    name: Vanilla
+    description: Made with Madagascar Bourbon vanilla
+  partners:
+  - sys:
+      id: Jccnz5cjwAAceYawciioC
+    name: Jodi Bee Bakes
+    website: http://www.jodibeebakes.com/
+    location:
+      lat: 42.52236870000001
+      lon: -70.89315950000002
+    description: A vegetarian bakery and cafe.
+  about: It all started in 2009. While on vacaction in Cape May, New Jersey I happened
+    upon a small ice cream shop. The owners, a young couple, had just opened and had
+    the most interesting ice cream flavors I had experienced.
