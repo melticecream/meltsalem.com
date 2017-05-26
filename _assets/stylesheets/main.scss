@@ -1,31 +1,17 @@
 @charset "utf-8";
 
-$blue-teal: rgb(173, 220, 210);
-$brown: rgb(82, 53, 40);
+// Colors are also overridden in _colors.css for tachyons.
+$light-blue: rgb(173, 220, 210);
+// dark-gray is actually brown,
+// but tachyons doesn't have brown
+// and this was the closest color that made sense.
+$dark-gray: rgb(82, 53, 40);
 $red: rgb(210, 35, 42);
-$brand-primary: $brown;
 
-@import "../../bower_components/bootstrap/scss/bootstrap-reboot";
-@import "../../bower_components/bootstrap/scss/buttons";
-@import "../../bower_components/bootstrap/scss/images";
-@import "../../bower_components/bootstrap/scss/grid";
-@import "../../bower_components/bootstrap/scss/print";
-@import "../../bower_components/bootstrap/scss/type";
-@import "../../bower_components/bootstrap/scss/utilities/borders";
-@import "../../bower_components/bootstrap/scss/utilities/display";
-@import "../../bower_components/bootstrap/scss/utilities/flex";
-@import "../../bower_components/bootstrap/scss/utilities/sizing";
-@import "../../bower_components/bootstrap/scss/utilities/spacing";
-@import "../../bower_components/bootstrap/scss/utilities/text";
-
-html,
-body {
-  // TODO Do I still need this?
-  //overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
+@import "tachyons";
 
 .about-heading {
-  background-color: $blue-teal;
+  background-color: $light-blue;
   text-decoration: underline;
 }
 
@@ -35,7 +21,7 @@ body {
 }
 
 .partners-heading {
-  background-color: $brown;
+  background-color: $dark-gray;
   text-decoration: underline;
 }
 
@@ -65,16 +51,14 @@ body {
 }
 
 footer {
-  background-color: $brand-primary;
+  background-color: $dark-gray;
   color: #fff;
   margin-top: 4rem;
   padding: 4rem 0;
 }
 
 footer a {
-  color: $blue-teal;
-
   &:hover {
-    color: darken($blue-teal, 15%);
+    color: darken($light-blue, 15%);
   }
 }

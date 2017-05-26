@@ -10,10 +10,13 @@ gems:
   - jekyll-assets
 exclude:
   - bin
-  - bower_components
-  - bower.json
+  - contentful_env
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - README.md
+  - yarn.lock
 markdown: kramdown
 timezone: US/Eastern
 defaults:

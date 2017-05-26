@@ -1,0 +1,16 @@
+{
+  "name": "meltsalem.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:melticecream/meltsalem.com.git",
+  "author": "Dave Kroondyk <davekaro@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "tachyons": "^4.7.4",
+    "tachyons-cli": "^1.0.11"
+  },
+  "scripts": {
+    "build": "tachyons _assets/stylesheets/tachyons.css > _assets/stylesheets/tachyons.scss"
+  }
+}
