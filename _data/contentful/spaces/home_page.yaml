@@ -2,37 +2,59 @@
 homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
+    created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
+    updated_at: !ruby/object:DateTime 2017-02-05 13:47:31.130000000 Z
+    content_type_id: homePage
   news: Opening March 3!
-  dailyHours:
+  daily_hours:
   - sys:
       id: ASICAbfJKKgKckYg4I06u
-    dailyHours: 'Monday - Saturday: 12 - 10pm'
+      created_at: !ruby/object:DateTime 2017-02-05 03:16:50.926000000 Z
+      updated_at: !ruby/object:DateTime 2017-02-05 03:16:50.926000000 Z
+      content_type_id: hours
+    daily_hours: 'Monday - Saturday: 12 - 10pm'
   - sys:
       id: 1fqnfdynksu26YCkc0yMSC
-    dailyHours: 'Sunday: 12 - 8pm'
+      created_at: !ruby/object:DateTime 2017-02-05 02:47:27.917000000 Z
+      updated_at: !ruby/object:DateTime 2017-02-05 03:08:31.537000000 Z
+      content_type_id: hours
+    daily_hours: 'Sunday: 12 - 8pm'
   flavors:
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
+      created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:39:41.333000000 Z
+      content_type_id: flavor
     name: Salted Caramel with Sea Salt Brownies
-    description: Homemade salted caramel with sea salt brownies from Jodi Bee Bakes
-      mixed in.
+    description: Homemade salted caramel with Gluten Free sea salt brownies from Jodi
+      Bee Bakes mixed in.
   - sys:
       id: 6Xo1rSHnNeywYuiyCKcg2E
+      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:48:37.880000000 Z
+      content_type_id: flavor
     name: Chocolate
-    description: Taza chocolate from Somerville, MA
+    description: Rich chocolate ice cream
   - sys:
       id: 2X3lr7BNgsm0kcWCuGo242
+      created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
+      updated_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
+      content_type_id: flavor
     name: Vanilla
     description: Made with Madagascar Bourbon vanilla
   partners:
   - sys:
       id: Jccnz5cjwAAceYawciioC
+      created_at: !ruby/object:DateTime 2017-02-05 13:47:18.709000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:53:26.602000000 Z
+      content_type_id: partner
     name: Jodi Bee Bakes
     website: http://www.jodibeebakes.com/
     location:
       lat: 42.52236870000001
       lon: -70.89315950000002
-    description: A vegetarian bakery and cafe.
+    description: She makes the great Gluten-Free Sea Salt Brownies for our Salted
+      Caramel with Sea Salt Brownies
   about: It all started in 2009. While on vacaction in Cape May, New Jersey I happened
     upon a small ice cream shop. The owners, a young couple, had just opened and had
     the most interesting ice cream flavors I had experienced.
