@@ -50,13 +50,6 @@ $red: rgb(210, 35, 42);
   }
 }
 
-footer {
-  background-color: $dark-gray;
-  color: #fff;
-  margin-top: 4rem;
-  padding: 4rem 0;
-}
-
 footer a {
   &:hover {
     color: darken($light-blue, 15%);

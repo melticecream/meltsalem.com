@@ -3,23 +3,95 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-02-05 13:47:31.130000000 Z
+    updated_at: !ruby/object:DateTime 2017-05-27 21:54:26.772000000 Z
     content_type_id: homePage
-  news: Opening March 3!
+  news: May Hours
   daily_hours:
   - sys:
-      id: ASICAbfJKKgKckYg4I06u
-      created_at: !ruby/object:DateTime 2017-02-05 03:16:50.926000000 Z
-      updated_at: !ruby/object:DateTime 2017-02-05 03:16:50.926000000 Z
+      id: 5uLKndpUwoeCU026oWceke
+      created_at: !ruby/object:DateTime 2017-05-27 21:52:53.942000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-27 21:52:53.942000000 Z
       content_type_id: hours
-    daily_hours: 'Monday - Saturday: 12 - 10pm'
-  - sys:
-      id: 1fqnfdynksu26YCkc0yMSC
-      created_at: !ruby/object:DateTime 2017-02-05 02:47:27.917000000 Z
-      updated_at: !ruby/object:DateTime 2017-02-05 03:08:31.537000000 Z
-      content_type_id: hours
-    daily_hours: 'Sunday: 12 - 8pm'
+    daily_hours: 'Daily: 12pm - 9pm'
   flavors:
+  - sys:
+      id: quRd1AXAI0OEWwq2YmOae
+      created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
+      content_type_id: flavor
+    name: White Minty Chip
+    description: No artificial colors used in this white ice cream flavored with mint
+      extract and a mint simple syrup. Taza chocolate pieces add a perfect crunch.
+  - sys:
+      id: 1sHw76EePCKMkEMa48WMug
+      created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:40:32.488000000 Z
+      content_type_id: flavor
+    name: Atomic Coffee
+    description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
+  - sys:
+      id: 5g8uOCqjUkW2wAeWu8EysE
+      created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:47:02.887000000 Z
+      content_type_id: flavor
+    name: Black Raspberry Taza Chip Yogurt
+    description: Black Raspberry yogurt with Taza chocolate added for an extra crunch.
+  - sys:
+      id: 6Xo1rSHnNeywYuiyCKcg2E
+      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:48:37.880000000 Z
+      content_type_id: flavor
+    name: Chocolate
+    description: Rich chocolate ice cream
+  - sys:
+      id: 603dsBHdhSWOgqcm6iWuSk
+      created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
+      content_type_id: flavor
+    name: Chocolate Peanut Butter
+    description: Chocolate Peanut Butter ice cream with Peanut Butter pieces.
+  - sys:
+      id: 79EQdGs5c42U2gaSiooyMQ
+      created_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
+      content_type_id: flavor
+    name: Ginger
+    description: Ginger ice cream with candied ginger pieces.
+  - sys:
+      id: AaFnlJUQ7e2YYyWOAMIss
+      created_at: !ruby/object:DateTime 2017-05-23 22:45:32.675000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:45:32.676000000 Z
+      content_type_id: flavor
+    name: Mango Sorbet
+    description: Lots of ripe mangos add full flavor.
+  - sys:
+      id: jgSFz8qJQAKwESo0K0mSQ
+      created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
+      content_type_id: flavor
+    name: Maple Bourbon
+    description: Combination of Maple Syrup and a touch of Bourbon
+  - sys:
+      id: 27UEBAT8hay4uOoSCAkSe8
+      created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
+      content_type_id: flavor
+    name: No Sugar Added Butter Pecan
+    description: Butter Pecan sweetened with Splenda.
+  - sys:
+      id: 36oWHeU9QsMuI646K46keo
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
+      content_type_id: flavor
+    name: Nutty Almond
+    description: Almond ice cream with bits of sweet and salty almond and cashew pieces.
+  - sys:
+      id: 3JGmvRXHuo2IOY8wMguMGc
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
+      content_type_id: flavor
+    name: Oreo
+    description: Oreo ice cream full of oreo pieces.
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
       created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
@@ -29,12 +101,12 @@ homePage:
     description: Homemade salted caramel with Gluten Free sea salt brownies from Jodi
       Bee Bakes mixed in.
   - sys:
-      id: 6Xo1rSHnNeywYuiyCKcg2E
-      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-05-23 22:48:37.880000000 Z
+      id: 4ufkHfBwisY6cwC4sAeaYc
+      created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
       content_type_id: flavor
-    name: Chocolate
-    description: Rich chocolate ice cream
+    name: Taza Chip Cookie Dough
+    description: Cookie dough ice cream with Taza chocolate added in for extra crunch.
   - sys:
       id: 2X3lr7BNgsm0kcWCuGo242
       created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
@@ -43,6 +115,31 @@ homePage:
     name: Vanilla
     description: Made with Madagascar Bourbon vanilla
   partners:
+  - sys:
+      id: 21ZTgUceyg6gQ4MSUoS26i
+      created_at: !ruby/object:DateTime 2017-05-23 22:52:56.202000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:52:56.202000000 Z
+      content_type_id: partner
+    name: Atomic Cafe
+    website: http://www.atomicafe.com/
+    location:
+      lat: 42.5584283
+      lon: -70.88004899999999
+    description: 'We use their coffee (roasted in Salem!) for our delicious Atomic
+      Coffee '
+  - sys:
+      id: 3BMfk0wa7YM42g4SI0osmQ
+      created_at: !ruby/object:DateTime 2017-05-23 23:00:59.417000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 23:00:59.417000000 Z
+      content_type_id: partner
+    name: Blue Ribbon Cake
+    website: https://www.facebook.com/BlueRibbonCake/
+    location:
+      lat: 42.51954
+      lon: -70.89671550000003
+    description: Blue Ribbon Cake has been in business for over 40 years and still
+      uses the same buttercream frosting recipe. We use their delicious frostin on
+      our ice cream cakes.
   - sys:
       id: Jccnz5cjwAAceYawciioC
       created_at: !ruby/object:DateTime 2017-02-05 13:47:18.709000000 Z
@@ -55,6 +152,67 @@ homePage:
       lon: -70.89315950000002
     description: She makes the great Gluten-Free Sea Salt Brownies for our Salted
       Caramel with Sea Salt Brownies
+  - sys:
+      id: 5VGg5dg5R6UMcicMGG22EG
+      created_at: !ruby/object:DateTime 2017-05-23 22:57:10.519000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:57:10.519000000 Z
+      content_type_id: partner
+    name: MEM Tea Imports
+    website: https://memteaimports.com/
+    location:
+      lat: 42.3709299
+      lon: -71.18283209999998
+    description: Tea is so versatile! In addition to selling hot MEM Tea, we incorporate
+      it into our Chamomile Chardonnay, Green Tea, and Earl Grey with Cardamom & Pistachios
+  - sys:
+      id: 558IHlnCusyemYMOme28eC
+      created_at: !ruby/object:DateTime 2017-05-23 22:57:59.982000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:57:59.982000000 Z
+      content_type_id: partner
+    name: Rumson's Rum
+    website: https://rumsons.com/
+    location:
+      lat: 42.51954
+      lon: -70.89671550000003
+    description: Rum and spices used to be staples in Salem. We’re using both - Nutmeg
+      and Rumson’s Spiced Rum - in our Rumson’s Egg Nog
+  - sys:
+      id: hd8iCoE6LCaUeyKAsuu6W
+      created_at: !ruby/object:DateTime 2017-05-23 22:54:25.540000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:54:25.540000000 Z
+      content_type_id: partner
+    name: Sweet Lydia's
+    website: http://www.sweetlydias.com/
+    location:
+      lat: 42.6334247
+      lon: -71.3161718
+    description: Lydia’s potato chip toffee is the inspiration and main ingredient
+      of our Potato Chip Toffee
+  - sys:
+      id: 2xjDMhqvsw6mI4sGUsQEqA
+      created_at: !ruby/object:DateTime 2017-05-23 22:55:51.678000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:55:51.678000000 Z
+      content_type_id: partner
+    name: Taza
+    website: https://www.tazachocolate.com/
+    location:
+      lat: 42.3875968
+      lon: -71.0994968
+    description: All our chocolate pieces come from Taza - a Direct Trade cacao company
+      -  and you can taste the real chocolate in our Taza Chip Cookie Dough, White
+      Minty Chip, and Spicy Dark Chocolate
+  - sys:
+      id: 153pgc7dd26qiukiUEY2mg
+      created_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
+      content_type_id: partner
+    name: That Nutty Redhead
+    website: https://thatnuttyredhead.com/
+    location:
+      lat: 42.6556505
+      lon: -70.620363
+    description: This redhead kettle cooks her almonds and cashews with a sweet concoction
+      that we mix into our Nutty Almond
   about: It all started in 2009. While on vacaction in Cape May, New Jersey I happened
     upon a small ice cream shop. The owners, a young couple, had just opened and had
     the most interesting ice cream flavors I had experienced.
