@@ -1,20 +1,28 @@
-<footer class="white bg-dark-gray mt5 pa5">
-  <address class="fs-normal lh-copy">
-    60 Washington St<br>
-    Salem, MA 01970<br>
-    <a href="tel:9788265703" class="light-blue">(978) 826-5703</a><br>
-    <a href="mailto:{{ site.email }}" class="light-blue">{{ site.email }}</a>
-  </address>
-  <ul class="list pl0">
-    <li class="di pr1">
-      <a href="https://www.facebook.com/meltsalem/">
-        {% image FB-f-Logo__white_512.png width:"30" height:"30" %}
-      </a>
-    </li>
-    <li class="di">
-      <a href="https://www.instagram.com/meltsalem/">
-        {% image Glyph_Logo_png.png width:"30" height:"30" %}
-      </a>
-    </li>
-  </ul>
+<footer class="flex justify-between items-center white bg-dark-gray mt5 pt5 pb5">
+  <div class="w-third tc">
+    <address class="fs-normal lh-copy">
+      60 Washington St<br>
+      Salem, MA 01970<br>
+      <a href="tel:9788265703" class="light-blue">(978) 826-5703</a><br>
+      <a href="mailto:{{ site.email }}" class="light-blue">{{ site.email }}</a>
+    </address>
+    <ul class="list pl0">
+      <li class="di pr1">
+        <a href="https://www.facebook.com/meltsalem/">
+          {% image FB-f-Logo__white_512.png width:"30" height:"30" %}
+        </a>
+      </li>
+      <li class="di">
+        <a href="https://www.instagram.com/meltsalem/">
+          {% image Glyph_Logo_png.png width:"30" height:"30" %}
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="w-third tc">
+    {% image MELT_Icon_Hi-Res_White.png
+      alt:"Melt"
+      width:"200"
+      height:"200" %}
+  </div>
 </footer>

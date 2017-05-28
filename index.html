@@ -2,90 +2,89 @@
 layout: default
 ---
 <div class="flex items-center">
-    <div class="col-md-4 pull-md-4 text-center">
-      <h4>{{ site.data.contentful.spaces.home_page.homePage[0].news }}</h4>
-      <ul class="list-unstyled">
-        {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
-          <li>{{ hours.daily_hours }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="col-md-4 push-md-4">
-      {% image MELT_Primary_Hi-Res_Brown.png class:"mw-100 h-auto" %}
-    </div>
-    <div class="col-md-4 text-center">
-      <address>
-        60 Washington St<br>
-        Salem, MA 01970<br>
-        <a href="tel:9788265703">(978) 826-5703</a><br>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </address>
-      <ul class="list pl0">
-        <li class="di pr1">
-          <a href="https://www.facebook.com/meltsalem/" class="no-underline">
-            {% image FB-f-Logo__blue_512.png
-              alt:"Facebook"
-              width:"30"
-              height:"30" %}
-          </a>
-        </li>
-        <li class="di pr1">
-          <a href="https://www.instagram.com/meltsalem/" class="no-underline">
-            {% image glyph-logo_May2016.png
-              alt:"Instagram"
-              width:"30"
-              height:"30" %}
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="row align-items-center">
-    <div class="col-md-4 text-center">
-      <div class="d-flex justify-content-center">
-        <div class="circle-outer flavors-heading">
-          <div class="circle-inner flavors-heading">
-            <h5>Flavors</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-8">
-      {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
-        <h5>{{ flavor.name }}</h5>
-        <p>{{ flavor.description}}</p>
+  <div class="w-third tc">
+    <h2 class="fw5">{{ site.data.contentful.spaces.home_page.homePage[0].news }}</h2>
+    <ul class="list pl0">
+      {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
+        <li>{{ hours.daily_hours }}</li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
-  <div class="row align-items-center">
-    <div class="col-md-4">
-      <div class="d-flex justify-content-center">
-        <div class="circle-outer partners-heading">
-          <div class="circle-inner partners-heading">
-            <h5>Partners</h5>
-          </div>
+  <div class="w-third">
+    {% image MELT_Primary_Hi-Res_Brown.png class:"mw-100 h-auto" %}
+  </div>
+  <div class="w-third tc">
+    <address class="fs-normal lh-copy">
+      60 Washington St<br>
+      Salem, MA 01970<br>
+      <a href="tel:9788265703" class="dark-gray">(978) 826-5703</a><br>
+      <a href="mailto:{{ site.email }}" class="dark-gray">{{ site.email }}</a>
+    </address>
+    <ul class="list pl0">
+      <li class="di pr1">
+        <a href="https://www.facebook.com/meltsalem/" class="no-underline">
+          {% image FB-f-Logo__blue_512.png
+            alt:"Facebook"
+            width:"30"
+            height:"30" %}
+        </a>
+      </li>
+      <li class="di">
+        <a href="https://www.instagram.com/meltsalem/" class="no-underline">
+          {% image glyph-logo_May2016.png
+            alt:"Instagram"
+            width:"30"
+            height:"30" %}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="flex">
+  <div class="w-third tc">
+    <div class="flex justify-center">
+      <div class="circle-outer flavors-heading">
+        <div class="circle-inner flavors-heading">
+          <h3 class="fw5 ma0">Today’s Flavors</h3>
         </div>
       </div>
     </div>
-    <div class="col-md-8">
-      {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
-        <h5>{{ partner.name }}</h5>
-        <p>{{ partner.description}}</p>
-      {% endfor %}
-    </div>
   </div>
-  <div class="row align-items-center">
-    <div class="col-md-4">
-      <div class="d-flex justify-content-center">
-        <div class="circle-outer about-heading">
-          <div class="circle-inner about-heading">
-            <h5>About</h5>
-          </div>
+  <div class="w-two-thirds">
+    {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
+      <h3 class="fw5 mt0 mb2">{{ flavor.name }}</h3>
+      <p class="mt0 mb4">{{ flavor.description}}</p>
+    {% endfor %}
+  </div>
+</div>
+<div class="flex">
+  <div class="w-third">
+    <div class="flex justify-center">
+      <div class="circle-outer partners-heading">
+        <div class="circle-inner partners-heading">
+          <h3 class="fw5 ma0">Partners</h3>
         </div>
       </div>
     </div>
-    <div class="col-md-8">
-      <p>{{ site.data.contentful.spaces.home_page.homePage[0].about }}</p>
+  </div>
+  <div class="w-two-thirds">
+    {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
+      <h3 class="fw5 mt0 mb2">{{ partner.name }}</h3>
+      <p class="mt0 mb4">{{ partner.description}}</p>
+    {% endfor %}
+  </div>
+</div>
+<div class="flex items-center">
+  <div class="w-third">
+    <div class="flex justify-center">
+      <div class="circle-outer about-heading">
+        <div class="circle-inner about-heading">
+          <h3 class="fw5 ma0">About</h3>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="w-two-thirds">
+    <p>{{ site.data.contentful.spaces.home_page.homePage[0].about }}</p>
   </div>
 </div>
