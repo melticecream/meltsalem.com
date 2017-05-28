@@ -10,21 +10,6 @@ $red: rgb(210, 35, 42);
 
 @import "tachyons";
 
-.about-heading {
-  background-color: $light-blue;
-  text-decoration: underline;
-}
-
-.flavors-heading {
-  background-color: $red;
-  text-decoration: underline;
-}
-
-.partners-heading {
-  background-color: $dark-gray;
-  text-decoration: underline;
-}
-
 .circle-outer {
   border-radius: 50%;
   position: relative;
