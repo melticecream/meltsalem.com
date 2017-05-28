@@ -40,7 +40,7 @@ layout: default
     </ul>
   </div>
 </div>
-<div class="flex">
+<div class="flex mb5">
   <div class="w-third tc">
     <div class="flex justify-center">
       <div class="circle-outer bg-red">
@@ -50,14 +50,26 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="w-two-thirds">
-    {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
+  {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
+    {% if forloop.first %}
+      <div class="w-third">
+    {% endif %}
+    {% assign middle = forloop.length | divided_by: 2 %}
+    {% if forloop.index0 == middle %}
+      </div>
+      <div class="w-third">
+    {% endif %}
+    <div class="mr4">
       <h3 class="fw5 mt0 mb2">{{ flavor.name }}</h3>
       <p class="mt0 mb4">{{ flavor.description}}</p>
-    {% endfor %}
-  </div>
+    </div>
+    {% if forloop.last %}
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
-<div class="flex">
+
+<div class="flex mb5">
   <div class="w-third">
     <div class="flex justify-center">
       <div class="circle-outer bg-dark-gray">
@@ -67,12 +79,23 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="w-two-thirds">
-    {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
+  {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
+    {% if forloop.first %}
+      <div class="w-third">
+    {% endif %}
+    {% assign middle = forloop.length | divided_by: 2 %}
+    {% if forloop.index0 == middle %}
+      </div>
+      <div class="w-third">
+    {% endif %}
+    <div class="mr4">
       <h3 class="fw5 mt0 mb2">{{ partner.name }}</h3>
       <p class="mt0 mb4">{{ partner.description}}</p>
-    {% endfor %}
-  </div>
+    </div>
+    {% if forloop.last %}
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 <div class="flex items-center">
   <div class="w-third">
@@ -85,6 +108,6 @@ layout: default
     </div>
   </div>
   <div class="w-two-thirds">
-    <p>{{ site.data.contentful.spaces.home_page.homePage[0].about }}</p>
+    <p class="measure-wide">{{ site.data.contentful.spaces.home_page.homePage[0].about }}</p>
   </div>
 </div>

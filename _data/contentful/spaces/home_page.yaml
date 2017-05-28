@@ -53,7 +53,7 @@ homePage:
   - sys:
       id: 79EQdGs5c42U2gaSiooyMQ
       created_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
-      updated_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
+      updated_at: !ruby/object:DateTime 2017-05-28 02:39:07.604000000 Z
       content_type_id: flavor
     name: Ginger
     description: Ginger ice cream with candied ginger pieces.
