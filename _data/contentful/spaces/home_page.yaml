@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-05-27 21:54:26.772000000 Z
+    updated_at: !ruby/object:DateTime 2017-05-28 14:16:31.898000000 Z
     content_type_id: homePage
   news: May Hours
   daily_hours:
@@ -213,6 +213,14 @@ homePage:
       lon: -70.620363
     description: This redhead kettle cooks her almonds and cashews with a sweet concoction
       that we mix into our Nutty Almond
-  about: It all started in 2009. While on vacaction in Cape May, New Jersey I happened
+  about: "It all started in 2009. While on vacaction in Cape May, New Jersey I happened
     upon a small ice cream shop. The owners, a young couple, had just opened and had
-    the most interesting ice cream flavors I had experienced.
+    the most interesting ice cream flavors I had experienced - Lemon Basil Mint, Blueberry
+    Basil, Maple Bacon (before bacon was a mainstay ingredient in everything!), Cucumber
+    Sorbet, Spicy Chocolate. I went every day.\n\nThe owners used local, organic (where
+    possible) ingredients and decided to set up shop and see how the business adventure
+    goes. Their philosophy and mindset for the ice cream and business intrigued me.
+    \n\nWithin the next year I bought my first ice cream maker and started experimenting
+    at home. I brought samples to work events, gatherings with friends, and did various
+    taste testing to find the perfect vanilla ice cream. If you have a good vanilla,
+    you're in good shape!"
