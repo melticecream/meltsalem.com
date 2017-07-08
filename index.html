@@ -40,82 +40,34 @@ layout: default
     </ul>
   </div>
 </div>
-<div class="flex mb5">
-  <div class="w-20 tc">
-    <div class="flex justify-center">
-      <div class="circle-outer bg-red">
-        <div class="circle-inner bg-red">
-          <h3 class="fw5 ma0 serif">Today’s Flavors</h3>
+
+<div class="flex flex-column justify-center white bg-dark-gray pt5 pb5">
+  <h2 class="tc f1 fw5 mr4 serif">Current Flavors</h2>
+  <div class="flex justify-center flex-wrap">
+    {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
+      <div class="flex items-center justify-center ba br2 bw1 w5 h5 pa3 ma3 pointer toggle">
+        <p class="f2 fw5 tc mt0 mb0 serif">{{ flavor.name }}</p>
+        <div class="dn">
+          <p class="f3 fw5 tc">{{ flavor.name }}</p>
+          <p class="f4 tc">{{ flavor.description }}</p>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="w-80">
-    <h2 class="tc fw5 mr4 serif">Flavors to Melt For</h2>
-    <div class="flex">
-  {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
-    {% if forloop.first %}
-      <div class="w-50">
-    {% endif %}
-    {% assign middle = forloop.length | divided_by: 2 %}
-    {% if forloop.index0 == middle %}
-      </div>
-      <div class="w-50">
-    {% endif %}
-    <div class="">
-      <h3 class="fw5 mt0 mb4 tc">{{ flavor.name }}</h3>
-      <!--<p class="mt0 mb4">{{ flavor.description}}</p>-->
-    </div>
-    {% if forloop.last %}
-      </div>
-    {% endif %}
-  {% endfor %}
-  </div>
+    {% endfor %}
   </div>
 </div>
 
-<div class="flex mb5">
-  <div class="w-third">
-    <div class="flex flex-column">
-      <div class="flex justify-center">
-        <div class="circle-outer bg-dark-gray">
-          <div class="circle-inner bg-dark-gray">
-            <h3 class="fw5 ma0">Partners</h3>
-          </div>
+<div class="flex flex-column justify-center dark-gray bg-light-blue pt5 pb5">
+  <h2 class="tc f1 fw5 mr4 mb1 serif">Partners</h2>
+  <p class="tc lh-copy">We have a lot of partners that are local and cool and hip and stuff</p>
+  <div class="flex justify-center flex-wrap">
+    {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
+      <div class="flex items-center justify-center ba br2 bw1 w5 h5 pa3 ma3 pointer toggle">
+        <p class="f2 fw5 tc mt0 mb0 serif">{{ partner.name }}</p>
+        <div class="mt0 mb4 dn">
+          <p class="f3 fw5 tc">{{ partner.name }}</p>
+          <p class="f5 tc">{{ partner.description }}</p>
         </div>
       </div>
-      <p class="ma4 lh-copy">We have a lot of partners that are local and cool and hip and stuff</p>
-    </div>
-  </div>
-  {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
-    {% if forloop.first %}
-      <div class="w-third">
-    {% endif %}
-    {% assign middle = forloop.length | divided_by: 2 %}
-    {% if forloop.index0 == middle %}
-      </div>
-      <div class="w-third">
-    {% endif %}
-    <div class="mr4">
-      <h3 class="fw5 mt0 mb2">{{ partner.name }}</h3>
-      <p class="mt0 mb4">{{ partner.description}}</p>
-    </div>
-    {% if forloop.last %}
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-<div class="flex">
-  <div class="w-third">
-    <div class="flex justify-center">
-      <div class="circle-outer bg-light-blue">
-        <div class="circle-inner bg-light-blue">
-          <h3 class="fw5 ma0">About</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="w-two-thirds">
-    <div class="lh-copy measure-wide">{{ site.data.contentful.spaces.home_page.homePage[0].about | markdownify }}</div>
+    {% endfor %}
   </div>
 </div>
