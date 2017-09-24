@@ -1,4 +1,4 @@
-/*! TACHYONS v4.7.3 | http://tachyons.io */
+/*! TACHYONS v4.8.1 | http://tachyons.io */
 
 /*
  *
@@ -84,7 +84,7 @@
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 @import './_colors';
-@import '../../node_modules/tachyons/src/_media-queries';
+@import './_media-queries';
 
 /* Debugging */
 @import '../../node_modules/tachyons/src/_debug-children';
