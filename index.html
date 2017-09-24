@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="flex flex-column flex-row-l items-center justify-between h4-l">
-  <div class="w-30-l flex justify-center items-center br-100 pa4 mt4-l bg-white absolute-l center left-0 right-0">
+<div class="flex flex-column flex-row-ns items-center justify-between mt4-ns">
+  <div class="w-30-ns flex justify-center items-center br-100 pa4 mt4-ns bg-white absolute-ns center left-0 right-0">
     {% image MELT_Primary_Hi-Res_Brown.png class:"pt5-l w-80 h-auto" %}
   </div>
 
-  <div class="w-100 w-third-l flex flex-column flex-row-l lh-copy">
-    <div class="ml5-l mb0-l mb3 tl-l tc">
+  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns items-center lh-copy">
+    <div class="ml4-ns mb4 tl-ns tc">
       <p class="b ma0">{{ site.data.contentful.spaces.home_page.homePage[0].news }}</p>
       <ul class="list ma0 pl0">
         {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
@@ -15,17 +15,17 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <address class="ml5-l mb0-l mb3 tl-l tc fs-normal">
+    <address class="ml4-ns mb4 tl-ns tc fs-normal">
       60 Washington St<br>
       Salem, MA 01970<br>
     </address>
   </div>
-  <div class="w-100 w-third-l flex flex-column flex-row-l justify-end lh-copy">
-    <div class="mr5-l mb0-l mb3 tl-l tc">
+  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end lh-copy">
+    <div class="mr4-ns mb4 tr-ns tc">
       <a href="tel:9788265703" class="dark-gray">(978) 826-5703</a><br>
       <a href="mailto:{{ site.email }}" class="dark-gray">{{ site.email }}</a>
     </div>
-    <div class="flex items-center mr5-l ml0-l mb0-l mb3 tl-l center">
+    <div class="flex items-center mr4-ns ml0-ns mb4 tr-ns center">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3">
         {% image FB-f-Logo__blue_512.png
           alt:"Facebook"
