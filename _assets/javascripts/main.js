@@ -5,14 +5,16 @@ function addActive() {
 
   $(this).children('p').addClass('dn');
   $(this).children('div').removeClass('dn');
-  $(this).addClass('bg-red white active');
+  $(this).addClass('bg-dark-gray white active');
+  $(this).removeClass('bg-flavor');
 }
 
 function removeActive() {
   var $active = $('.active');
   $active.children('div').addClass('dn');
   $active.children('p').removeClass('dn');
-  $active.removeClass('bg-red white active');
+  $active.addClass('bg-flavor');
+  $active.removeClass('bg-dark-gray white active');
 }
 
 $(function() {
