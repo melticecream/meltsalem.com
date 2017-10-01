@@ -23,60 +23,60 @@ homePage:
   - sys:
       id: quRd1AXAI0OEWwq2YmOae
       created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:39:31.321000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:07.261000000 Z
       content_type_id: flavor
     name: White Minty Chip
     description: Mint ice cream with no artificial colors (it's white!) and Taza chocolate
       pieces
-    background: sprinkles
+    background: red-cones
   - sys:
       id: 1sHw76EePCKMkEMa48WMug
       created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-24 19:28:59.838000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:32.012000000 Z
       content_type_id: flavor
     name: Atomic Coffee
     description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
-    background: green-stripes
+    background: green-cones
   - sys:
       id: 5g8uOCqjUkW2wAeWu8EysE
       created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:25.200000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
       content_type_id: flavor
     name: Black Raspberry Taza Chip Yogurt
     description: Black Raspberry yogurt with Taza chocolate pieces
-    background: sprinkles
+    background: red-stripes
   - sys:
       id: 6Xo1rSHnNeywYuiyCKcg2E
       created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:49.146000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:38.066000000 Z
       content_type_id: flavor
     name: Chocolate
     description: Rich chocolate ice cream using Taza chocolate
-    background: red-cones
+    background: green-stripes
   - sys:
       id: 603dsBHdhSWOgqcm6iWuSk
       created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:57.294000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:40.932000000 Z
       content_type_id: flavor
     name: Chocolate Peanut Butter
     description: Chocolate Peanut Butter ice cream with Peanut Butter pieces
-    background: green-stripes
+    background: sprinkles
   - sys:
       id: 79EQdGs5c42U2gaSiooyMQ
       created_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:41:04.538000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:46.703000000 Z
       content_type_id: flavor
     name: Ginger
     description: Ginger ice cream with candied ginger pieces
-    background: red-stripes
+    background: red-cones
   - sys:
       id: AaFnlJUQ7e2YYyWOAMIss
       created_at: !ruby/object:DateTime 2017-05-23 22:45:32.675000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:14.784000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:49.025000000 Z
       content_type_id: flavor
     name: Mango Sorbet
     description: Lots of ripe mangos add full flavor
-    background: red-stripes
+    background: green-cones
   - sys:
       id: jgSFz8qJQAKwESo0K0mSQ
       created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
@@ -88,52 +88,52 @@ homePage:
   - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:36.129000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
       content_type_id: flavor
     name: No Sugar Added Butter Pecan
     description: Butter Pecan sweetened with Splenda
-    background: green-cones
+    background: green-stripes
   - sys:
       id: 36oWHeU9QsMuI646K46keo
       created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:39:54.972000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:57.318000000 Z
       content_type_id: flavor
     name: Nutty Almond
     description: Almond ice cream with bits of sweet and salty almond and cashew pieces
-    background: red-cones
+    background: sprinkles
   - sys:
       id: 3JGmvRXHuo2IOY8wMguMGc
       created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:40:03.100000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:59.795000000 Z
       content_type_id: flavor
     name: Oreo
     description: Oreo ice cream full of oreo pieces
-    background: green-stripes
+    background: red-cones
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
       created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:38:35.400000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:02.181000000 Z
       content_type_id: flavor
     name: Salted Caramel with Sea Salt Brownies
     description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
       Bee Bakes mixed in
-    background: red-cones
+    background: green-cones
   - sys:
       id: 4ufkHfBwisY6cwC4sAeaYc
       created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:39:44.086000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:05.073000000 Z
       content_type_id: flavor
     name: Taza Chip Cookie Dough
     description: Cookie dough ice cream with Taza chocolate pieces
-    background: green-cones
+    background: red-stripes
   - sys:
       id: 2X3lr7BNgsm0kcWCuGo242
       created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-24 19:29:17.107000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
       content_type_id: flavor
     name: Vanilla
     description: Made with Madagascar Bourbon vanilla
-    background: green-cones
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
