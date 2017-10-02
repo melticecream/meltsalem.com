@@ -8,6 +8,9 @@ url: https://meltsalem.com # the base hostname & protocol for your site
 # Build settings
 plugins:
   - jekyll-assets
+assets:
+  features:
+    automatic_img_size: false
 exclude:
   - bin
   - contentful_env

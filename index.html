@@ -74,16 +74,70 @@ layout: default
 
 <div class="flex flex-column dark-gray pt5 pb5">
   <h2 class="tc f1 fw5 mr4 mb1 serif">Our Partners</h2>
-  <p class="tc lh-copy">We have a lot of partners that are local and cool and hip and stuff</p>
-  <div class="flex justify-center flex-wrap">
-    {% for partner in site.data.contentful.spaces.home_page.homePage[0].partners %}
-      <div class="flex items-center justify-center ba br2 bw1 w5 h5 pa3 ma3 toggle">
-        <p class="f2 fw5 tc mt0 mb0 serif">{{ partner.name }}</p>
-        <div class="mt0 mb4 dn">
-          <p class="f3 fw5 tc">{{ partner.name }}</p>
-          <p class="f5 tc">{{ partner.description }}</p>
-        </div>
-      </div>
-    {% endfor %}
+  <div class="flex justify-center items-center flex-wrap">
+    <div class="w5 ma4 pa4">
+      <a href="http://www.atomicafe.com/" class="dib w-80 pa3 ba br3 bg-dark-gray">
+        {% image "partners/atomic_coffee.png"
+          alt:"Atomic Coffee"
+          title:"Atomic Coffee"
+          class:"db" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4">
+      <a href="https://www.facebook.com/BlueRibbonCake/">
+        {% image "partners/blue_ribbon.jpg"
+          alt:"Blue Ribbon Cake Shop"
+          title:"Blue Ribbon Cake Shop" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4">
+      <a href="http://www.jodibeebakes.com/">
+        {% image "partners/jodi_bee_bakes.png"
+          alt:"Jodi Bee Bakes"
+          title:"Jodi Bee Bakes" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4 pa5">
+      <a href="https://rumsons.com/">
+        {% image "partners/rumsons.jpg"
+          alt:"Rumsons"
+          title:"Rumsons" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4">
+      <a href="http://www.sweetlydias.com/">
+        {% image "partners/sweet_lydias.png"
+          alt:"Sweet Lydia’s"
+          title:"Sweet Lydia’s" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4 pa4">
+      <a href="https://www.memteaimports.com/">
+        {% image "partners/mem_tea.png"
+          alt:"Mem Tea"
+          title:"Mem Tea" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4 pa4">
+      <a href="https://www.tazachocolate.com/">
+        {% image "partners/taza.png"
+          alt:"Taza Chocolate"
+          title:"Taza Chocolate" %}
+      </a>
+    </div>
+
+    <div class="w5 ma4">
+      <a href="https://www.facebook.com/That-Nutty-Redhead-Praline-Gourmet-Nuts-GF-1534753510097578/">
+        {% image "partners/that_nutty_redhead.png"
+          alt:"That Nutty Redhead"
+          title:"That Nutty Redhead" %}
+      </a>
+    </div>
   </div>
 </div>
