@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-08 15:40:34.355000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-08 17:17:51.101000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -22,38 +22,22 @@ homePage:
   flavors_as_of_date: !ruby/object:DateTime 2017-10-08 14:00:00.000000000 Z
   flavors:
   - sys:
-      id: quRd1AXAI0OEWwq2YmOae
-      created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 15:02:55.661000000 Z
+      id: 6fp09qxUhqwCyMyo6k0uyu
+      created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:02.181000000 Z
       content_type_id: flavor
-    name: White Minty Chip
-    description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
-      pieces
-    background: red-cones
-  - sys:
-      id: 1sHw76EePCKMkEMa48WMug
-      created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:32.012000000 Z
-      content_type_id: flavor
-    name: Atomic Coffee
-    description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
+    name: Salted Caramel with Sea Salt Brownies
+    description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
+      Bee Bakes mixed in
     background: green-cones
-  - sys:
-      id: 5g8uOCqjUkW2wAeWu8EysE
-      created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
-      content_type_id: flavor
-    name: Black Raspberry Taza Chip Yogurt
-    description: Black Raspberry yogurt with Taza chocolate pieces
-    background: red-stripes
   - sys:
       id: 6Xo1rSHnNeywYuiyCKcg2E
       created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:38.066000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
       content_type_id: flavor
     name: Chocolate
     description: Rich chocolate ice cream using Taza chocolate
-    background: green-stripes
+    background: red-stripes
   - sys:
       id: 603dsBHdhSWOgqcm6iWuSk
       created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
@@ -63,29 +47,54 @@ homePage:
     description: Chocolate Peanut Butter ice cream with Peanut Butter pieces
     background: sprinkles
   - sys:
-      id: 79EQdGs5c42U2gaSiooyMQ
-      created_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:46.703000000 Z
+      id: 1sHw76EePCKMkEMa48WMug
+      created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:22.151000000 Z
       content_type_id: flavor
-    name: Ginger
-    description: Ginger ice cream with candied ginger pieces
+    name: Atomic Coffee
+    description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
     background: red-cones
   - sys:
-      id: AaFnlJUQ7e2YYyWOAMIss
-      created_at: !ruby/object:DateTime 2017-05-23 22:45:32.675000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:49.025000000 Z
+      id: 2X3lr7BNgsm0kcWCuGo242
+      created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
       content_type_id: flavor
-    name: Mango Sorbet
-    description: Lots of ripe mangos add full flavor
+    name: Vanilla
+    description: Made with Madagascar Bourbon vanilla
+    background: green-stripes
+  - sys:
+      id: 4ufkHfBwisY6cwC4sAeaYc
+      created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:26.018000000 Z
+      content_type_id: flavor
+    name: Taza Chip Cookie Dough
+    description: Cookie dough ice cream with Taza chocolate pieces
     background: green-cones
+  - sys:
+      id: 3JGmvRXHuo2IOY8wMguMGc
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:28.927000000 Z
+      content_type_id: flavor
+    name: Oreo
+    description: Oreo ice cream full of oreo pieces
+    background: red-stripes
+  - sys:
+      id: quRd1AXAI0OEWwq2YmOae
+      created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:31.705000000 Z
+      content_type_id: flavor
+    name: White Minty Chip
+    description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
+      pieces
+    background: sprinkles
   - sys:
       id: jgSFz8qJQAKwESo0K0mSQ
       created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-24 19:28:48.916000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:34.453000000 Z
       content_type_id: flavor
     name: Maple Bourbon
     description: Combination of Maple Syrup and a touch of Bourbon
-    background: red-stripes
+    background: red-cones
   - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
@@ -97,86 +106,85 @@ homePage:
   - sys:
       id: 36oWHeU9QsMuI646K46keo
       created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:57.318000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:38.169000000 Z
       content_type_id: flavor
     name: Nutty Almond
     description: Almond ice cream with bits of sweet and salty almond and cashew pieces
-    background: sprinkles
-  - sys:
-      id: 3JGmvRXHuo2IOY8wMguMGc
-      created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:59.795000000 Z
-      content_type_id: flavor
-    name: Oreo
-    description: Oreo ice cream full of oreo pieces
-    background: red-cones
-  - sys:
-      id: 6fp09qxUhqwCyMyo6k0uyu
-      created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:36:02.181000000 Z
-      content_type_id: flavor
-    name: Salted Caramel with Sea Salt Brownies
-    description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
-      Bee Bakes mixed in
     background: green-cones
   - sys:
-      id: 4ufkHfBwisY6cwC4sAeaYc
-      created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:36:05.073000000 Z
+      id: 5g8uOCqjUkW2wAeWu8EysE
+      created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
       content_type_id: flavor
-    name: Taza Chip Cookie Dough
-    description: Cookie dough ice cream with Taza chocolate pieces
+    name: Black Raspberry Taza Chip Yogurt
+    description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 2X3lr7BNgsm0kcWCuGo242
-      created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
+      id: 79EQdGs5c42U2gaSiooyMQ
+      created_at: !ruby/object:DateTime 2017-05-23 22:45:52.206000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:41.931000000 Z
       content_type_id: flavor
-    name: Vanilla
-    description: Made with Madagascar Bourbon vanilla
-    background: green-stripes
+    name: Ginger
+    description: Ginger ice cream with candied ginger pieces
+    background: sprinkles
+  - sys:
+      id: 1DujOwvv7Wu0Uwgo0ymgE
+      created_at: !ruby/object:DateTime 2017-10-08 17:07:29.880000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:44.565000000 Z
+      content_type_id: flavor
+    name: Strawberry Peach Sorbet
+    description: Lots of strawberries and peaches complete this sorbet
+    background: red-cones
   rotating_flavors:
   - sys:
       id: 4WIs5oz8WI2eEcIo8KWYAw
       created_at: !ruby/object:DateTime 2017-09-25 22:43:17.354000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 14:58:46.540000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:14:25.315000000 Z
       content_type_id: rotatingflavors
     name: Apple Crisp
     description: Real apples with cinnamon oatmeal crisp mixed in
-    background: red-cones
+    background: green-cones
   - sys:
       id: 5pfSNXdiCIIYc20MgSc8Og
       created_at: !ruby/object:DateTime 2017-09-25 22:32:03.111000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 14:58:43.565000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:16:03.791000000 Z
       content_type_id: rotatingflavors
     name: Chocolate Fudge
     description: Chocolate ice cream with Fudge Swirl
-    background: green-cones
+    background: red-stripes
   - sys:
       id: Nb395AOU6qumCo8esG2EM
       created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 14:58:41.062000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:16:01.177000000 Z
       content_type_id: rotatingflavors
     name: Pumpkin
     description: Tastes just like Pumpkin Pie
-    background: red-stripes
+    background: sprinkles
   - sys:
       id: 4J8beKUhagYm2Yo2cWQw0o
       created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 15:56:01.284000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:15:58.542000000 Z
       content_type_id: rotatingflavors
     name: Vanilla Chai
     description: We use MEM Chai Tea to make a delicious Vanilla Chai
-    background: green-stripes
+    background: red-cones
   - sys:
       id: 2wtsE3ZCEwyA2qi6CGOsuS
       created_at: !ruby/object:DateTime 2017-09-25 22:34:16.007000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 15:55:58.678000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:15:56.114000000 Z
       content_type_id: rotatingflavors
     name: Sweet Potato Fluff
     description: Real sweet potatoes with a marshmallow fluff swirl and marshmallows
       from Sweet Lydia’s
-    background: sprinkles
+    background: green-stripes
+  - sys:
+      id: 76kwlC5ZbaOSYYcIgGIck4
+      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Oreo Coconut
+    description: This vegan option is made with coconut milk
+    background: green-cones
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
@@ -276,7 +284,7 @@ homePage:
       lon: -70.620363
     description: This redhead kettle cooks her almonds and cashews with a sweet concoction
       that we mix into our Nutty Almond
-  about: "It all started in 2009. While on vacaction in Cape May, New Jersey I happened
+  about: "It all started in 2009. While on vacation in Cape May, New Jersey I happened
     upon a small ice cream shop. The owners, a young couple, had just opened and had
     the most interesting ice cream flavors I had experienced - Lemon Basil Mint, Blueberry
     Basil, Maple Bacon (before bacon was a mainstay ingredient in everything!), Cucumber
