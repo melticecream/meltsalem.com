@@ -24,11 +24,11 @@ homePage:
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
       created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:36:02.181000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 18:24:15.791000000 Z
       content_type_id: flavor
     name: Salted Caramel with Sea Salt Brownies
     description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
-      Bee Bakes mixed in
+      Bee Bakes
     background: green-cones
   - sys:
       id: 6Xo1rSHnNeywYuiyCKcg2E
