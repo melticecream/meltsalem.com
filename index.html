@@ -42,14 +42,14 @@ layout: default
   </div>
 </div>
 
-<div class="flex-auto w-100">
+<div class="flex-auto w-100 mb5">
   {% image header-1.jpg class:"w-100 h-auto" %}
 </div>
 
-<div class="flex flex-column dark-gray pt5 pb5">
-  <h2 class="tc f1 fw5 mr4 mb0 serif">Current Flavors</h2>
+<div class="flex flex-column dark-gray mb5">
+  <h2 class="tc f1 fw5 mt0 mb0 serif">Current Flavors</h2>
   <p class="tc">As of {{ site.data.contentful.spaces.home_page.homePage[0].flavors_as_of_date | date: "%A, %B %-d %Y %-I:%M %P" }}</p>
-  <div class="flex justify-center flex-wrap">
+  <div class="flex justify-center flex-wrap mb5">
     {% for flavor in site.data.contentful.spaces.home_page.homePage[0].flavors %}
       <div class="flex items-center justify-center ba br3 bw0 w5 h5 pa2 ma3 toggle bg-flavor bg-{{ flavor.background }}">
         <p class="f2 fw5 tc mt0 mb0 serif">{{ flavor.name }}</p>
@@ -61,7 +61,7 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2 class="tc f1 fw5 mr4 mb0 serif">Current Rotating Flavors</h2>
+  <h2 class="tc f1 fw5 mt0 mb0 serif">Current Rotating Flavors</h2>
   <p class="tc">As of {{ site.data.contentful.spaces.home_page.homePage[0].flavors_as_of_date | date: "%A, %B %-d %Y %-I:%M %P" }}</p>
   <div class="flex justify-center flex-wrap">
     {% for flavor in site.data.contentful.spaces.home_page.homePage[0].rotating_flavors %}
@@ -76,9 +76,9 @@ layout: default
   </div>
 </div>
 
-<div class="flex flex-column items-center white bg-dark-gray pa5">
+<div class="flex flex-column items-center white bg-dark-gray mb5 pa5-ns pa4">
   <div class="lh-copy measure-wide">
-    <h2 class="f1 fw5 mt1 mb1 serif">We are Melt</h2>
+    <h2 class="f1 fw5 mt0 mb0 serif">We are Melt</h2>
     {{ site.data.contentful.spaces.home_page.homePage[0].about | markdownify }}
   </div>
   {% image MELT_Icon_Hi-Res_White.png
@@ -87,10 +87,10 @@ layout: default
     height:"150" %}
 </div>
 
-<div class="flex flex-column dark-gray pt5 pb5">
-  <h2 class="tc f1 fw5 mr4 mb1 serif">Our Partners</h2>
+<div class="flex flex-column dark-gray mb4">
+  <h2 class="tc f1 fw5 mt0 mb0 serif">Our Partners</h2>
   <div class="flex justify-center items-center flex-wrap">
-    <div class="w5 ma4 pa4">
+    <div class="w5 ma4 pa4 flex justify-center">
       <a href="http://www.atomicafe.com/" class="dib w-80 pa3 bg-black" target="_blank" rel="noopener noreferrer">
         {% image "partners/atomic_coffee.png"
           alt:"Atomic Coffee"
