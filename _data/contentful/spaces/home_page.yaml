@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-08 14:55:54.498000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-08 15:40:34.355000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -19,6 +19,7 @@ homePage:
       updated_at: !ruby/object:DateTime 2017-09-24 15:09:46.058000000 Z
       content_type_id: hours
     daily_hours: 'Friday - Saturday: 12pm - 10pm'
+  flavors_as_of_date: !ruby/object:DateTime 2017-10-08 14:00:00.000000000 Z
   flavors:
   - sys:
       id: quRd1AXAI0OEWwq2YmOae
@@ -229,9 +230,9 @@ homePage:
   - sys:
       id: 558IHlnCusyemYMOme28eC
       created_at: !ruby/object:DateTime 2017-05-23 22:57:59.982000000 Z
-      updated_at: !ruby/object:DateTime 2017-05-23 22:57:59.982000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:14:13.914000000 Z
       content_type_id: partner
-    name: Rumson's Rum
+    name: Rumson’s Rum
     website: https://rumsons.com/
     location:
       lat: 42.51954
@@ -241,9 +242,9 @@ homePage:
   - sys:
       id: hd8iCoE6LCaUeyKAsuu6W
       created_at: !ruby/object:DateTime 2017-05-23 22:54:25.540000000 Z
-      updated_at: !ruby/object:DateTime 2017-05-23 22:54:25.540000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:14:44.301000000 Z
       content_type_id: partner
-    name: Sweet Lydia's
+    name: Sweet Lydia’s
     website: http://www.sweetlydias.com/
     location:
       lat: 42.6334247
@@ -285,4 +286,4 @@ homePage:
     \n\nWithin the next year I bought my first ice cream maker and started experimenting
     at home. I brought samples to work events, gatherings with friends, and did various
     taste testing to find the perfect vanilla ice cream. If you have a good vanilla,
-    you're in good shape!"
+    you’re in good shape!"
