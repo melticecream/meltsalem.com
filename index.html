@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="flex flex-column flex-row-ns items-center justify-between mt4-ns dark-gray">
-  <div class="w-30-ns flex justify-center items-center br-100 pa4 mt4-ns bg-white absolute-ns center left-0 right-0">
+<div class="flex flex-column flex-row-ns items-center justify-between mt3-ns dark-gray">
+  <div class="w-30-ns flex justify-center items-center br-100 pa4 mt3-ns bg-white absolute-ns center left-0 right-0">
     {% image MELT_Primary_Hi-Res_Brown.png class:"pt5-l w-80 h-auto" %}
   </div>
 
-  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns items-center lh-copy">
-    <div class="ml4-ns mb4 tl-ns tc">
+  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end items-center lh-copy">
+    <div class="ml4-ns mb3 tl-ns tc">
       <p class="b ma0">{{ site.data.contentful.spaces.home_page.homePage[0].news }}</p>
       <ul class="list ma0 pl0">
         {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
@@ -15,17 +15,15 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <address class="ml4-ns mb4 tl-ns tc fs-normal">
+  </div>
+  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns lh-copy">
+    <address class="mr4-ns mb3 tl-ns tc fs-normal">
       60 Washington St<br>
       Salem, MA 01970<br>
-    </address>
-  </div>
-  <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end lh-copy">
-    <div class="mr4-ns mb4 tr-ns tc">
       <a href="tel:9788265703" class="dark-gray dim">(978) 826-5703</a><br>
       <a href="mailto:{{ site.email }}" class="dark-gray dim">{{ site.email }}</a>
-    </div>
-    <div class="flex items-center mr4-ns ml0-ns mb4 tr-ns center">
+    </address>
+    <div class="flex items-center mr4-ns ml0-ns mb3 tl-ns center">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3" target="_blank" rel="noopener noreferrer">
         {% image FB-f-Logo__blue_512.png
           alt:"Facebook"
