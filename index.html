@@ -22,8 +22,8 @@ layout: default
   </div>
   <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end lh-copy">
     <div class="mr4-ns mb4 tr-ns tc">
-      <a href="tel:9788265703" class="dark-gray">(978) 826-5703</a><br>
-      <a href="mailto:{{ site.email }}" class="dark-gray">{{ site.email }}</a>
+      <a href="tel:9788265703" class="dark-gray dim">(978) 826-5703</a><br>
+      <a href="mailto:{{ site.email }}" class="dark-gray dim">{{ site.email }}</a>
     </div>
     <div class="flex items-center mr4-ns ml0-ns mb4 tr-ns center">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3">
@@ -141,3 +141,42 @@ layout: default
     </div>
   </div>
 </div>
+
+<footer class="flex flex-row-ns flex-column justify-center items-center dark-gray bg-light-blue pt5 pb5">
+  {% image MELT_Primary_Hi-Res_Brown.png alt:"Melt" class:"w5" %}
+
+  <div class="ml5 mr5 lh-copy">
+    <div class="mb4 tl-ns tc">
+      <p class="b ma0">{{ site.data.contentful.spaces.home_page.homePage[0].news }}</p>
+      <ul class="list ma0 pl0">
+        {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
+          <li>{{ hours.daily_hours }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <address class="mb0-ns mb4 tl-ns tc fs-normal">
+      60 Washington St<br>
+      Salem, MA 01970<br>
+    </address>
+  </div>
+  <div class="lh-copy mr4-ns">
+    <div class="mb4 tl-ns tc">
+      <a href="tel:9788265703" class="dark-gray dim">(978) 826-5703</a><br>
+      <a href="mailto:{{ site.email }}" class="dark-gray dim">{{ site.email }}</a>
+    </div>
+    <div class="flex items-center justify-start-ns justify-center mb0-ns mb4">
+      <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3">
+        {% image FB-f-Logo__blue_512.png
+          alt:"Facebook"
+          width:"30"
+          height:"30" %}
+      </a>
+      <a href="https://www.instagram.com/meltsalem/">
+        {% image glyph-logo_May2016.png
+          alt:"Instagram"
+          width:"30"
+          height:"30" %}
+      </a>
+    </div>
+  </div>
+</footer>
