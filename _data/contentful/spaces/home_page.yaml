@@ -163,20 +163,20 @@ homePage:
   - sys:
       id: 4J8beKUhagYm2Yo2cWQw0o
       created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 14:58:38.412000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:56:01.284000000 Z
       content_type_id: rotatingflavors
     name: Vanilla Chai
     description: We use MEM Chai Tea to make a delicious Vanilla Chai
-    background: red-stripes
+    background: green-stripes
   - sys:
       id: 2wtsE3ZCEwyA2qi6CGOsuS
       created_at: !ruby/object:DateTime 2017-09-25 22:34:16.007000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 15:02:44.184000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:55:58.678000000 Z
       content_type_id: rotatingflavors
     name: Sweet Potato Fluff
     description: Real sweet potatoes with a marshmallow fluff swirl and marshmallows
       from Sweet Lydia’s
-    background: green-stripes
+    background: sprinkles
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
