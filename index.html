@@ -7,7 +7,7 @@ layout: default
   </div>
 
   <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end items-center lh-copy">
-    <div class="ml4-ns mb3 tl-ns tc">
+    <div class="ml4-ns mb3-ns mb4 tl-ns tc">
       <p class="b ma0">{{ site.data.contentful.spaces.home_page.homePage[0].news }}</p>
       <ul class="list ma0 pl0">
         {% for hours in site.data.contentful.spaces.home_page.homePage[0].daily_hours %}
@@ -17,13 +17,13 @@ layout: default
     </div>
   </div>
   <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns lh-copy">
-    <address class="mr4-ns mb3 tl-ns tc fs-normal">
+    <address class="mr4-ns mb3-ns mb4 tl-ns tc fs-normal">
       60 Washington St<br>
       Salem, MA 01970<br>
       <a href="tel:9788265703" class="dark-gray dim">(978) 826-5703</a><br>
       <a href="mailto:{{ site.email }}" class="dark-gray dim">{{ site.email }}</a>
     </address>
-    <div class="flex items-center mr4-ns ml0-ns mb3 tl-ns center">
+    <div class="flex items-center mr4-ns ml0-ns mb3-ns mb4 tl-ns center">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3" target="_blank" rel="noopener noreferrer">
         {% image FB-f-Logo__blue_512.png
           alt:"Facebook"
@@ -171,16 +171,14 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <address class="mb0-ns mb4 tl-ns tc fs-normal">
-      60 Washington St<br>
-      Salem, MA 01970<br>
-    </address>
   </div>
   <div class="lh-copy mr4-ns">
-    <div class="mb4 tl-ns tc">
+    <address class="mb4 tl-ns tc fs-normal">
+      60 Washington St<br>
+      Salem, MA 01970<br>
       <a href="tel:9788265703" class="dark-gray dim">(978) 826-5703</a><br>
       <a href="mailto:{{ site.email }}" class="dark-gray dim">{{ site.email }}</a>
-    </div>
+    </address>
     <div class="flex items-center justify-start-ns justify-center mb0-ns mb4">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3" target="_blank" rel="noopener noreferrer">
         {% image FB-f-Logo__blue_512.png
