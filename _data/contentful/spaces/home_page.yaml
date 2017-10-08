@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-09-24 15:10:37.957000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-08 14:55:54.498000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -23,10 +23,10 @@ homePage:
   - sys:
       id: quRd1AXAI0OEWwq2YmOae
       created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:07.261000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:02:55.661000000 Z
       content_type_id: flavor
     name: White Minty Chip
-    description: Mint ice cream with no artificial colors (it's white!) and Taza chocolate
+    description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
       pieces
     background: red-cones
   - sys:
@@ -133,6 +133,48 @@ homePage:
       content_type_id: flavor
     name: Vanilla
     description: Made with Madagascar Bourbon vanilla
+    background: green-stripes
+  rotating_flavors:
+  - sys:
+      id: 4WIs5oz8WI2eEcIo8KWYAw
+      created_at: !ruby/object:DateTime 2017-09-25 22:43:17.354000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 14:58:46.540000000 Z
+      content_type_id: rotatingflavors
+    name: Apple Crisp
+    description: Real apples with cinnamon oatmeal crisp mixed in
+    background: red-cones
+  - sys:
+      id: 5pfSNXdiCIIYc20MgSc8Og
+      created_at: !ruby/object:DateTime 2017-09-25 22:32:03.111000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 14:58:43.565000000 Z
+      content_type_id: rotatingflavors
+    name: Chocolate Fudge
+    description: Chocolate ice cream with Fudge Swirl
+    background: green-cones
+  - sys:
+      id: Nb395AOU6qumCo8esG2EM
+      created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 14:58:41.062000000 Z
+      content_type_id: rotatingflavors
+    name: Pumpkin
+    description: Tastes just like Pumpkin Pie
+    background: red-stripes
+  - sys:
+      id: 4J8beKUhagYm2Yo2cWQw0o
+      created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 14:58:38.412000000 Z
+      content_type_id: rotatingflavors
+    name: Vanilla Chai
+    description: We use MEM Chai Tea to make a delicious Vanilla Chai
+    background: red-stripes
+  - sys:
+      id: 2wtsE3ZCEwyA2qi6CGOsuS
+      created_at: !ruby/object:DateTime 2017-09-25 22:34:16.007000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 15:02:44.184000000 Z
+      content_type_id: rotatingflavors
+    name: Sweet Potato Fluff
+    description: Real sweet potatoes with a marshmallow fluff swirl and marshmallows
+      from Sweet Lydia’s
     background: green-stripes
   partners:
   - sys:

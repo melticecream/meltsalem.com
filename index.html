@@ -59,6 +59,19 @@ layout: default
       </div>
     {% endfor %}
   </div>
+
+  <h2 class="tc f1 fw5 mr4 serif">Current Rotating Flavors</h2>
+  <div class="flex justify-center flex-wrap">
+    {% for flavor in site.data.contentful.spaces.home_page.homePage[0].rotating_flavors %}
+      <div class="flex items-center justify-center ba br3 bw0 w5 h5 pa2 ma3 toggle bg-flavor bg-{{ flavor.background }}">
+        <p class="f2 fw5 tc mt0 mb0 serif">{{ flavor.name }}</p>
+        <div class="dn pa2 ba br3 b--dashed w-100 h-100">
+          <p class="f3 fw5 tc">{{ flavor.name }}</p>
+          <p class="f4 tc">{{ flavor.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <div class="flex flex-column items-center white bg-dark-gray pa5">
