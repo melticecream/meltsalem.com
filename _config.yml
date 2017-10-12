@@ -19,6 +19,7 @@ exclude:
   - node_modules
   - package.json
   - README.md
+  - s3_website.yml
   - yarn.lock
 markdown: kramdown
 timezone: US/Eastern

@@ -10,16 +10,6 @@ $red: rgb(210, 35, 42);
 
 @import "tachyons";
 
-.bg-flavor.bg-red-cones {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(asset_path("bg-flavors/red-cones.png"));
-  background-size: cover;
-}
-
-.bg-flavor.bg-green-cones {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(asset_path("bg-flavors/green-cones.png"));
-  background-size: cover;
-}
-
 .bg-flavor.bg-red-stripes {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(asset_path("bg-flavors/red-stripes.png"));
   background-size: cover;
@@ -27,10 +17,5 @@ $red: rgb(210, 35, 42);
 
 .bg-flavor.bg-green-stripes {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(asset_path("bg-flavors/green-stripes.png"));
-  background-size: cover;
-}
-
-.bg-flavor.bg-sprinkles {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(asset_path("bg-flavors/sprinkles.png"));
   background-size: cover;
 }
