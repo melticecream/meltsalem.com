@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-03-04 03:11:22.076000000 Z
+    updated_at: !ruby/object:DateTime 2018-03-04 03:54:59.872000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -25,6 +25,7 @@ homePage:
       updated_at: !ruby/object:DateTime 2017-11-26 23:10:52.547000000 Z
       content_type_id: hours
     daily_hours: 'Sunday: 1pm - 8pm'
+  now_hiring: true
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
   - sys:
@@ -153,10 +154,11 @@ homePage:
   - sys:
       id: 4VWJ8FgJCoAAsOyACOuCGw
       created_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:48:02.629000000 Z
       content_type_id: rotatingflavors
-    name: Earl Grey w/ Cardamom & Pistachios
+    name: Earl Grey with Cardamom & Pistachios
     description: Earl Grey ice cream spiced with Cardamom and whole Pistachios
+    background: red-stripes
   - sys:
       id: 1HiyGXt3NGUImiI2yYU4qO
       created_at: !ruby/object:DateTime 2018-03-04 03:04:51.869000000 Z
