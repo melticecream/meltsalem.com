@@ -3,23 +3,29 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-06 01:00:54.747000000 Z
+    updated_at: !ruby/object:DateTime 2018-03-04 03:11:22.076000000 Z
     content_type_id: homePage
-  news: Fall Hours
+  news: Spring Hours
   daily_hours:
   - sys:
       id: L5i1xaGnAWm2csmmUyyKy
       created_at: !ruby/object:DateTime 2017-09-24 15:09:29.451000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-24 15:09:29.451000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:00:41.291000000 Z
       content_type_id: hours
-    daily_hours: 'Sunday - Thursday: 12pm - 9pm'
+    daily_hours: 'Monday - Thursday: 1pm - 8pm'
   - sys:
       id: 3DJuZHbxaoWWGq060KYCUy
       created_at: !ruby/object:DateTime 2017-09-24 15:09:46.058000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-24 15:09:46.058000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:10:26.470000000 Z
       content_type_id: hours
-    daily_hours: 'Friday - Saturday: 12pm - 10pm'
-  flavors_as_of_date: !ruby/object:DateTime 2017-10-08 14:00:00.000000000 Z
+    daily_hours: 'Friday - Saturday: 1pm - 9pm'
+  - sys:
+      id: 3MZBkrywYEw2EkuWKIuqoi
+      created_at: !ruby/object:DateTime 2017-11-26 23:10:52.547000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:10:52.547000000 Z
+      content_type_id: hours
+    daily_hours: 'Sunday: 1pm - 8pm'
+  flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
@@ -79,6 +85,14 @@ homePage:
     description: Oreo ice cream full of oreo pieces
     background: red-stripes
   - sys:
+      id: 4p7QbpeHYk8OAiK2wsUsoI
+      created_at: !ruby/object:DateTime 2018-03-04 02:56:13.662000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 02:56:13.662000000 Z
+      content_type_id: flavor
+    name: Banana Nutella with Peanut Butter Cups
+    description: Banana Nutella ice cream with chunks of Peanut Butter Cups
+    background: red-stripes
+  - sys:
       id: quRd1AXAI0OEWwq2YmOae
       created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:31.705000000 Z
@@ -96,6 +110,14 @@ homePage:
     description: Combination of Maple Syrup and a touch of Bourbon
     background: red-cones
   - sys:
+      id: 36oWHeU9QsMuI646K46keo
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:38.169000000 Z
+      content_type_id: flavor
+    name: Nutty Almond
+    description: Almond ice cream with bits of sweet and salty almond and cashew pieces
+    background: green-cones
+  - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
@@ -112,29 +134,45 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 1DujOwvv7Wu0Uwgo0ymgE
-      created_at: !ruby/object:DateTime 2017-10-08 17:07:29.880000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:44.565000000 Z
+      id: 1y1Qe0W79msKySuOWmqoYK
+      created_at: !ruby/object:DateTime 2018-03-04 02:57:08.944000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 02:57:08.944000000 Z
       content_type_id: flavor
-    name: Strawberry Peach Sorbet
-    description: Lots of strawberries and peaches complete this sorbet
-    background: red-cones
+    name: Berry Sorbet
+    description: Sorbet with blueberries, blackberries, and raspberries
+    background: green-stripes
   rotating_flavors:
   - sys:
-      id: Nb395AOU6qumCo8esG2EM
-      created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:16:01.177000000 Z
+      id: 6PV7HE7sxaaI2cIS0wMw8w
+      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
       content_type_id: rotatingflavors
-    name: Pumpkin
-    description: Tastes just like Pumpkin Pie
-    background: sprinkles
+    name: Vegan Dark Chocolate Coconut
+    description: A dark chocolate vegan ice cream, made with coconut milk
+    background: green-stripes
   - sys:
-      id: 2C6q36GxmIGOiACuMkak8E
-      created_at: !ruby/object:DateTime 2017-09-25 22:43:52.962000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:43:52.962000000 Z
+      id: 4VWJ8FgJCoAAsOyACOuCGw
+      created_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
       content_type_id: rotatingflavors
-    name: Peppermint Stick
-    description: Peppermint ice cream with crushed peppermint pieces
+    name: Earl Grey w/ Cardamom & Pistachios
+    description: Earl Grey ice cream spiced with Cardamom and whole Pistachios
+  - sys:
+      id: 1HiyGXt3NGUImiI2yYU4qO
+      created_at: !ruby/object:DateTime 2018-03-04 03:04:51.869000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:04:51.869000000 Z
+      content_type_id: rotatingflavors
+    name: Ginger
+    description: Ginger ice cream with candied ginger pieces
+    background: red-stripes
+  - sys:
+      id: 29mKBpEo5eAGoMEooUEgMw
+      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      content_type_id: rotatingflavors
+    name: Strawberry Balsamic
+    description: Strawberry ice cream with a hint of Balsamic Vinegar
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
@@ -164,14 +202,14 @@ homePage:
   - sys:
       id: Jccnz5cjwAAceYawciioC
       created_at: !ruby/object:DateTime 2017-02-05 13:47:18.709000000 Z
-      updated_at: !ruby/object:DateTime 2017-05-23 22:53:26.602000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:08:18.247000000 Z
       content_type_id: partner
     name: Jodi Bee Bakes
     website: http://www.jodibeebakes.com/
     location:
       lat: 42.52236870000001
       lon: -70.89315950000002
-    description: She makes the great Gluten-Free Sea Salt Brownies for our Salted
+    description: They make the great Gluten-Free Sea Salt Brownies for our Salted
       Caramel with Sea Salt Brownies
   - sys:
       id: 5VGg5dg5R6UMcicMGG22EG
@@ -242,6 +280,7 @@ homePage:
     possible) ingredients and decided to set up shop and see how the business adventure
     goes. Their philosophy and mindset for the ice cream and business intrigued me.
     \n\nWithin the next year I bought my first ice cream maker and started experimenting
-    at home. I brought samples to work events, gatherings with friends, and did various
-    taste testing to find the perfect vanilla ice cream. If you have a good vanilla,
-    you’re in good shape!"
+    at home. I brought samples to work events, gatherings with friends, and made my
+    family try a bunch of flavors. \n\nIn 2014, after working a Corporate job for
+    almost a decade, I quit and didn't know what was next. I decided to jump full
+    time into my ice cream hobby and here we are! "
