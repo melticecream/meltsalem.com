@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-01 21:53:51.071000000 Z
+    updated_at: !ruby/object:DateTime 2018-04-07 13:42:50.685000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -144,13 +144,12 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 1HiyGXt3NGUImiI2yYU4qO
-      created_at: !ruby/object:DateTime 2018-03-04 03:04:51.869000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:04:51.869000000 Z
+      id: 1LtaQYvlfuQ2mMqgim6MKI
+      created_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
       content_type_id: rotatingflavors
-    name: Ginger
-    description: Ginger ice cream with candied ginger pieces
-    background: red-stripes
+    name: Lemon with Candied Ginger
+    description: Lemon ice cream with candied ginger pieces
   - sys:
       id: 6PV7HE7sxaaI2cIS0wMw8w
       created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
