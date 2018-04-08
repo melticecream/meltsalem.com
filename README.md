@@ -1,3 +1,12 @@
+# Deploying
+
+```
+./bin/update
+./bin/build
+s3_website push --dry-run # optional
+s3_website push
+```
+
 # Updating Tachyons
 
 I wanted a simple way to use custom colors while being able to install updated versions of Tachyons very easy too. The process I came up with is easy, but not ideal.
