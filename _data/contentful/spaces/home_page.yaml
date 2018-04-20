@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-11 03:05:24.387000000 Z
+    updated_at: !ruby/object:DateTime 2018-04-14 15:40:40.317000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -158,14 +158,6 @@ homePage:
     name: Vegan Dark Chocolate Coconut
     description: A dark chocolate vegan ice cream, made with coconut milk
     background: green-stripes
-  - sys:
-      id: 4VWJ8FgJCoAAsOyACOuCGw
-      created_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:48:02.629000000 Z
-      content_type_id: rotatingflavors
-    name: Earl Grey with Cardamom & Pistachios
-    description: Earl Grey ice cream spiced with Cardamom and whole Pistachios
-    background: red-stripes
   - sys:
       id: 29mKBpEo5eAGoMEooUEgMw
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
