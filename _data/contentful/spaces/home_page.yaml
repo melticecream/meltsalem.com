@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-14 15:40:40.317000000 Z
+    updated_at: !ruby/object:DateTime 2018-04-27 17:11:19.813000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -127,14 +127,6 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 1y1Qe0W79msKySuOWmqoYK
-      created_at: !ruby/object:DateTime 2018-03-04 02:57:08.944000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 02:57:08.944000000 Z
-      content_type_id: flavor
-    name: Berry Sorbet
-    description: Sorbet with blueberries, blackberries, and raspberries
-    background: green-stripes
-  - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
@@ -142,30 +134,15 @@ homePage:
     name: No Sugar Added Butter Pecan
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
+  - sys:
+      id: 6BV0k4LiM0qmq6Y8YasU0Q
+      created_at: !ruby/object:DateTime 2018-04-27 17:11:07.577000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-27 17:11:07.577000000 Z
+      content_type_id: flavor
+    name: Pineapple Jalapeño Sorbet
+    description: Pineapple sorbet with a hint of jalapeño
+    background: red-stripes
   rotating_flavors:
-  - sys:
-      id: 1LtaQYvlfuQ2mMqgim6MKI
-      created_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
-      content_type_id: rotatingflavors
-    name: Lemon with Candied Ginger
-    description: Lemon ice cream with candied ginger pieces
-  - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
-    background: green-stripes
-  - sys:
-      id: 29mKBpEo5eAGoMEooUEgMw
-      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Balsamic
-    description: Strawberry ice cream with a hint of Balsamic Vinegar
-    background: green-stripes
   - sys:
       id: 7Fp21zqhfaiSaEwSaYoam0
       created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
@@ -174,6 +151,29 @@ homePage:
     name: Spicy Dark Chocolate
     description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
     background: sprinkles
+  - sys:
+      id: 76kwlC5ZbaOSYYcIgGIck4
+      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Oreo Coconut
+    description: This vegan option is made with coconut milk and oreos
+    background: green-cones
+  - sys:
+      id: 4XlJdNtBPikag84skW0YU2
+      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      content_type_id: rotatingflavors
+    name: Green Tea
+    description: Green Tea ice cream using matcha from MEM Tea
+  - sys:
+      id: 6h5CItQsveGKoKKiCcGsqQ
+      created_at: !ruby/object:DateTime 2018-04-20 22:01:29.157000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-20 22:01:29.157000000 Z
+      content_type_id: rotatingflavors
+    name: Honey Fig with Walnuts
+    description: Honey fig ice cream with walnuts
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
