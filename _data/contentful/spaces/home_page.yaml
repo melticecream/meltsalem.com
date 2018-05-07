@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-01 18:28:45.317000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-06 21:50:19.488000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -144,13 +144,13 @@ homePage:
     background: red-stripes
   rotating_flavors:
   - sys:
-      id: 7Fp21zqhfaiSaEwSaYoam0
-      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      id: 1MXpCZUdgYY8wQKs60M0Ci
+      created_at: !ruby/object:DateTime 2018-05-06 21:50:13.266000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-06 21:50:13.266000000 Z
       content_type_id: rotatingflavors
-    name: Spicy Dark Chocolate
-    description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
-    background: sprinkles
+    name: Potato Chip Toffee
+    description: Vanilla ice cream with potato chip toffee and extra potato chips
+    background: green-stripes
   - sys:
       id: 1t3lL2hcwwgIM42Omm6Si2
       created_at: !ruby/object:DateTime 2018-05-01 18:28:35.887000000 Z
