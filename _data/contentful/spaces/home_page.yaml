@@ -3,28 +3,28 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-27 17:11:19.813000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-01 18:28:45.317000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
   - sys:
       id: L5i1xaGnAWm2csmmUyyKy
       created_at: !ruby/object:DateTime 2017-09-24 15:09:29.451000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-03 15:38:02.682000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-30 16:50:25.364000000 Z
       content_type_id: hours
-    daily_hours: 'Monday - Thursday: 12pm - 8pm'
+    daily_hours: 'Monday - Thursday: 12pm - 9pm'
   - sys:
       id: 3DJuZHbxaoWWGq060KYCUy
       created_at: !ruby/object:DateTime 2017-09-24 15:09:46.058000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-03 15:38:07.917000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-30 16:50:23.333000000 Z
       content_type_id: hours
-    daily_hours: 'Friday - Saturday: 12pm - 9pm'
+    daily_hours: 'Friday - Saturday: 12pm - 10pm'
   - sys:
       id: 3MZBkrywYEw2EkuWKIuqoi
       created_at: !ruby/object:DateTime 2017-11-26 23:10:52.547000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-03 15:38:13.330000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-30 16:50:21.550000000 Z
       content_type_id: hours
-    daily_hours: 'Sunday: 12pm - 8pm'
+    daily_hours: 'Sunday: 12pm - 9pm'
   now_hiring: false
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
@@ -150,6 +150,14 @@ homePage:
       content_type_id: rotatingflavors
     name: Spicy Dark Chocolate
     description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
+    background: sprinkles
+  - sys:
+      id: 1t3lL2hcwwgIM42Omm6Si2
+      created_at: !ruby/object:DateTime 2018-05-01 18:28:35.887000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-01 18:28:35.887000000 Z
+      content_type_id: rotatingflavors
+    name: Fruity Pebbles
+    description: Fruity Pebbles ice cream with tons of Fruity Pebbles throw in
     background: sprinkles
   - sys:
       id: 76kwlC5ZbaOSYYcIgGIck4
