@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-06 21:50:19.488000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-12 21:53:02.265000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -168,12 +168,14 @@ homePage:
     description: This vegan option is made with coconut milk and oreos
     background: green-cones
   - sys:
-      id: 4XlJdNtBPikag84skW0YU2
-      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      id: 2gTHEJGU9eQiucSCeKk4eQ
+      created_at: !ruby/object:DateTime 2018-05-12 21:52:53.040000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-12 21:52:53.040000000 Z
       content_type_id: rotatingflavors
-    name: Green Tea
-    description: Green Tea ice cream using matcha from MEM Tea
+    name: Tiramisu
+    description: A chocolate and coffee ice cream with fudge swirl and chunks of lady
+      fingers
+    background: red-stripes
   - sys:
       id: 6h5CItQsveGKoKKiCcGsqQ
       created_at: !ruby/object:DateTime 2018-04-20 22:01:29.157000000 Z
