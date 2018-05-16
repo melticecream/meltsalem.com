@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-12 21:53:02.265000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-15 23:45:27.133000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -127,6 +127,14 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
+      id: 1PHY8JvJakoqUOcMK2K2aw
+      created_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
+      content_type_id: flavor
+    name: Strawberry Sorbet
+    description: Lots of strawberries complete this sorbet
+    background: green-stripes
+  - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
@@ -134,14 +142,6 @@ homePage:
     name: No Sugar Added Butter Pecan
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
-  - sys:
-      id: 6BV0k4LiM0qmq6Y8YasU0Q
-      created_at: !ruby/object:DateTime 2018-04-27 17:11:07.577000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-27 17:11:07.577000000 Z
-      content_type_id: flavor
-    name: Pineapple Jalapeño Sorbet
-    description: Pineapple sorbet with a hint of jalapeño
-    background: red-stripes
   rotating_flavors:
   - sys:
       id: 1MXpCZUdgYY8wQKs60M0Ci
@@ -152,21 +152,21 @@ homePage:
     description: Vanilla ice cream with potato chip toffee and extra potato chips
     background: green-stripes
   - sys:
-      id: 1t3lL2hcwwgIM42Omm6Si2
-      created_at: !ruby/object:DateTime 2018-05-01 18:28:35.887000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-01 18:28:35.887000000 Z
+      id: H67Iwqn720IqQWMcSqUsq
+      created_at: !ruby/object:DateTime 2018-05-15 23:45:14.761000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-15 23:45:14.761000000 Z
       content_type_id: rotatingflavors
-    name: Fruity Pebbles
-    description: Fruity Pebbles ice cream with tons of Fruity Pebbles throw in
-    background: sprinkles
+    name: Strawberry Rhubarb
+    description: Ice cream packed with strawberries and rhubarb
+    background: green-stripes
   - sys:
-      id: 76kwlC5ZbaOSYYcIgGIck4
-      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
+      id: 6PV7HE7sxaaI2cIS0wMw8w
+      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Oreo Coconut
-    description: This vegan option is made with coconut milk and oreos
-    background: green-cones
+    name: Vegan Dark Chocolate Coconut
+    description: A dark chocolate vegan ice cream, made with coconut milk
+    background: green-stripes
   - sys:
       id: 2gTHEJGU9eQiucSCeKk4eQ
       created_at: !ruby/object:DateTime 2018-05-12 21:52:53.040000000 Z
