@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-15 23:45:27.133000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-24 22:27:45.914000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -160,12 +160,12 @@ homePage:
     description: Ice cream packed with strawberries and rhubarb
     background: green-stripes
   - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      id: 7tm1vtpiogEuEukAmMq6os
+      created_at: !ruby/object:DateTime 2018-05-24 22:27:34.847000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-24 22:27:34.847000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
+    name: Vegan Vanilla Coconut
+    description: A vanilla vegan ice cream, made with coconut milk
     background: green-stripes
   - sys:
       id: 2gTHEJGU9eQiucSCeKk4eQ
