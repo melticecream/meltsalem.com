@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-24 22:27:45.914000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-29 19:10:32.149000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -160,30 +160,29 @@ homePage:
     description: Ice cream packed with strawberries and rhubarb
     background: green-stripes
   - sys:
-      id: 7tm1vtpiogEuEukAmMq6os
-      created_at: !ruby/object:DateTime 2018-05-24 22:27:34.847000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-24 22:27:34.847000000 Z
+      id: 6PV7HE7sxaaI2cIS0wMw8w
+      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Vanilla Coconut
-    description: A vanilla vegan ice cream, made with coconut milk
+    name: Vegan Dark Chocolate Coconut
+    description: A dark chocolate vegan ice cream, made with coconut milk
     background: green-stripes
   - sys:
-      id: 2gTHEJGU9eQiucSCeKk4eQ
-      created_at: !ruby/object:DateTime 2018-05-12 21:52:53.040000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-12 21:52:53.040000000 Z
+      id: 5nrmglkQDuw4agMck8wGSo
+      created_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
       content_type_id: rotatingflavors
-    name: Tiramisu
-    description: A chocolate and coffee ice cream with fudge swirl and chunks of lady
-      fingers
-    background: red-stripes
+    name: Key Lime Pie
+    description: Key lime ice cream with graham cracker crust chunks
+    background: sprinkles
   - sys:
-      id: 6h5CItQsveGKoKKiCcGsqQ
-      created_at: !ruby/object:DateTime 2018-04-20 22:01:29.157000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 22:01:29.157000000 Z
+      id: 7Fp21zqhfaiSaEwSaYoam0
+      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
       content_type_id: rotatingflavors
-    name: Honey Fig with Walnuts
-    description: Honey fig ice cream with walnuts
-    background: green-stripes
+    name: Spicy Dark Chocolate
+    description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
+    background: sprinkles
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
