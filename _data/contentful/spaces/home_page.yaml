@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-29 19:10:32.149000000 Z
+    updated_at: !ruby/object:DateTime 2018-05-31 16:49:43.478000000 Z
     content_type_id: homePage
   news: Spring Hours
   daily_hours:
@@ -25,7 +25,8 @@ homePage:
       updated_at: !ruby/object:DateTime 2018-04-30 16:50:21.550000000 Z
       content_type_id: hours
     daily_hours: 'Sunday: 12pm - 9pm'
-  now_hiring: false
+  now_hiring: true
+  employee_application: https://docs.google.com/forms/d/e/1FAIpQLSfVsCbC44nAqABYfacoLYUbm9nPFmWrquy3S8Ui7oEAW1CstQ/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
   - sys:
