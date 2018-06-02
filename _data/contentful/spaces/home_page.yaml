@@ -3,28 +3,16 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-05-31 16:49:43.478000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-02 01:50:59.873000000 Z
     content_type_id: homePage
-  news: Spring Hours
+  news: Summer Hours
   daily_hours:
-  - sys:
-      id: L5i1xaGnAWm2csmmUyyKy
-      created_at: !ruby/object:DateTime 2017-09-24 15:09:29.451000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-30 16:50:25.364000000 Z
-      content_type_id: hours
-    daily_hours: 'Monday - Thursday: 12pm - 9pm'
   - sys:
       id: 3DJuZHbxaoWWGq060KYCUy
       created_at: !ruby/object:DateTime 2017-09-24 15:09:46.058000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-30 16:50:23.333000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-01 18:51:53.324000000 Z
       content_type_id: hours
-    daily_hours: 'Friday - Saturday: 12pm - 10pm'
-  - sys:
-      id: 3MZBkrywYEw2EkuWKIuqoi
-      created_at: !ruby/object:DateTime 2017-11-26 23:10:52.547000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-30 16:50:21.550000000 Z
-      content_type_id: hours
-    daily_hours: 'Sunday: 12pm - 9pm'
+    daily_hours: 'Every Day: 12pm - 10pm'
   now_hiring: true
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSfVsCbC44nAqABYfacoLYUbm9nPFmWrquy3S8Ui7oEAW1CstQ/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
@@ -153,22 +141,6 @@ homePage:
     description: Vanilla ice cream with potato chip toffee and extra potato chips
     background: green-stripes
   - sys:
-      id: H67Iwqn720IqQWMcSqUsq
-      created_at: !ruby/object:DateTime 2018-05-15 23:45:14.761000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-15 23:45:14.761000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Rhubarb
-    description: Ice cream packed with strawberries and rhubarb
-    background: green-stripes
-  - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
-    background: green-stripes
-  - sys:
       id: 5nrmglkQDuw4agMck8wGSo
       created_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
       updated_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
@@ -176,6 +148,21 @@ homePage:
     name: Key Lime Pie
     description: Key lime ice cream with graham cracker crust chunks
     background: sprinkles
+  - sys:
+      id: 44PwHPaEtqWYsGoiKAcEsU
+      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Chocolate Cherry Coconut
+    description: A chocolate cherry vegan ice cream, made with coconut milk
+  - sys:
+      id: 187UGb8LqYCi0AmauKy4Q8
+      created_at: !ruby/object:DateTime 2018-06-02 01:49:56.525000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-02 01:50:15.074000000 Z
+      content_type_id: rotatingflavors
+    name: Blueberry Citrus
+    description: A lemon and orange ice cream with a blueberry swirl
+    background: green-stripes
   - sys:
       id: 7Fp21zqhfaiSaEwSaYoam0
       created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
