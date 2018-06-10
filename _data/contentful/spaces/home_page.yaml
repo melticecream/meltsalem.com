@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-02 01:50:59.873000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-05 03:09:40.469000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -164,13 +164,12 @@ homePage:
     description: A lemon and orange ice cream with a blueberry swirl
     background: green-stripes
   - sys:
-      id: 7Fp21zqhfaiSaEwSaYoam0
-      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      id: 1LtaQYvlfuQ2mMqgim6MKI
+      created_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
       content_type_id: rotatingflavors
-    name: Spicy Dark Chocolate
-    description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
-    background: sprinkles
+    name: Lemon with Candied Ginger
+    description: Lemon ice cream with candied ginger pieces
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
