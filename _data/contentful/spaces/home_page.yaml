@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-10 18:55:26.890000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-11 20:10:25.884000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -13,7 +13,7 @@ homePage:
       updated_at: !ruby/object:DateTime 2018-06-01 18:51:53.324000000 Z
       content_type_id: hours
     daily_hours: 'Every Day: 12pm - 10pm'
-  now_hiring: true
+  now_hiring: false
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSfVsCbC44nAqABYfacoLYUbm9nPFmWrquy3S8Ui7oEAW1CstQ/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
