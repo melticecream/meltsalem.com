@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-05 03:09:40.469000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-10 18:55:26.890000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -164,12 +164,13 @@ homePage:
     description: A lemon and orange ice cream with a blueberry swirl
     background: green-stripes
   - sys:
-      id: 1LtaQYvlfuQ2mMqgim6MKI
-      created_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-07 13:17:43.063000000 Z
+      id: 5d894dpB9eEwoaMmWaGkOa
+      created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
       content_type_id: rotatingflavors
-    name: Lemon with Candied Ginger
-    description: Lemon ice cream with candied ginger pieces
+    name: Smores
+    description: Vanilla ice cream with Taza chocolate chips, graham crackers, and
+      marshmallows from Sweet Lydia's
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
