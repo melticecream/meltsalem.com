@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-15 21:38:55.773000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-22 15:54:53.899000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -116,13 +116,13 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 1PHY8JvJakoqUOcMK2K2aw
-      created_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
+      id: AaFnlJUQ7e2YYyWOAMIss
+      created_at: !ruby/object:DateTime 2017-05-23 22:45:32.675000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:49.025000000 Z
       content_type_id: flavor
-    name: Strawberry Sorbet
-    description: Lots of strawberries complete this sorbet
-    background: green-stripes
+    name: Mango Sorbet
+    description: Lots of ripe mangos add full flavor
+    background: green-cones
   - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
@@ -133,28 +133,42 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 187UGb8LqYCi0AmauKy4Q8
-      created_at: !ruby/object:DateTime 2018-06-02 01:49:56.525000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-02 01:50:15.074000000 Z
+      id: iPZ5jtEgIEKEykk4AKy86
+      created_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
       content_type_id: rotatingflavors
-    name: Blueberry Citrus
-    description: A lemon and orange ice cream with a blueberry swirl
+    name: Minty Blueberry
+    description: A minty and blueberry ice cream
+  - sys:
+      id: 5YHI1C4lcA0oc2mu2gqYQy
+      created_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
+      content_type_id: rotatingflavors
+    name: Chocolate Fudge
+    description: A chocolate ice cream with fudge swirl
+  - sys:
+      id: 76kwlC5ZbaOSYYcIgGIck4
+      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Oreo Coconut
+    description: This vegan option is made with coconut milk and oreos
+    background: green-cones
+  - sys:
+      id: 6AI7yrXg5O0YYsO8WaCmya
+      created_at: !ruby/object:DateTime 2018-06-22 15:52:39.007000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:52:39.007000000 Z
+      content_type_id: rotatingflavors
+    name: Chamomile Chardonnay
+    description: A light, floral Chamomile Chardonnay ice cream
     background: green-stripes
   - sys:
-      id: 44PwHPaEtqWYsGoiKAcEsU
-      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
+      id: 5Pv3l2CDEA0g6O6KWECW4i
+      created_at: !ruby/object:DateTime 2018-06-22 15:54:13.082000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:54:13.082000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Chocolate Cherry Coconut
-    description: A chocolate cherry vegan ice cream, made with coconut milk
-  - sys:
-      id: 5d894dpB9eEwoaMmWaGkOa
-      created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
-      content_type_id: rotatingflavors
-    name: Smores
-    description: Vanilla ice cream with Taza chocolate chips, graham crackers, and
-      marshmallows from Sweet Lydia's
+    name: 'Test Kitchen: Vegan Chai Coconut'
+    description: A vegan chai ice cream made with coconut milk
   - sys:
       id: 3qr7ONPY12aiO6ye8YOKWW
       created_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
@@ -163,26 +177,6 @@ homePage:
     name: Strawberry Kiwi
     description: A strawberry kiwi ice cream
     background: sprinkles
-  - sys:
-      id: 4NaVC9xO7CaO6EOygQU4Qi
-      created_at: !ruby/object:DateTime 2018-06-15 21:38:10.367000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-15 21:38:10.367000000 Z
-      content_type_id: rotatingflavors
-    name: Sweet Sloops - Harbor Sweets
-    description: 'A vanilla ice cream  w/ almond buttercrunch toffee covered in white
-      chocolate, dark chocolate, and crushed pecans
-
-'
-    background: red-stripes
-  - sys:
-      id: 6uxn74fA1a04qOKe8SIi8e
-      created_at: !ruby/object:DateTime 2018-06-15 21:38:45.192000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-15 21:38:45.192000000 Z
-      content_type_id: rotatingflavors
-    name: Salt & Ayre - Harbor Sweets
-    description: A slightly salty chocolate ice cream w/ buttery toffee & toasted
-      almonds enrobed in bittersweet chocolate and a garnish of chipotle sea salt
-    background: green-cones
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
