@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-11 20:10:25.884000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-15 21:38:55.773000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -133,29 +133,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 1MXpCZUdgYY8wQKs60M0Ci
-      created_at: !ruby/object:DateTime 2018-05-06 21:50:13.266000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-06 21:50:13.266000000 Z
-      content_type_id: rotatingflavors
-    name: Potato Chip Toffee
-    description: Vanilla ice cream with potato chip toffee and extra potato chips
-    background: green-stripes
-  - sys:
-      id: 5nrmglkQDuw4agMck8wGSo
-      created_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-29 19:09:45.349000000 Z
-      content_type_id: rotatingflavors
-    name: Key Lime Pie
-    description: Key lime ice cream with graham cracker crust chunks
-    background: sprinkles
-  - sys:
-      id: 44PwHPaEtqWYsGoiKAcEsU
-      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Chocolate Cherry Coconut
-    description: A chocolate cherry vegan ice cream, made with coconut milk
-  - sys:
       id: 187UGb8LqYCi0AmauKy4Q8
       created_at: !ruby/object:DateTime 2018-06-02 01:49:56.525000000 Z
       updated_at: !ruby/object:DateTime 2018-06-02 01:50:15.074000000 Z
@@ -164,6 +141,13 @@ homePage:
     description: A lemon and orange ice cream with a blueberry swirl
     background: green-stripes
   - sys:
+      id: 44PwHPaEtqWYsGoiKAcEsU
+      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Chocolate Cherry Coconut
+    description: A chocolate cherry vegan ice cream, made with coconut milk
+  - sys:
       id: 5d894dpB9eEwoaMmWaGkOa
       created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
       updated_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
@@ -171,6 +155,34 @@ homePage:
     name: Smores
     description: Vanilla ice cream with Taza chocolate chips, graham crackers, and
       marshmallows from Sweet Lydia's
+  - sys:
+      id: 3qr7ONPY12aiO6ye8YOKWW
+      created_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
+      content_type_id: rotatingflavors
+    name: Strawberry Kiwi
+    description: A strawberry kiwi ice cream
+    background: sprinkles
+  - sys:
+      id: 4NaVC9xO7CaO6EOygQU4Qi
+      created_at: !ruby/object:DateTime 2018-06-15 21:38:10.367000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-15 21:38:10.367000000 Z
+      content_type_id: rotatingflavors
+    name: Sweet Sloops - Harbor Sweets
+    description: 'A vanilla ice cream  w/ almond buttercrunch toffee covered in white
+      chocolate, dark chocolate, and crushed pecans
+
+'
+    background: red-stripes
+  - sys:
+      id: 6uxn74fA1a04qOKe8SIi8e
+      created_at: !ruby/object:DateTime 2018-06-15 21:38:45.192000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-15 21:38:45.192000000 Z
+      content_type_id: rotatingflavors
+    name: Salt & Ayre - Harbor Sweets
+    description: A slightly salty chocolate ice cream w/ buttery toffee & toasted
+      almonds enrobed in bittersweet chocolate and a garnish of chipotle sea salt
+    background: green-cones
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
