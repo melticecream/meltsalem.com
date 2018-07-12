@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-22 15:54:53.899000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-25 14:21:02.363000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -163,12 +163,13 @@ homePage:
     description: A light, floral Chamomile Chardonnay ice cream
     background: green-stripes
   - sys:
-      id: 5Pv3l2CDEA0g6O6KWECW4i
-      created_at: !ruby/object:DateTime 2018-06-22 15:54:13.082000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-22 15:54:13.082000000 Z
+      id: 1RvIzMUJA8AeUIGu2SA8ea
+      created_at: !ruby/object:DateTime 2018-06-25 14:20:52.329000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:20:52.329000000 Z
       content_type_id: rotatingflavors
-    name: 'Test Kitchen: Vegan Chai Coconut'
-    description: A vegan chai ice cream made with coconut milk
+    name: 'Test Kitchen: White Chocolate Raspberry'
+    description: White chocolate raspberry ice cream with white chocolate chips
+    background: red-stripes
   - sys:
       id: 3qr7ONPY12aiO6ye8YOKWW
       created_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
