@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-12 12:15:15.628000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-19 17:36:29.049000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -133,27 +133,12 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 5YHI1C4lcA0oc2mu2gqYQy
-      created_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
+      id: 7utOXDgr2EaiqEyas4GMMk
+      created_at: !ruby/object:DateTime 2018-07-19 17:35:26.216000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-19 17:35:26.216000000 Z
       content_type_id: rotatingflavors
-    name: Chocolate Fudge
-    description: A chocolate ice cream with fudge swirl
-  - sys:
-      id: 76kwlC5ZbaOSYYcIgGIck4
-      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Oreo Coconut
-    description: This vegan option is made with coconut milk and oreos
-    background: green-cones
-  - sys:
-      id: 4XlJdNtBPikag84skW0YU2
-      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
-      content_type_id: rotatingflavors
-    name: Green Tea
-    description: Green Tea ice cream using matcha from MEM Tea
+    name: Creamsicle
+    description: Orange ice cream with orange zest
   - sys:
       id: 1ehmMCLrHA2G0ooE8SYo2o
       created_at: !ruby/object:DateTime 2018-07-12 12:15:05.479000000 Z
@@ -164,12 +149,34 @@ homePage:
       cones pieces and rainbow sprinkles
     background: green-stripes
   - sys:
+      id: 25RKG1PsBaiO2E4uY0KOqS
+      created_at: !ruby/object:DateTime 2018-07-19 17:36:07.547000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-19 17:36:07.547000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Peanut Butter Taza Chip Coconut
+    description: Vegan peanut butter ice cream with Taza chocolate chips
+  - sys:
+      id: 4XlJdNtBPikag84skW0YU2
+      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      content_type_id: rotatingflavors
+    name: Green Tea
+    description: Green Tea ice cream using matcha from MEM Tea
+  - sys:
       id: 29mKBpEo5eAGoMEooUEgMw
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       content_type_id: rotatingflavors
     name: Strawberry Balsamic
     description: Strawberry ice cream with a hint of Balsamic Vinegar
+    background: green-stripes
+  - sys:
+      id: 6PV7HE7sxaaI2cIS0wMw8w
+      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Dark Chocolate Coconut
+    description: A dark chocolate vegan ice cream, made with coconut milk
     background: green-stripes
   partners:
   - sys:
