@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 14:21:02.363000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-12 12:15:15.628000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -133,13 +133,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: iPZ5jtEgIEKEykk4AKy86
-      created_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
-      content_type_id: rotatingflavors
-    name: Minty Blueberry
-    description: A minty and blueberry ice cream
-  - sys:
       id: 5YHI1C4lcA0oc2mu2gqYQy
       created_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
       updated_at: !ruby/object:DateTime 2018-06-22 15:53:01.381000000 Z
@@ -155,29 +148,29 @@ homePage:
     description: This vegan option is made with coconut milk and oreos
     background: green-cones
   - sys:
-      id: 6AI7yrXg5O0YYsO8WaCmya
-      created_at: !ruby/object:DateTime 2018-06-22 15:52:39.007000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-22 15:52:39.007000000 Z
+      id: 4XlJdNtBPikag84skW0YU2
+      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
       content_type_id: rotatingflavors
-    name: Chamomile Chardonnay
-    description: A light, floral Chamomile Chardonnay ice cream
+    name: Green Tea
+    description: Green Tea ice cream using matcha from MEM Tea
+  - sys:
+      id: 1ehmMCLrHA2G0ooE8SYo2o
+      created_at: !ruby/object:DateTime 2018-07-12 12:15:05.479000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-12 12:15:05.479000000 Z
+      content_type_id: rotatingflavors
+    name: Cinnamon Waffles & Sprinkles
+    description: A cinnamon waffle flavored ice cream with chocolated covered waffle
+      cones pieces and rainbow sprinkles
     background: green-stripes
   - sys:
-      id: 1RvIzMUJA8AeUIGu2SA8ea
-      created_at: !ruby/object:DateTime 2018-06-25 14:20:52.329000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-25 14:20:52.329000000 Z
+      id: 29mKBpEo5eAGoMEooUEgMw
+      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       content_type_id: rotatingflavors
-    name: 'Test Kitchen: White Chocolate Raspberry'
-    description: White chocolate raspberry ice cream with white chocolate chips
-    background: red-stripes
-  - sys:
-      id: 3qr7ONPY12aiO6ye8YOKWW
-      created_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-15 21:37:20.570000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Kiwi
-    description: A strawberry kiwi ice cream
-    background: sprinkles
+    name: Strawberry Balsamic
+    description: Strawberry ice cream with a hint of Balsamic Vinegar
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
