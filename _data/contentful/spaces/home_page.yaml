@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-21 02:01:36.510000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-26 18:53:22.496000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -149,12 +149,12 @@ homePage:
       cones pieces and rainbow sprinkles
     background: green-stripes
   - sys:
-      id: 25RKG1PsBaiO2E4uY0KOqS
-      created_at: !ruby/object:DateTime 2018-07-19 17:36:07.547000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-19 17:36:07.547000000 Z
+      id: 12wPF3lIt66eAmAmQWCGss
+      created_at: !ruby/object:DateTime 2018-07-26 18:31:11.686000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-26 18:31:11.686000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Peanut Butter Taza Chip Coconut
-    description: Vegan peanut butter ice cream with Taza chocolate chips
+    name: Vegan Piña Colada
+    description: Pineapple dairy free ice cream make with coconut milk
   - sys:
       id: 4XlJdNtBPikag84skW0YU2
       created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
@@ -163,21 +163,12 @@ homePage:
     name: Green Tea
     description: Green Tea ice cream using matcha from MEM Tea
   - sys:
-      id: 29mKBpEo5eAGoMEooUEgMw
-      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      id: 5YZZWi6FPOaUc0kkk8uiqC
+      created_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
       content_type_id: rotatingflavors
-    name: Strawberry Balsamic
-    description: Strawberry ice cream with a hint of Balsamic Vinegar
-    background: green-stripes
-  - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
-    background: green-stripes
+    name: Strawberry Shortcake
+    description: Strawberry ice cream with shortcake pieces
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
