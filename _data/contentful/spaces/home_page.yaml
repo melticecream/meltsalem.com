@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-31 18:06:01.524000000 Z
+    updated_at: !ruby/object:DateTime 2018-08-05 02:14:39.049000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -14,7 +14,7 @@ homePage:
       content_type_id: hours
     daily_hours: 'Every Day: 12pm - 10pm'
   now_hiring: true
-  employee_application: https://docs.google.com/forms/d/e/1FAIpQLSeAIrtYFEhPDlJYF7L-1vnLmkC1G_ICqrwEFcNg3HKya2UTig/viewform
+  employee_application: https://drive.google.com/open?id=1YYvCfJd2QH0FW8LL--22CkvMV_w-X-zNWsYkXHJrWYU
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
   - sys:
@@ -139,22 +139,6 @@ homePage:
     name: Creamsicle
     description: Orange ice cream with orange zest
   - sys:
-      id: 1ehmMCLrHA2G0ooE8SYo2o
-      created_at: !ruby/object:DateTime 2018-07-12 12:15:05.479000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-12 12:15:05.479000000 Z
-      content_type_id: rotatingflavors
-    name: Cinnamon Waffles & Sprinkles
-    description: A cinnamon waffle flavored ice cream with chocolated covered waffle
-      cones pieces and rainbow sprinkles
-    background: green-stripes
-  - sys:
-      id: 12wPF3lIt66eAmAmQWCGss
-      created_at: !ruby/object:DateTime 2018-07-26 18:31:11.686000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-26 18:31:11.686000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Piña Colada
-    description: Pineapple dairy free ice cream make with coconut milk
-  - sys:
       id: 5YZZWi6FPOaUc0kkk8uiqC
       created_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
       updated_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
@@ -168,6 +152,22 @@ homePage:
       content_type_id: rotatingflavors
     name: Peach with Blackberry Sauce
     description: Peach ice cream with blackberry sauce swirl
+  - sys:
+      id: 2cmzN6HVA044uA8SWWCsII
+      created_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
+      updated_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
+      content_type_id: rotatingflavors
+    name: Chocolate Chip Cookie
+    description: Vanilla ice cream with chocolate chip cookies and Taza chip chocolate
+      pieces
+  - sys:
+      id: 6PV7HE7sxaaI2cIS0wMw8w
+      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Dark Chocolate Coconut
+    description: A dark chocolate vegan ice cream, made with coconut milk
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
