@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-08-05 02:21:15.321000000 Z
+    updated_at: !ruby/object:DateTime 2018-08-13 02:51:40.641000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -132,27 +132,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 7utOXDgr2EaiqEyas4GMMk
-      created_at: !ruby/object:DateTime 2018-07-19 17:35:26.216000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-19 17:35:26.216000000 Z
-      content_type_id: rotatingflavors
-    name: Creamsicle
-    description: Orange ice cream with orange zest
-  - sys:
-      id: 5YZZWi6FPOaUc0kkk8uiqC
-      created_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-26 18:29:50.877000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Shortcake
-    description: Strawberry ice cream with shortcake pieces
-  - sys:
-      id: 1VsPFIlzksOuOUK6WUOwoS
-      created_at: !ruby/object:DateTime 2018-07-31 18:05:53.300000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-31 18:05:53.300000000 Z
-      content_type_id: rotatingflavors
-    name: Peach with Blackberry Sauce
-    description: Peach ice cream with blackberry sauce swirl
-  - sys:
       id: 2cmzN6HVA044uA8SWWCsII
       created_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
       updated_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
@@ -168,6 +147,30 @@ homePage:
     name: Vegan Dark Chocolate Coconut
     description: A dark chocolate vegan ice cream, made with coconut milk
     background: green-stripes
+  - sys:
+      id: 29mKBpEo5eAGoMEooUEgMw
+      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
+      content_type_id: rotatingflavors
+    name: Strawberry Balsamic
+    description: Strawberry ice cream with a hint of Balsamic Vinegar
+    background: green-stripes
+  - sys:
+      id: KGj8dqbCCcKaika8gsYyi
+      created_at: !ruby/object:DateTime 2018-08-13 02:51:09.885000000 Z
+      updated_at: !ruby/object:DateTime 2018-08-13 02:51:09.885000000 Z
+      content_type_id: rotatingflavors
+    name: Lemon Cookie
+    description: Lemon ice cream with lemon sugar cookie pieces
+    background: red-stripes
+  - sys:
+      id: 3jxq3KePlmgiacgQQKmESm
+      created_at: !ruby/object:DateTime 2018-08-13 02:51:37.334000000 Z
+      updated_at: !ruby/object:DateTime 2018-08-13 02:51:37.334000000 Z
+      content_type_id: rotatingflavors
+    name: Honey Cornbread
+    description: Honey cornbread ice cream with cornbread pieces
+    background: red-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
