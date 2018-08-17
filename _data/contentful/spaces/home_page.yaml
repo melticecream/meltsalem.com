@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-08-13 02:51:40.641000000 Z
+    updated_at: !ruby/object:DateTime 2018-08-17 12:22:15.994000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -140,14 +140,6 @@ homePage:
     description: Vanilla ice cream with chocolate chip cookies and Taza chip chocolate
       pieces
   - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
-    background: green-stripes
-  - sys:
       id: 29mKBpEo5eAGoMEooUEgMw
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
@@ -171,6 +163,14 @@ homePage:
     name: Honey Cornbread
     description: Honey cornbread ice cream with cornbread pieces
     background: red-stripes
+  - sys:
+      id: 76kwlC5ZbaOSYYcIgGIck4
+      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Oreo Coconut
+    description: This vegan option is made with coconut milk and oreos
+    background: green-cones
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
