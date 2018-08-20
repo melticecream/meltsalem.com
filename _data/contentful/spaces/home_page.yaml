@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-08-17 12:22:15.994000000 Z
+    updated_at: !ruby/object:DateTime 2018-08-20 01:02:42.916000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -116,12 +116,12 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 7L4NqMk96EMsM6UYaeoYyK
-      created_at: !ruby/object:DateTime 2018-07-31 18:05:07.245000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-31 18:05:07.245000000 Z
+      id: 6EbMRubjuogqy80uwMUMcE
+      created_at: !ruby/object:DateTime 2018-08-20 01:00:54.464000000 Z
+      updated_at: !ruby/object:DateTime 2018-08-20 01:00:54.464000000 Z
       content_type_id: flavor
-    name: Berry Sorbet
-    description: A sorbet made with raspberries, blueberries, and blackberries
+    name: Cantaloupe Sorbet
+    description: A sorbet made with lots of fresh cantaloupes
   - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
@@ -132,29 +132,13 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 2cmzN6HVA044uA8SWWCsII
-      created_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
-      updated_at: !ruby/object:DateTime 2018-08-05 02:09:26.703000000 Z
+      id: 187UGb8LqYCi0AmauKy4Q8
+      created_at: !ruby/object:DateTime 2018-06-02 01:49:56.525000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-02 01:50:15.074000000 Z
       content_type_id: rotatingflavors
-    name: Chocolate Chip Cookie
-    description: Vanilla ice cream with chocolate chip cookies and Taza chip chocolate
-      pieces
-  - sys:
-      id: 29mKBpEo5eAGoMEooUEgMw
-      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Balsamic
-    description: Strawberry ice cream with a hint of Balsamic Vinegar
+    name: Blueberry Citrus
+    description: A lemon and orange ice cream with a blueberry swirl
     background: green-stripes
-  - sys:
-      id: KGj8dqbCCcKaika8gsYyi
-      created_at: !ruby/object:DateTime 2018-08-13 02:51:09.885000000 Z
-      updated_at: !ruby/object:DateTime 2018-08-13 02:51:09.885000000 Z
-      content_type_id: rotatingflavors
-    name: Lemon Cookie
-    description: Lemon ice cream with lemon sugar cookie pieces
-    background: red-stripes
   - sys:
       id: 3jxq3KePlmgiacgQQKmESm
       created_at: !ruby/object:DateTime 2018-08-13 02:51:37.334000000 Z
@@ -163,6 +147,22 @@ homePage:
     name: Honey Cornbread
     description: Honey cornbread ice cream with cornbread pieces
     background: red-stripes
+  - sys:
+      id: 5d894dpB9eEwoaMmWaGkOa
+      created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
+      content_type_id: rotatingflavors
+    name: Smores
+    description: Vanilla ice cream with Taza chocolate chips, graham crackers, and
+      marshmallows from Sweet Lydia's
+  - sys:
+      id: j00hMd5UGIMwCcuQY8A2M
+      created_at: !ruby/object:DateTime 2018-08-20 01:02:01.490000000 Z
+      updated_at: !ruby/object:DateTime 2018-08-20 01:02:01.490000000 Z
+      content_type_id: rotatingflavors
+    name: Triple Chocolate
+    description: A chocolate ice cream with fudge swirls and dark chocolate chip cookie
+      pieces
   - sys:
       id: 76kwlC5ZbaOSYYcIgGIck4
       created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
