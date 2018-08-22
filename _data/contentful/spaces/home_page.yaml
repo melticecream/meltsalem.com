@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-08-20 01:02:42.916000000 Z
+    updated_at: !ruby/object:DateTime 2018-08-22 02:03:04.915000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -139,14 +139,6 @@ homePage:
     name: Blueberry Citrus
     description: A lemon and orange ice cream with a blueberry swirl
     background: green-stripes
-  - sys:
-      id: 3jxq3KePlmgiacgQQKmESm
-      created_at: !ruby/object:DateTime 2018-08-13 02:51:37.334000000 Z
-      updated_at: !ruby/object:DateTime 2018-08-13 02:51:37.334000000 Z
-      content_type_id: rotatingflavors
-    name: Honey Cornbread
-    description: Honey cornbread ice cream with cornbread pieces
-    background: red-stripes
   - sys:
       id: 5d894dpB9eEwoaMmWaGkOa
       created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
