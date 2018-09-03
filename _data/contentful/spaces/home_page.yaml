@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-08-22 02:03:04.915000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-03 02:34:13.578000000 Z
     content_type_id: homePage
   news: Summer Hours
   daily_hours:
@@ -132,14 +132,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 187UGb8LqYCi0AmauKy4Q8
-      created_at: !ruby/object:DateTime 2018-06-02 01:49:56.525000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-02 01:50:15.074000000 Z
-      content_type_id: rotatingflavors
-    name: Blueberry Citrus
-    description: A lemon and orange ice cream with a blueberry swirl
-    background: green-stripes
-  - sys:
       id: 5d894dpB9eEwoaMmWaGkOa
       created_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
       updated_at: !ruby/object:DateTime 2017-09-25 22:32:40.878000000 Z
@@ -148,21 +140,36 @@ homePage:
     description: Vanilla ice cream with Taza chocolate chips, graham crackers, and
       marshmallows from Sweet Lydia's
   - sys:
-      id: j00hMd5UGIMwCcuQY8A2M
-      created_at: !ruby/object:DateTime 2018-08-20 01:02:01.490000000 Z
-      updated_at: !ruby/object:DateTime 2018-08-20 01:02:01.490000000 Z
+      id: tvqxpNRMA0McAKoguKs0k
+      created_at: !ruby/object:DateTime 2018-03-24 17:14:08.286000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-01 17:14:03.903000000 Z
       content_type_id: rotatingflavors
-    name: Triple Chocolate
-    description: A chocolate ice cream with fudge swirls and dark chocolate chip cookie
-      pieces
+    name: Birthday Cake
+    description: Birthday Cake ice cream with pieces of cake, rainbow sprinkles, and
+      frosting
+    background: red-cones
   - sys:
-      id: 76kwlC5ZbaOSYYcIgGIck4
-      created_at: !ruby/object:DateTime 2017-10-08 17:15:53.491000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 19:50:00.104000000 Z
+      id: 44PwHPaEtqWYsGoiKAcEsU
+      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Oreo Coconut
-    description: This vegan option is made with coconut milk and oreos
-    background: green-cones
+    name: Vegan Chocolate Cherry Coconut
+    description: A chocolate cherry vegan ice cream, made with coconut milk
+  - sys:
+      id: 7Fp21zqhfaiSaEwSaYoam0
+      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      content_type_id: rotatingflavors
+    name: Spicy Dark Chocolate
+    description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
+    background: sprinkles
+  - sys:
+      id: 3ovs9Htsa4gIyoU6IqGGkq
+      created_at: !ruby/object:DateTime 2017-09-25 22:37:13.670000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-03 02:34:04.954000000 Z
+      content_type_id: rotatingflavors
+    name: Malted Vanilla
+    description: Vanilla ice cream with a large dose of malt powder
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
