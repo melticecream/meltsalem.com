@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-13 15:21:25.498000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-15 13:39:44.002000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -137,15 +137,6 @@ homePage:
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
   rotating_flavors:
-  - sys:
-      id: tvqxpNRMA0McAKoguKs0k
-      created_at: !ruby/object:DateTime 2018-03-24 17:14:08.286000000 Z
-      updated_at: !ruby/object:DateTime 2018-09-01 17:14:03.903000000 Z
-      content_type_id: rotatingflavors
-    name: Birthday Cake
-    description: Birthday Cake ice cream with pieces of cake, rainbow sprinkles, and
-      frosting
-    background: red-cones
   - sys:
       id: 44PwHPaEtqWYsGoiKAcEsU
       created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
