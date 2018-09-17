@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-15 13:39:44.002000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-17 00:53:06.717000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -19,7 +19,7 @@ homePage:
       updated_at: !ruby/object:DateTime 2018-09-03 02:39:37.859000000 Z
       content_type_id: hours
     daily_hours: 'Friday & Saturday: 12pm - 10pm'
-  now_hiring: true
+  now_hiring: false
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSdb0ukkLlBLp5yligpqmUrV9LluzR6yIcgvNMfUCkwKkJf8Yw/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
@@ -167,6 +167,14 @@ homePage:
     name: Strawberry Balsamic
     description: Strawberry ice cream with a hint of Balsamic Vinegar
     background: green-stripes
+  - sys:
+      id: 7qrcJ4ob4WSi2iWQwMYqyU
+      created_at: !ruby/object:DateTime 2018-09-17 00:52:56.079000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-17 00:52:56.079000000 Z
+      content_type_id: rotatingflavors
+    name: Cinnamon Toast Crunch
+    description: Cinnamon Toast Crunch ice cream with tons of Cinnamon Toast Crunch
+      pieces thrown in
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
