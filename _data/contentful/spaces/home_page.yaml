@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-17 00:53:06.717000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-26 01:28:45.602000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -138,13 +138,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 44PwHPaEtqWYsGoiKAcEsU
-      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
-      content_type_id: rotatingflavors
-    name: Vegan Chocolate Cherry Coconut
-    description: A chocolate cherry vegan ice cream, made with coconut milk
-  - sys:
       id: 7Fp21zqhfaiSaEwSaYoam0
       created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
       updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
@@ -153,12 +146,28 @@ homePage:
     description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
     background: sprinkles
   - sys:
-      id: 3ovs9Htsa4gIyoU6IqGGkq
-      created_at: !ruby/object:DateTime 2017-09-25 22:37:13.670000000 Z
-      updated_at: !ruby/object:DateTime 2018-09-03 02:34:04.954000000 Z
+      id: Nb395AOU6qumCo8esG2EM
+      created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-22 21:09:54.149000000 Z
       content_type_id: rotatingflavors
-    name: Malted Vanilla
-    description: Vanilla ice cream with a large dose of malt powder
+    name: Pumpkin
+    description: Pumpkin ice cream that tastes just like Pumpkin Pie
+    background: red-stripes
+  - sys:
+      id: 4J8beKUhagYm2Yo2cWQw0o
+      created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:15:58.542000000 Z
+      content_type_id: rotatingflavors
+    name: Vanilla Chai
+    description: We use MEM Chai Tea to make a delicious Vanilla Chai
+    background: red-cones
+  - sys:
+      id: 44PwHPaEtqWYsGoiKAcEsU
+      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
+      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
+      content_type_id: rotatingflavors
+    name: Vegan Chocolate Cherry Coconut
+    description: A chocolate cherry vegan ice cream, made with coconut milk
   - sys:
       id: 29mKBpEo5eAGoMEooUEgMw
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
