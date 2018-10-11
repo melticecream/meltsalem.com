@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-07 04:39:40.807000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-11 03:05:01.107000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -114,6 +114,13 @@ homePage:
     description: Banana Nutella ice cream with chunks of Peanut Butter Cups
     background: red-stripes
   - sys:
+      id: 2PAAGfEzIsWCAeAiAaWmey
+      created_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
+      content_type_id: flavor
+    name: Strawberry Mango Sorbet
+    description: Lots of strawberries and mangos complete this sorbet
+  - sys:
       id: 5g8uOCqjUkW2wAeWu8EysE
       created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
@@ -122,13 +129,6 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 6EbMRubjuogqy80uwMUMcE
-      created_at: !ruby/object:DateTime 2018-08-20 01:00:54.464000000 Z
-      updated_at: !ruby/object:DateTime 2018-08-20 01:00:54.464000000 Z
-      content_type_id: flavor
-    name: Cantaloupe Sorbet
-    description: A sorbet made with lots of fresh cantaloupes
-  - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
@@ -136,13 +136,6 @@ homePage:
     name: No Sugar Added Butter Pecan
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
-  - sys:
-      id: 2PAAGfEzIsWCAeAiAaWmey
-      created_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
-      content_type_id: flavor
-    name: Strawberry Mango Sorbet
-    description: Lots of strawberries and mangos complete this sorbet
   rotating_flavors:
   - sys:
       id: 7Fp21zqhfaiSaEwSaYoam0
@@ -169,12 +162,12 @@ homePage:
     description: We use MEM Chai Tea to make a delicious Vanilla Chai
     background: red-cones
   - sys:
-      id: 44PwHPaEtqWYsGoiKAcEsU
-      created_at: !ruby/object:DateTime 2017-09-25 22:31:36.630000000 Z
-      updated_at: !ruby/object:DateTime 2018-05-24 22:28:37.814000000 Z
+      id: 6TB2cYqGnCImICEoeUyWms
+      created_at: !ruby/object:DateTime 2018-10-11 03:04:47.656000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-11 03:04:47.656000000 Z
       content_type_id: rotatingflavors
-    name: Vegan Chocolate Cherry Coconut
-    description: A chocolate cherry vegan ice cream, made with coconut milk
+    name: Vegan Pumpkin Oreo Coconut
+    description: A vegan pumpkin and oreo ice cream, made with coconut milk
   - sys:
       id: 29mKBpEo5eAGoMEooUEgMw
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
