@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-11 03:05:01.107000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-20 02:12:37.341000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -138,14 +138,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: 7Fp21zqhfaiSaEwSaYoam0
-      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
-      content_type_id: rotatingflavors
-    name: Spicy Dark Chocolate
-    description: Dark chocolate ice cream spiced with cayenne pepper and paprika.
-    background: sprinkles
-  - sys:
       id: Nb395AOU6qumCo8esG2EM
       created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
       updated_at: !ruby/object:DateTime 2018-09-22 21:09:54.149000000 Z
@@ -153,6 +145,14 @@ homePage:
     name: Pumpkin
     description: Pumpkin ice cream that tastes just like Pumpkin Pie
     background: red-stripes
+  - sys:
+      id: 4WIs5oz8WI2eEcIo8KWYAw
+      created_at: !ruby/object:DateTime 2017-09-25 22:43:17.354000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-20 02:12:24.045000000 Z
+      content_type_id: rotatingflavors
+    name: Apple Crisp
+    description: Real apples with cinnamon and a pumpkin seed granola mixed in
+    background: green-cones
   - sys:
       id: 4J8beKUhagYm2Yo2cWQw0o
       created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
