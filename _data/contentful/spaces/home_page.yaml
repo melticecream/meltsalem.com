@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-20 02:12:37.341000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 17:06:45.414000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -146,14 +146,6 @@ homePage:
     description: Pumpkin ice cream that tastes just like Pumpkin Pie
     background: red-stripes
   - sys:
-      id: 4WIs5oz8WI2eEcIo8KWYAw
-      created_at: !ruby/object:DateTime 2017-09-25 22:43:17.354000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-20 02:12:24.045000000 Z
-      content_type_id: rotatingflavors
-    name: Apple Crisp
-    description: Real apples with cinnamon and a pumpkin seed granola mixed in
-    background: green-cones
-  - sys:
       id: 4J8beKUhagYm2Yo2cWQw0o
       created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:15:58.542000000 Z
@@ -177,13 +169,13 @@ homePage:
     description: Strawberry ice cream with a hint of Balsamic Vinegar
     background: green-stripes
   - sys:
-      id: 2wtsE3ZCEwyA2qi6CGOsuS
-      created_at: !ruby/object:DateTime 2017-09-25 22:34:16.007000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-06 16:15:49.759000000 Z
+      id: 5pfSNXdiCIIYc20MgSc8Og
+      created_at: !ruby/object:DateTime 2017-09-25 22:32:03.111000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:16:03.791000000 Z
       content_type_id: rotatingflavors
-    name: Sweet Potato Fluff
-    description: Real sweet potatoes with a marshmallow fluff swirl
-    background: green-stripes
+    name: Chocolate Fudge
+    description: Chocolate ice cream with Fudge Swirl
+    background: red-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
