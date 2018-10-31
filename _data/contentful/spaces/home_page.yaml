@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 17:06:45.414000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-31 02:53:49.261000000 Z
     content_type_id: homePage
   news: Fall Hours
   daily_hours:
@@ -161,14 +161,6 @@ homePage:
     name: Vegan Pumpkin Oreo Coconut
     description: A vegan pumpkin and oreo ice cream, made with coconut milk
   - sys:
-      id: 29mKBpEo5eAGoMEooUEgMw
-      created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
-      content_type_id: rotatingflavors
-    name: Strawberry Balsamic
-    description: Strawberry ice cream with a hint of Balsamic Vinegar
-    background: green-stripes
-  - sys:
       id: 5pfSNXdiCIIYc20MgSc8Og
       created_at: !ruby/object:DateTime 2017-09-25 22:32:03.111000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:16:03.791000000 Z
@@ -176,6 +168,15 @@ homePage:
     name: Chocolate Fudge
     description: Chocolate ice cream with Fudge Swirl
     background: red-stripes
+  - sys:
+      id: 67CtikMfyE6IG4YMAiCsEM
+      created_at: !ruby/object:DateTime 2018-10-31 02:53:31.603000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-31 02:53:31.603000000 Z
+      content_type_id: rotatingflavors
+    name: Trick or Treat
+    description: Vanilla ice cream with pieces of Snickers, Milky Ways, Twix, Butterfingers,
+      & Baby Ruths
+    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
