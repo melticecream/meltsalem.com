@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-01 13:39:17.113000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-09 20:52:00.446000000 Z
     content_type_id: homePage
   news: Fall/Winter Hours
   daily_hours:
@@ -181,13 +181,12 @@ homePage:
     description: Chocolate ice cream with Fudge Swirl
     background: red-stripes
   - sys:
-      id: 67CtikMfyE6IG4YMAiCsEM
-      created_at: !ruby/object:DateTime 2018-10-31 02:53:31.603000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-31 02:53:31.603000000 Z
+      id: 2C6q36GxmIGOiACuMkak8E
+      created_at: !ruby/object:DateTime 2017-09-25 22:43:52.962000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:07:38.829000000 Z
       content_type_id: rotatingflavors
-    name: Trick or Treat
-    description: Vanilla ice cream with pieces of Snickers, Milky Ways, Twix, Butterfingers,
-      & Baby Ruths
+    name: Peppermint Stick
+    description: Peppermint ice cream with crushed peppermint pieces
     background: green-stripes
   partners:
   - sys:
