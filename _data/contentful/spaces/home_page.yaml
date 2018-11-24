@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-09 20:52:00.446000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-24 16:49:34.623000000 Z
     content_type_id: homePage
   news: Fall/Winter Hours
   daily_hours:
@@ -150,14 +150,6 @@ homePage:
     background: green-stripes
   rotating_flavors:
   - sys:
-      id: Nb395AOU6qumCo8esG2EM
-      created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
-      updated_at: !ruby/object:DateTime 2018-09-22 21:09:54.149000000 Z
-      content_type_id: rotatingflavors
-    name: Pumpkin
-    description: Pumpkin ice cream that tastes just like Pumpkin Pie
-    background: red-stripes
-  - sys:
       id: 4J8beKUhagYm2Yo2cWQw0o
       created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:15:58.542000000 Z
@@ -187,6 +179,15 @@ homePage:
       content_type_id: rotatingflavors
     name: Peppermint Stick
     description: Peppermint ice cream with crushed peppermint pieces
+    background: green-stripes
+  - sys:
+      id: 6RLK5wKY5qiyuQC8Qo4W0q
+      created_at: !ruby/object:DateTime 2017-11-26 23:10:05.191000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:10:05.191000000 Z
+      content_type_id: rotatingflavors
+    name: Gingerbread Spice Drop
+    description: Gingerbread ice cream with chunks of gingersnap cookies and pieces
+      of candied spice drops
     background: green-stripes
   partners:
   - sys:
