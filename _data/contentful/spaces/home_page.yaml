@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-24 16:49:34.623000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-29 18:12:09.799000000 Z
     content_type_id: homePage
   news: Fall/Winter Hours
   daily_hours:
@@ -165,14 +165,6 @@ homePage:
     name: Vegan Pumpkin Oreo Coconut
     description: A vegan pumpkin and oreo ice cream, made with coconut milk
   - sys:
-      id: 5pfSNXdiCIIYc20MgSc8Og
-      created_at: !ruby/object:DateTime 2017-09-25 22:32:03.111000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:16:03.791000000 Z
-      content_type_id: rotatingflavors
-    name: Chocolate Fudge
-    description: Chocolate ice cream with Fudge Swirl
-    background: red-stripes
-  - sys:
       id: 2C6q36GxmIGOiACuMkak8E
       created_at: !ruby/object:DateTime 2017-09-25 22:43:52.962000000 Z
       updated_at: !ruby/object:DateTime 2017-11-26 23:07:38.829000000 Z
@@ -189,6 +181,14 @@ homePage:
     description: Gingerbread ice cream with chunks of gingersnap cookies and pieces
       of candied spice drops
     background: green-stripes
+  - sys:
+      id: 2GashSsYlOM88qs2Ek6y8o
+      created_at: !ruby/object:DateTime 2017-11-26 23:09:05.302000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-26 23:09:05.302000000 Z
+      content_type_id: rotatingflavors
+    name: Rumson's Egg Nog
+    description: Egg Nog ice cream with a touch of Rumson's Rum
+    background: red-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
