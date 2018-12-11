@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-04 20:24:12.152000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-10 01:42:20.632000000 Z
     content_type_id: homePage
   news: Winter Hours
   daily_hours:
@@ -106,19 +106,20 @@ homePage:
     description: Oreo ice cream full of oreo pieces
     background: red-stripes
   - sys:
-      id: 2PAAGfEzIsWCAeAiAaWmey
-      created_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-07 04:39:36.852000000 Z
-      content_type_id: flavor
-    name: Strawberry Mango Sorbet
-    description: Lots of strawberries and mangos complete this sorbet
-  - sys:
       id: 5g8uOCqjUkW2wAeWu8EysE
       created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
       content_type_id: flavor
     name: Black Raspberry Taza Chip Yogurt
     description: Black Raspberry yogurt with Taza chocolate pieces
+    background: red-stripes
+  - sys:
+      id: 6VA2XdaVOMIKMIWgKccuS6
+      created_at: !ruby/object:DateTime 2018-12-10 01:42:09.697000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-10 01:42:09.697000000 Z
+      content_type_id: flavor
+    name: Cranberry Orange Sorbet
+    description: A delicious, dairy free sorbet made from real cranberries and oranges
     background: red-stripes
   - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
@@ -161,14 +162,6 @@ homePage:
     description: Gingerbread ice cream with chunks of gingersnap cookies and pieces
       of candied spice drops
     background: green-stripes
-  - sys:
-      id: 2GashSsYlOM88qs2Ek6y8o
-      created_at: !ruby/object:DateTime 2017-11-26 23:09:05.302000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:09:05.302000000 Z
-      content_type_id: rotatingflavors
-    name: Rumson's Egg Nog
-    description: Egg Nog ice cream with a touch of Rumson's Rum
-    background: red-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
