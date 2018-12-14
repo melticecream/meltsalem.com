@@ -3,7 +3,7 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-10 01:42:20.632000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-14 17:44:43.092000000 Z
     content_type_id: homePage
   news: Winter Hours
   daily_hours:
@@ -130,14 +130,6 @@ homePage:
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
   rotating_flavors:
-  - sys:
-      id: 4J8beKUhagYm2Yo2cWQw0o
-      created_at: !ruby/object:DateTime 2017-09-25 22:30:37.687000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:15:58.542000000 Z
-      content_type_id: rotatingflavors
-    name: Vanilla Chai
-    description: We use MEM Chai Tea to make a delicious Vanilla Chai
-    background: red-cones
   - sys:
       id: 6TB2cYqGnCImICEoeUyWms
       created_at: !ruby/object:DateTime 2018-10-11 03:04:47.656000000 Z
