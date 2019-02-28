@@ -3,74 +3,19 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-19 21:26:21.624000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-04 19:16:17.027000000 Z
     content_type_id: homePage
   news: Winter Hours
   daily_hours:
   - sys:
-      id: 3MOVkf4fqwOeGK62aMQ6sY
-      created_at: !ruby/object:DateTime 2017-11-26 23:11:03.254000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-01 13:38:23.932000000 Z
+      id: 43x0dYGrk4EqkOSAeuA2k2
+      created_at: !ruby/object:DateTime 2019-01-04 19:15:22.299000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-04 19:15:22.299000000 Z
       content_type_id: hours
-    daily_hours: 'Monday: Closed'
-  - sys:
-      id: 5qcSiYAvkskCQKsAqkSCAk
-      created_at: !ruby/object:DateTime 2018-11-01 13:38:54.449000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-04 20:23:54.927000000 Z
-      content_type_id: hours
-    daily_hours: 'Tuesday - Sunday: 1pm - 8pm'
+    daily_hours: Closed for the Season!
   now_hiring: false
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSdb0ukkLlBLp5yligpqmUrV9LluzR6yIcgvNMfUCkwKkJf8Yw/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
-  flavors:
-  - sys:
-      id: 1sHw76EePCKMkEMa48WMug
-      created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:22.151000000 Z
-      content_type_id: flavor
-    name: Atomic Coffee
-    description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
-    background: red-cones
-  - sys:
-      id: jgSFz8qJQAKwESo0K0mSQ
-      created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:34.453000000 Z
-      content_type_id: flavor
-    name: Maple Bourbon
-    description: Combination of Maple Syrup and a touch of Bourbon
-    background: red-cones
-  - sys:
-      id: 6Xo1rSHnNeywYuiyCKcg2E
-      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
-      content_type_id: flavor
-    name: Chocolate
-    description: Rich chocolate ice cream using Taza chocolate
-    background: red-stripes
-  - sys:
-      id: 5g8uOCqjUkW2wAeWu8EysE
-      created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
-      content_type_id: flavor
-    name: Black Raspberry Taza Chip Yogurt
-    description: Black Raspberry yogurt with Taza chocolate pieces
-    background: red-stripes
-  - sys:
-      id: 6VA2XdaVOMIKMIWgKccuS6
-      created_at: !ruby/object:DateTime 2018-12-10 01:42:09.697000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-10 01:42:09.697000000 Z
-      content_type_id: flavor
-    name: Cranberry Orange Sorbet
-    description: A delicious, dairy free sorbet made from real cranberries and oranges
-    background: red-stripes
-  - sys:
-      id: 27UEBAT8hay4uOoSCAkSe8
-      created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
-      content_type_id: flavor
-    name: No Sugar Added Butter Pecan
-    description: Butter Pecan sweetened with Splenda
-    background: green-stripes
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
