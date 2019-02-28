@@ -5,6 +5,7 @@ homePage:
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
     updated_at: !ruby/object:DateTime 2019-02-28 21:35:18.099000000 Z
     content_type_id: homePage
+    revision: 92
   news: Winter Hours
   daily_hours:
   - sys:
@@ -12,6 +13,7 @@ homePage:
       created_at: !ruby/object:DateTime 2019-01-04 19:15:22.299000000 Z
       updated_at: !ruby/object:DateTime 2019-02-28 21:49:58.343000000 Z
       content_type_id: hours
+      revision: 2
     daily_hours: Opening March 1!
   now_hiring: false
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSdb0ukkLlBLp5yligpqmUrV9LluzR6yIcgvNMfUCkwKkJf8Yw/viewform
@@ -22,6 +24,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
       content_type_id: flavor
+      revision: 3
     name: Vanilla
     description: Made with Madagascar Bourbon vanilla
     background: green-stripes
@@ -30,6 +33,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:22.151000000 Z
       content_type_id: flavor
+      revision: 4
     name: Atomic Coffee
     description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
     background: red-cones
@@ -38,6 +42,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:34.453000000 Z
       content_type_id: flavor
+      revision: 3
     name: Maple Bourbon
     description: Combination of Maple Syrup and a touch of Bourbon
     background: red-cones
@@ -46,6 +51,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
       content_type_id: flavor
+      revision: 6
     name: Chocolate
     description: Rich chocolate ice cream using Taza chocolate
     background: red-stripes
@@ -54,6 +60,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 18:24:15.791000000 Z
       content_type_id: flavor
+      revision: 6
     name: Salted Caramel with Sea Salt Brownies
     description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
       Bee Bakes
@@ -63,6 +70,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:26.018000000 Z
       content_type_id: flavor
+      revision: 5
     name: Taza Chip Cookie Dough
     description: Cookie dough ice cream with Taza chocolate pieces
     background: green-cones
@@ -71,6 +79,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:31.705000000 Z
       content_type_id: flavor
+      revision: 6
     name: White Minty Chip
     description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
       pieces
@@ -80,6 +89,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:38.169000000 Z
       content_type_id: flavor
+      revision: 5
     name: Nutty Almond
     description: Almond ice cream with bits of sweet and salty almond and cashew pieces
     background: green-cones
@@ -88,6 +98,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:40.932000000 Z
       content_type_id: flavor
+      revision: 4
     name: Chocolate Peanut Butter
     description: Chocolate Peanut Butter ice cream with Peanut Butter pieces
     background: sprinkles
@@ -96,6 +107,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 17:12:28.927000000 Z
       content_type_id: flavor
+      revision: 5
     name: Oreo
     description: Oreo ice cream full of oreo pieces
     background: red-stripes
@@ -104,6 +116,7 @@ homePage:
       created_at: !ruby/object:DateTime 2018-03-04 02:56:13.662000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 02:56:13.662000000 Z
       content_type_id: flavor
+      revision: 1
     name: Banana Nutella with Peanut Butter Cups
     description: Banana Nutella ice cream with chunks of Peanut Butter Cups
     background: red-stripes
@@ -112,6 +125,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
       content_type_id: flavor
+      revision: 4
     name: No Sugar Added Butter Pecan
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
@@ -120,6 +134,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
       updated_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
       content_type_id: flavor
+      revision: 1
     name: Strawberry Sorbet
     description: Lots of strawberries complete this sorbet
     background: green-stripes
@@ -129,6 +144,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 03:48:02.629000000 Z
       content_type_id: rotatingflavors
+      revision: 2
     name: Earl Grey with Cardamom & Pistachios
     description: Earl Grey ice cream spiced with Cardamom and whole Pistachios
     background: red-stripes
@@ -137,6 +153,7 @@ homePage:
       created_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 03:06:32.386000000 Z
       content_type_id: rotatingflavors
+      revision: 1
     name: Strawberry Balsamic
     description: Strawberry ice cream with a hint of Balsamic Vinegar
     background: green-stripes
@@ -145,6 +162,7 @@ homePage:
       created_at: !ruby/object:DateTime 2019-02-28 21:29:13.228000000 Z
       updated_at: !ruby/object:DateTime 2019-02-28 21:30:23.334000000 Z
       content_type_id: rotatingflavors
+      revision: 2
     name: Vegan Chocolate Mint Taza Chip
     description: A dark chocolate mint vegan ice cream made with coconut milk and
       some Taza chocolate chips thrown in
@@ -154,6 +172,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
       updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
       content_type_id: rotatingflavors
+      revision: 1
     name: Green Tea
     description: Green Tea ice cream using matcha from MEM Tea
   partners:
@@ -162,6 +181,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:52:56.202000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 22:52:56.202000000 Z
       content_type_id: partner
+      revision: 1
     name: Atomic Cafe
     website: http://www.atomicafe.com/
     location:
@@ -174,6 +194,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 23:00:59.417000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 23:00:59.417000000 Z
       content_type_id: partner
+      revision: 1
     name: Blue Ribbon Cake
     website: https://www.facebook.com/BlueRibbonCake/
     location:
@@ -187,6 +208,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-02-05 13:47:18.709000000 Z
       updated_at: !ruby/object:DateTime 2018-03-04 03:08:18.247000000 Z
       content_type_id: partner
+      revision: 3
     name: Jodi Bee Bakes
     website: http://www.jodibeebakes.com/
     location:
@@ -199,6 +221,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:57:10.519000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 22:57:10.519000000 Z
       content_type_id: partner
+      revision: 1
     name: MEM Tea Imports
     website: https://memteaimports.com/
     location:
@@ -211,6 +234,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:57:59.982000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 15:14:13.914000000 Z
       content_type_id: partner
+      revision: 2
     name: Rumson’s Rum
     website: https://rumsons.com/
     location:
@@ -223,6 +247,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:54:25.540000000 Z
       updated_at: !ruby/object:DateTime 2017-10-08 15:14:44.301000000 Z
       content_type_id: partner
+      revision: 2
     name: Sweet Lydia’s
     website: http://www.sweetlydias.com/
     location:
@@ -235,6 +260,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:55:51.678000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 22:55:51.678000000 Z
       content_type_id: partner
+      revision: 1
     name: Taza
     website: https://www.tazachocolate.com/
     location:
@@ -248,6 +274,7 @@ homePage:
       created_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
       content_type_id: partner
+      revision: 1
     name: That Nutty Redhead
     website: https://thatnuttyredhead.com/
     location:
