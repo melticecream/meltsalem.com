@@ -11,6 +11,6 @@
     "tachyons-cli": "^1.0.11"
   },
   "scripts": {
-    "build": "tachyons _assets/stylesheets/tachyons.css > _assets/stylesheets/tachyons.scss"
+    "build": "tachyons _assets/css/tachyons.css > _assets/css/tachyons.scss"
   }
 }
