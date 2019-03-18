@@ -3,18 +3,25 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2019-02-28 21:35:18.099000000 Z
+    updated_at: !ruby/object:DateTime 2019-03-01 14:29:08.090000000 Z
     content_type_id: homePage
-    revision: 92
-  news: Winter Hours
+    revision: 93
+  news: Spring Hours
   daily_hours:
   - sys:
-      id: 43x0dYGrk4EqkOSAeuA2k2
-      created_at: !ruby/object:DateTime 2019-01-04 19:15:22.299000000 Z
-      updated_at: !ruby/object:DateTime 2019-02-28 21:49:58.343000000 Z
+      id: 5qcSiYAvkskCQKsAqkSCAk
+      created_at: !ruby/object:DateTime 2018-11-01 13:38:54.449000000 Z
+      updated_at: !ruby/object:DateTime 2019-03-01 14:28:59.076000000 Z
+      content_type_id: hours
+      revision: 3
+    daily_hours: 'Sunday - Thursday: 1pm - 8pm'
+  - sys:
+      id: 6MuYEksX3awSKcucoOWqkW
+      created_at: !ruby/object:DateTime 2018-09-03 02:39:37.859000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-01 13:38:20.020000000 Z
       content_type_id: hours
       revision: 2
-    daily_hours: Opening March 1!
+    daily_hours: 'Friday & Saturday: 1pm - 9pm'
   now_hiring: false
   employee_application: https://docs.google.com/forms/d/e/1FAIpQLSdb0ukkLlBLp5yligpqmUrV9LluzR6yIcgvNMfUCkwKkJf8Yw/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
