@@ -3,9 +3,9 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2019-03-01 14:29:08.090000000 Z
+    updated_at: !ruby/object:DateTime 2019-03-18 14:09:39.081000000 Z
     content_type_id: homePage
-    revision: 93
+    revision: 94
   news: Spring Hours
   daily_hours:
   - sys:
@@ -182,6 +182,14 @@ homePage:
       revision: 1
     name: Green Tea
     description: Green Tea ice cream using matcha from MEM Tea
+  - sys:
+      id: 5eNtQWu4U2VqDEWQP6tn7d
+      created_at: !ruby/object:DateTime 2019-03-18 13:52:58.554000000 Z
+      updated_at: !ruby/object:DateTime 2019-03-18 13:52:58.554000000 Z
+      content_type_id: rotatingflavors
+      revision: 1
+    name: Malty Guinness with Chocolate Covered Pretzels
+    description: A malted Guinness ice cream with chocolate covered pretzels
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
