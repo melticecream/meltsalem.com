@@ -5,5 +5,4 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
-contentful_env
 node_modules

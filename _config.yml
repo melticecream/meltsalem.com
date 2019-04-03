@@ -13,13 +13,11 @@ assets:
     automatic_img_size: false
 exclude:
   - bin
-  - contentful_env
   - Gemfile
   - Gemfile.lock
   - node_modules
   - package.json
   - README.md
-  - s3_website.yml
   - yarn.lock
 markdown: kramdown
 timezone: US/Eastern

@@ -2,9 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1426b1be-1255-410c-9af3-683973bf9eea/deploy-status)](https://app.netlify.com/sites/meltsalem/deploys)
 
-```
-./bin/update
-```
+Contenful sends a webhook to Netlify to automatically deploy published content.
 
 # Updating Tachyons
 
