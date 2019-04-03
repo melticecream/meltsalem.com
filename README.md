@@ -1,10 +1,9 @@
 # Deploying
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1426b1be-1255-410c-9af3-683973bf9eea/deploy-status)](https://app.netlify.com/sites/meltsalem/deploys)
+
 ```
 ./bin/update
-./bin/build
-s3_website push --dry-run # optional
-s3_website push
 ```
 
 # Updating Tachyons
