@@ -3,29 +3,38 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2019-04-02 20:47:22.141000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-15 18:33:37.139000000 Z
     content_type_id: homePage
-    revision: 97
-  news: Spring Hours
+    revision: 148
+  news: Fall Hours
   daily_hours:
   - sys:
       id: 5qcSiYAvkskCQKsAqkSCAk
       created_at: !ruby/object:DateTime 2018-11-01 13:38:54.449000000 Z
-      updated_at: !ruby/object:DateTime 2019-04-02 20:46:14.039000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-01 19:07:33.694000000 Z
       content_type_id: hours
-      revision: 4
-    daily_hours: 'Sunday - Thursday: 12pm - 8pm'
+      revision: 5
+    daily_hours: 'Sunday - Thursday: 12pm - 9pm'
   - sys:
       id: 6MuYEksX3awSKcucoOWqkW
       created_at: !ruby/object:DateTime 2018-09-03 02:39:37.859000000 Z
-      updated_at: !ruby/object:DateTime 2019-04-02 20:46:20.907000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-01 19:07:36.267000000 Z
       content_type_id: hours
-      revision: 3
-    daily_hours: 'Friday & Saturday: 12pm - 9pm'
+      revision: 4
+    daily_hours: 'Friday & Saturday: 12pm - 10pm'
   now_hiring: false
-  employee_application: https://docs.google.com/forms/d/e/1FAIpQLSdb0ukkLlBLp5yligpqmUrV9LluzR6yIcgvNMfUCkwKkJf8Yw/viewform
+  employee_application: https://docs.google.com/forms/d/e/1FAIpQLSf3Sh6ChEo8_dRGKYj7dQxyX0HJsyx-EWOs8ODw1D0CyFeMZg/viewform
   flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
   flavors:
+  - sys:
+      id: 6Xo1rSHnNeywYuiyCKcg2E
+      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
+      content_type_id: flavor
+      revision: 6
+    name: Chocolate
+    description: Rich chocolate ice cream using Taza chocolate
+    background: red-stripes
   - sys:
       id: 2X3lr7BNgsm0kcWCuGo242
       created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
@@ -47,21 +56,12 @@ homePage:
   - sys:
       id: jgSFz8qJQAKwESo0K0mSQ
       created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:34.453000000 Z
+      updated_at: !ruby/object:DateTime 2019-04-03 01:37:13.402000000 Z
       content_type_id: flavor
-      revision: 3
+      revision: 5
     name: Maple Bourbon
     description: Combination of Maple Syrup and a touch of Bourbon
     background: red-cones
-  - sys:
-      id: 6Xo1rSHnNeywYuiyCKcg2E
-      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
-      content_type_id: flavor
-      revision: 6
-    name: Chocolate
-    description: Rich chocolate ice cream using Taza chocolate
-    background: red-stripes
   - sys:
       id: 6fp09qxUhqwCyMyo6k0uyu
       created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
@@ -128,6 +128,15 @@ homePage:
     description: Banana Nutella ice cream with chunks of Peanut Butter Cups
     background: red-stripes
   - sys:
+      id: 5g8uOCqjUkW2wAeWu8EysE
+      created_at: !ruby/object:DateTime 2017-05-23 22:46:58.683000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:34.912000000 Z
+      content_type_id: flavor
+      revision: 5
+    name: Black Raspberry Taza Chip Yogurt
+    description: Black Raspberry yogurt with Taza chocolate pieces
+    background: red-stripes
+  - sys:
       id: 27UEBAT8hay4uOoSCAkSe8
       created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
       updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
@@ -137,24 +146,15 @@ homePage:
     description: Butter Pecan sweetened with Splenda
     background: green-stripes
   - sys:
-      id: AaFnlJUQ7e2YYyWOAMIss
-      created_at: !ruby/object:DateTime 2017-05-23 22:45:32.675000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:49.025000000 Z
+      id: 1PHY8JvJakoqUOcMK2K2aw
+      created_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-11 21:58:14.064000000 Z
       content_type_id: flavor
-      revision: 4
-    name: Mango Sorbet
-    description: Lots of ripe mangos add full flavor
-    background: green-cones
-  rotating_flavors:
-  - sys:
-      id: 4VWJ8FgJCoAAsOyACOuCGw
-      created_at: !ruby/object:DateTime 2017-09-25 22:36:32.466000000 Z
-      updated_at: !ruby/object:DateTime 2018-03-04 03:48:02.629000000 Z
-      content_type_id: rotatingflavors
       revision: 2
-    name: Earl Grey with Cardamom & Pistachios
-    description: Earl Grey ice cream spiced with Cardamom and whole Pistachios
-    background: red-stripes
+    name: Strawberry Sorbet
+    description: Lots of strawberries complete this dairy free sorbet
+    background: green-stripes
+  rotating_flavors:
   - sys:
       id: 6PV7HE7sxaaI2cIS0wMw8w
       created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
@@ -165,21 +165,37 @@ homePage:
     description: A dark chocolate vegan ice cream, made with coconut milk
     background: green-stripes
   - sys:
-      id: 4XlJdNtBPikag84skW0YU2
-      created_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-25 22:37:53.408000000 Z
+      id: iPZ5jtEgIEKEykk4AKy86
+      created_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
       content_type_id: rotatingflavors
       revision: 1
-    name: Green Tea
-    description: Green Tea ice cream using matcha from MEM Tea
+    name: Minty Blueberry
+    description: A minty and blueberry ice cream
   - sys:
-      id: ljjOEgJukhLpvlyStFe0r
-      created_at: !ruby/object:DateTime 2019-04-02 20:47:10.563000000 Z
-      updated_at: !ruby/object:DateTime 2019-04-02 20:47:10.563000000 Z
+      id: tPudfzQbEJcmMIHG8FJP3
+      created_at: !ruby/object:DateTime 2019-08-31 14:55:52.472000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-31 14:55:52.472000000 Z
       content_type_id: rotatingflavors
       revision: 1
-    name: Lucky Charms
-    description: A vanilla based ice cream loaded with Lucky Charms marshmallows
+    name: Brown Butter Peach
+    description: Peach, brown butter and brown sugar ice cream with peach jam
+  - sys:
+      id: 4ZGOASvhyempBiLFv6OO74
+      created_at: !ruby/object:DateTime 2019-09-11 23:45:51.371000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-11 23:45:51.371000000 Z
+      content_type_id: rotatingflavors
+      revision: 1
+    name: Honey Cornbread
+    description: Honey Cornbread ice cream with cornbread pieces
+  - sys:
+      id: 1SLs8plRdvMUCUNCFr9YHC
+      created_at: !ruby/object:DateTime 2019-09-15 18:33:32.235000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-15 18:33:32.235000000 Z
+      content_type_id: rotatingflavors
+      revision: 1
+    name: Bubblegum Surprise
+    description: Bubblegum flavored ice cream with cereal marshmallows
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
@@ -287,15 +303,16 @@ homePage:
       lon: -70.620363
     description: This redhead kettle cooks her almonds and cashews with a sweet concoction
       that we mix into our Nutty Almond
-  about: "It all started in 2009. While on vacation in Cape May, New Jersey I happened
-    upon a small ice cream shop. The owners, a young couple, had just opened and had
-    the most interesting ice cream flavors I had experienced - Lemon Basil Mint, Blueberry
-    Basil, Maple Bacon (before bacon was a mainstay ingredient in everything!), Cucumber
-    Sorbet, Spicy Chocolate. I went every day.\n\nThe owners used local, organic (where
-    possible) ingredients and decided to set up shop and see how the business adventure
-    goes. Their philosophy and mindset for the ice cream and business intrigued me.
-    \n\nWithin the next year I bought my first ice cream maker and started experimenting
-    at home. I brought samples to work events, gatherings with friends, and made my
-    family try a bunch of flavors. \n\nIn 2014, after working a Corporate job for
-    almost a decade, I quit and didn't know what was next. I decided to jump full
-    time into my ice cream hobby and here we are! "
+  about: "From the Founder: It all started in 2009. While on vacation in Cape May,
+    New Jersey I happened upon a small ice cream shop. The owners, a young couple,
+    had just opened and had the most interesting ice cream flavors I had experienced
+    - Lemon Basil Mint, Blueberry Basil, Maple Bacon (before bacon was a mainstay
+    ingredient in everything!), Cucumber Sorbet, Spicy Chocolate. I went every day.\n\nThe
+    owners used local, organic (where possible) ingredients and decided to set up
+    shop and see how the business adventure goes. Their philosophy and mindset for
+    the ice cream and business intrigued me. \n\nWithin the next year I bought my
+    first ice cream maker and started experimenting at home. I brought samples to
+    work events, gatherings with friends, and made my family try a bunch of flavors.
+    \n\nIn 2014, after working a Corporate job for almost a decade, I quit and didn't
+    know what was next. I decided to jump full time into my ice cream hobby and here
+    we are! "

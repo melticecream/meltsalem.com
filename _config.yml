@@ -35,3 +35,4 @@ contentful:
         access_token: ENV_CONTENTFUL_ACCESS_TOKEN
         cda_query:
           content_type: 'homePage'
+          'sys.id': '7WM0hPXbX2qwMeqEyOQIY'
