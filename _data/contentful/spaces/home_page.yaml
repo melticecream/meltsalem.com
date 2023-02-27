@@ -3,47 +3,36 @@ homePage:
 - sys:
     id: 7WM0hPXbX2qwMeqEyOQIY
     created_at: !ruby/object:DateTime 2017-02-05 13:39:02.972000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-15 18:33:37.139000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-27 22:14:09.448000000 Z
     content_type_id: homePage
-    revision: 148
-  news: Fall Hours
+    revision: 443
+  news: Winter Hours
   daily_hours:
   - sys:
-      id: 5qcSiYAvkskCQKsAqkSCAk
-      created_at: !ruby/object:DateTime 2018-11-01 13:38:54.449000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-01 19:07:33.694000000 Z
+      id: 4k7cNnHF1uZriPGLiy4nih
+      created_at: !ruby/object:DateTime 2021-12-12 01:58:24.054000000 Z
+      updated_at: !ruby/object:DateTime 2022-12-21 03:28:05.705000000 Z
       content_type_id: hours
-      revision: 5
-    daily_hours: 'Sunday - Thursday: 12pm - 9pm'
-  - sys:
-      id: 6MuYEksX3awSKcucoOWqkW
-      created_at: !ruby/object:DateTime 2018-09-03 02:39:37.859000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-01 19:07:36.267000000 Z
-      content_type_id: hours
-      revision: 4
-    daily_hours: 'Friday & Saturday: 12pm - 10pm'
-  now_hiring: false
-  employee_application: https://docs.google.com/forms/d/e/1FAIpQLSf3Sh6ChEo8_dRGKYj7dQxyX0HJsyx-EWOs8ODw1D0CyFeMZg/viewform
-  flavors_as_of_date: !ruby/object:DateTime 2018-03-04 14:00:00.000000000 Z
-  flavors:
-  - sys:
-      id: 6Xo1rSHnNeywYuiyCKcg2E
-      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
-      content_type_id: flavor
-      revision: 6
-    name: Chocolate
-    description: Rich chocolate ice cream using Taza chocolate
-    background: red-stripes
-  - sys:
-      id: 2X3lr7BNgsm0kcWCuGo242
-      created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
-      content_type_id: flavor
       revision: 3
-    name: Vanilla
-    description: Made with Madagascar Bourbon vanilla
-    background: green-stripes
+    daily_hours: Thank you for an amazing season!  We will see you next March 2023!!!
+  - sys:
+      id: 3G2xhYvwag7Gdygm1v71dy
+      created_at: !ruby/object:DateTime 2020-11-29 21:32:11.684000000 Z
+      updated_at: !ruby/object:DateTime 2022-12-21 03:28:20.793000000 Z
+      content_type_id: hours
+      revision: 2
+    daily_hours: 'E-Gift Cards are available to order online '
+  - sys:
+      id: 5PTu8BFILvwR3tLbfCM3T2
+      created_at: !ruby/object:DateTime 2020-04-04 13:04:06.187000000 Z
+      updated_at: !ruby/object:DateTime 2020-12-03 19:12:49.356000000 Z
+      content_type_id: hours
+      revision: 2
+    daily_hours: Online Ordering Site https://my-site-104818-104920.square.site/
+  now_hiring: true
+  employee_application: https://docs.google.com/forms/d/13d2kGAUSdWOx95E7ZNjCtPadClx7hIdcBMH59GAXupY/edit
+  flavors_as_of_date: !ruby/object:DateTime 2022-03-08 10:00:00.000000000 Z
+  flavors:
   - sys:
       id: 1sHw76EePCKMkEMa48WMug
       created_at: !ruby/object:DateTime 2017-05-23 22:40:32.487000000 Z
@@ -53,71 +42,6 @@ homePage:
     name: Atomic Coffee
     description: Cold brewed coffee ice cream using Atomic Cafe coffee beans
     background: red-cones
-  - sys:
-      id: jgSFz8qJQAKwESo0K0mSQ
-      created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
-      updated_at: !ruby/object:DateTime 2019-04-03 01:37:13.402000000 Z
-      content_type_id: flavor
-      revision: 5
-    name: Maple Bourbon
-    description: Combination of Maple Syrup and a touch of Bourbon
-    background: red-cones
-  - sys:
-      id: 6fp09qxUhqwCyMyo6k0uyu
-      created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 18:24:15.791000000 Z
-      content_type_id: flavor
-      revision: 6
-    name: Salted Caramel with Sea Salt Brownies
-    description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
-      Bee Bakes
-    background: green-cones
-  - sys:
-      id: 4ufkHfBwisY6cwC4sAeaYc
-      created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:26.018000000 Z
-      content_type_id: flavor
-      revision: 5
-    name: Taza Chip Cookie Dough
-    description: Cookie dough ice cream with Taza chocolate pieces
-    background: green-cones
-  - sys:
-      id: quRd1AXAI0OEWwq2YmOae
-      created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:31.705000000 Z
-      content_type_id: flavor
-      revision: 6
-    name: White Minty Chip
-    description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
-      pieces
-    background: sprinkles
-  - sys:
-      id: 36oWHeU9QsMuI646K46keo
-      created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:38.169000000 Z
-      content_type_id: flavor
-      revision: 5
-    name: Nutty Almond
-    description: Almond ice cream with bits of sweet and salty almond and cashew pieces
-    background: green-cones
-  - sys:
-      id: 603dsBHdhSWOgqcm6iWuSk
-      created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:40.932000000 Z
-      content_type_id: flavor
-      revision: 4
-    name: Chocolate Peanut Butter
-    description: Chocolate Peanut Butter ice cream with Peanut Butter pieces
-    background: sprinkles
-  - sys:
-      id: 3JGmvRXHuo2IOY8wMguMGc
-      created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-08 17:12:28.927000000 Z
-      content_type_id: flavor
-      revision: 5
-    name: Oreo
-    description: Oreo ice cream full of oreo pieces
-    background: red-stripes
   - sys:
       id: 4p7QbpeHYk8OAiK2wsUsoI
       created_at: !ruby/object:DateTime 2018-03-04 02:56:13.662000000 Z
@@ -137,65 +61,139 @@ homePage:
     description: Black Raspberry yogurt with Taza chocolate pieces
     background: red-stripes
   - sys:
-      id: 27UEBAT8hay4uOoSCAkSe8
-      created_at: !ruby/object:DateTime 2017-05-23 22:47:26.486000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-01 19:35:54.303000000 Z
+      id: 6Xo1rSHnNeywYuiyCKcg2E
+      created_at: !ruby/object:DateTime 2017-02-05 13:30:06.014000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:18.562000000 Z
+      content_type_id: flavor
+      revision: 6
+    name: Chocolate
+    description: Rich chocolate ice cream using Taza chocolate
+    background: red-stripes
+  - sys:
+      id: 603dsBHdhSWOgqcm6iWuSk
+      created_at: !ruby/object:DateTime 2017-05-23 22:49:02.437000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:35:40.932000000 Z
       content_type_id: flavor
       revision: 4
-    name: No Sugar Added Butter Pecan
-    description: Butter Pecan sweetened with Splenda
+    name: Chocolate Peanut Butter
+    description: Chocolate Peanut Butter ice cream with Peanut Butter pieces
+    background: sprinkles
+  - sys:
+      id: jgSFz8qJQAKwESo0K0mSQ
+      created_at: !ruby/object:DateTime 2017-05-23 22:41:05.354000000 Z
+      updated_at: !ruby/object:DateTime 2019-04-03 01:37:13.402000000 Z
+      content_type_id: flavor
+      revision: 5
+    name: Maple Bourbon
+    description: Combination of Maple Syrup and a touch of Bourbon
+    background: red-cones
+  - sys:
+      id: 36oWHeU9QsMuI646K46keo
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:08.745000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:38.169000000 Z
+      content_type_id: flavor
+      revision: 5
+    name: Nutty Almond
+    description: Almond ice cream with bits of sweet and salty almond and cashew pieces
+    background: green-cones
+  - sys:
+      id: 3JGmvRXHuo2IOY8wMguMGc
+      created_at: !ruby/object:DateTime 2017-05-23 22:44:45.950000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:28.927000000 Z
+      content_type_id: flavor
+      revision: 5
+    name: Oreo
+    description: Oreo ice cream full of oreo pieces
+    background: red-stripes
+  - sys:
+      id: 6fp09qxUhqwCyMyo6k0uyu
+      created_at: !ruby/object:DateTime 2017-02-05 13:31:06.385000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 18:24:15.791000000 Z
+      content_type_id: flavor
+      revision: 6
+    name: Salted Caramel with Sea Salt Brownies
+    description: Homemade Salted Caramel with Gluten Free Sea Salt Brownies from Jodi
+      Bee Bakes
+    background: green-cones
+  - sys:
+      id: mrTEULybR1dGtC6LdylS1
+      created_at: !ruby/object:DateTime 2020-04-01 15:36:30.548000000 Z
+      updated_at: !ruby/object:DateTime 2020-04-01 15:36:30.548000000 Z
+      content_type_id: flavor
+      revision: 1
+    name: Sorbet of the Day
+    description: Rotating sorbet flavor
+  - sys:
+      id: 4ufkHfBwisY6cwC4sAeaYc
+      created_at: !ruby/object:DateTime 2017-05-23 22:43:33.522000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:26.018000000 Z
+      content_type_id: flavor
+      revision: 5
+    name: Taza Chip Cookie Dough
+    description: Cookie dough ice cream with Taza chocolate pieces
+    background: green-cones
+  - sys:
+      id: 2X3lr7BNgsm0kcWCuGo242
+      created_at: !ruby/object:DateTime 2017-02-05 13:29:03.662000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-01 19:36:07.956000000 Z
+      content_type_id: flavor
+      revision: 3
+    name: Vanilla
+    description: Made with Madagascar Bourbon vanilla
     background: green-stripes
   - sys:
-      id: 1PHY8JvJakoqUOcMK2K2aw
-      created_at: !ruby/object:DateTime 2017-11-26 23:05:19.467000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-11 21:58:14.064000000 Z
+      id: quRd1AXAI0OEWwq2YmOae
+      created_at: !ruby/object:DateTime 2017-05-23 22:42:33.859000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-08 17:12:31.705000000 Z
       content_type_id: flavor
-      revision: 2
-    name: Strawberry Sorbet
-    description: Lots of strawberries complete this dairy free sorbet
-    background: green-stripes
+      revision: 6
+    name: White Minty Chip
+    description: Mint ice cream with no artificial colors (it’s white!) and Taza chocolate
+      pieces
+    background: sprinkles
   rotating_flavors:
   - sys:
-      id: 6PV7HE7sxaaI2cIS0wMw8w
-      created_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-26 23:08:19.868000000 Z
+      id: 2wtsE3ZCEwyA2qi6CGOsuS
+      created_at: !ruby/object:DateTime 2017-09-25 22:34:16.007000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-06 16:15:49.759000000 Z
       content_type_id: rotatingflavors
-      revision: 1
-    name: Vegan Dark Chocolate Coconut
-    description: A dark chocolate vegan ice cream, made with coconut milk
+      revision: 7
+    name: Sweet Potato Fluff
+    description: Real sweet potatoes with a marshmallow fluff swirl
     background: green-stripes
   - sys:
-      id: iPZ5jtEgIEKEykk4AKy86
-      created_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-22 15:53:34.051000000 Z
+      id: Nb395AOU6qumCo8esG2EM
+      created_at: !ruby/object:DateTime 2017-09-25 22:29:19.160000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-22 21:09:54.149000000 Z
       content_type_id: rotatingflavors
-      revision: 1
-    name: Minty Blueberry
-    description: A minty and blueberry ice cream
+      revision: 6
+    name: Pumpkin
+    description: Pumpkin ice cream that tastes just like Pumpkin Pie
+    background: red-stripes
   - sys:
-      id: tPudfzQbEJcmMIHG8FJP3
-      created_at: !ruby/object:DateTime 2019-08-31 14:55:52.472000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-31 14:55:52.472000000 Z
+      id: 7Fp21zqhfaiSaEwSaYoam0
+      created_at: !ruby/object:DateTime 2018-04-11 03:05:18.399000000 Z
+      updated_at: !ruby/object:DateTime 2019-06-10 20:12:27.634000000 Z
       content_type_id: rotatingflavors
-      revision: 1
-    name: Brown Butter Peach
-    description: Peach, brown butter and brown sugar ice cream with peach jam
+      revision: 2
+    name: Spicy Dark Chocolate
+    description: Dark chocolate ice cream spiced with cayenne pepper and paprika
+    background: sprinkles
   - sys:
-      id: 4ZGOASvhyempBiLFv6OO74
-      created_at: !ruby/object:DateTime 2019-09-11 23:45:51.371000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-11 23:45:51.371000000 Z
+      id: 4W6D3mgzubyKzQ6i42JutM
+      created_at: !ruby/object:DateTime 2019-11-21 20:20:34.892000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-21 20:20:34.892000000 Z
       content_type_id: rotatingflavors
       revision: 1
-    name: Honey Cornbread
-    description: Honey Cornbread ice cream with cornbread pieces
+    name: Gingersnap Cookie
+    description: Gingerbread ice cream with Gluten Free gingersnap cookie pieces
   - sys:
-      id: 1SLs8plRdvMUCUNCFr9YHC
-      created_at: !ruby/object:DateTime 2019-09-15 18:33:32.235000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-15 18:33:32.235000000 Z
+      id: 4kw1JCnQslMwOlFGmYYbIu
+      created_at: !ruby/object:DateTime 2022-11-03 01:18:28.413000000 Z
+      updated_at: !ruby/object:DateTime 2022-11-03 01:18:28.413000000 Z
       content_type_id: rotatingflavors
       revision: 1
-    name: Bubblegum Surprise
-    description: Bubblegum flavored ice cream with cereal marshmallows
+    name: Christmas Sugar Cookie
   partners:
   - sys:
       id: 21ZTgUceyg6gQ4MSUoS26i
@@ -291,6 +289,18 @@ homePage:
       -  and you can taste the real chocolate in our Taza Chip Cookie Dough, White
       Minty Chip, and Spicy Dark Chocolate
   - sys:
+      id: 1BjdiBmpGKkX3CunL6RoOf
+      created_at: !ruby/object:DateTime 2020-03-20 01:21:14.418000000 Z
+      updated_at: !ruby/object:DateTime 2020-03-20 01:21:24.225000000 Z
+      content_type_id: partner
+      revision: 2
+    name: East Regiment Beer Company
+    website: https://eastregimentbeercompany.com/
+    location:
+      lat: 42.52266
+      lon: -70.8944
+    description: Colaboration with East Regiment Beer Co.
+  - sys:
       id: 153pgc7dd26qiukiUEY2mg
       created_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
       updated_at: !ruby/object:DateTime 2017-05-23 22:51:52.944000000 Z
@@ -303,16 +313,27 @@ homePage:
       lon: -70.620363
     description: This redhead kettle cooks her almonds and cashews with a sweet concoction
       that we mix into our Nutty Almond
-  about: "From the Founder: It all started in 2009. While on vacation in Cape May,
-    New Jersey I happened upon a small ice cream shop. The owners, a young couple,
-    had just opened and had the most interesting ice cream flavors I had experienced
-    - Lemon Basil Mint, Blueberry Basil, Maple Bacon (before bacon was a mainstay
-    ingredient in everything!), Cucumber Sorbet, Spicy Chocolate. I went every day.\n\nThe
-    owners used local, organic (where possible) ingredients and decided to set up
-    shop and see how the business adventure goes. Their philosophy and mindset for
-    the ice cream and business intrigued me. \n\nWithin the next year I bought my
-    first ice cream maker and started experimenting at home. I brought samples to
-    work events, gatherings with friends, and made my family try a bunch of flavors.
-    \n\nIn 2014, after working a Corporate job for almost a decade, I quit and didn't
-    know what was next. I decided to jump full time into my ice cream hobby and here
-    we are! "
+  about: "From the Owner: I have lived in Salem my whole life and enjoy the history,
+    along with all the quaint shops and restaurants. I worked at a restuarant for
+    years in Salem and love everything about this town! I was so excited when Melt
+    opened and have been a loyal patron ever since. The quality of the flavors she
+    came up with and the gourmet taste of all her ice cream made me envious. I've
+    had a passion for cooking and baking for as long as I can remember, but I was
+    scared to leave an 18 year career as a scientist. After 6 months in a new position,
+    I realized how unhappy I was.  It was as if it was some kind of perfect coincidence
+    I learned that Melt was for sale. My husband and I jumped at the opportunity.
+    It was like a dream come true to be able to take over Melt, and to be able to
+    utilize my creativity and passion for creating yummy food.  \n\nFrom the Founder:
+    It all started in 2009. While on vacation in Cape May, New Jersey I happened upon
+    a small ice cream shop. The owners, a young couple, had just opened and had the
+    most interesting ice cream flavors I had experienced - Lemon Basil Mint, Blueberry
+    Basil, Maple Bacon (before bacon was a mainstay ingredient in everything!), Cucumber
+    Sorbet, Spicy Chocolate. I went every day.\n\nThe owners used local, organic (where
+    possible) ingredients and decided to set up shop and see how the business adventure
+    goes. Their philosophy and mindset for the ice cream and business intrigued me.
+    \n\nWithin the next year I bought my first ice cream maker and started experimenting
+    at home. I brought samples to work events, gatherings with friends, and made my
+    family try a bunch of flavors. \n\nIn 2014, after working a Corporate job for
+    almost a decade, I quit and didn't know what was next. I decided to jump full
+    time into my ice cream hobby and here we are! "
+  online_ordering: true

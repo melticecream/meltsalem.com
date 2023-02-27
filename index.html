@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="flex flex-column flex-row-ns items-center justify-between mt3-ns dark-gray">
   <div class="w-30-ns flex justify-center items-center br-100 pa4 mt3-ns bg-white absolute-ns center left-0 right-0">
-    {% asset MELT_Primary_Hi-Res_Brown.png class="pt5-l w-80 h-auto" %}
+    <img src="/assets/images/MELT_Primary_Hi-Res_Brown.png" class="pt5-l w-80 h-auto">
   </div>
 
   <div class="w-100 w-third-ns flex flex-column flex-wrap-ns flex-row-ns justify-end items-center lh-copy">
@@ -25,37 +25,51 @@ layout: default
     </address>
     <div class="flex items-center mr4-ns ml0-ns mb3-ns mb4 tl-ns center">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3" target="_blank" rel="noopener noreferrer">
-        {% asset FB-f-Logo__blue_512.png
+        <img src="/assets/images/FB-f-Logo__blue_512.png"
           alt="Facebook"
           width="30"
-          height="30" %}
+          height="30">
       </a>
       <a href="https://www.instagram.com/meltsalem/" class="no-underline" target="_blank" rel="noopener noreferrer">
-        {% asset glyph-logo_May2016.png
+        <img src="/assets/images/glyph-logo_May2016.png"
           alt="Instagram"
           width="30"
-          height="30" %}
+          height="30">
       </a>
     </div>
   </div>
 </div>
 
 <div class="flex-auto w-100 mb5">
-  {% asset header-1.jpg class="w-100 h-auto" %}
+  <img src="/assets/images/header-1.jpg" class="w-100 h-auto">
 </div>
 
-{% if site.data.contentful.spaces.home_page.homePage[0].now_hiring %}
-  <div class="flex flex-column justify-center items-center mb5">
-    <div class="flex flex-column items-center justify-center ba br3 bw0 w5 h4 pa1 ma2 bg-dark-gray white">
-      <div class="ba br3 b--dashed w-100 h-100">
-        <div class="flex flex-column justify-center pl1 pr1 w-100 h-100">
-          <p class="f3 fw5 tc pl2 pr2 mt0 mb1 serif">We’re Hiring!</p>
-          <p class="ma0 tc">
-            <a class="f3 white serif" target="_blank" rel="noopener noreferrer" href="{{ site.data.contentful.spaces.home_page.homePage[0].employee_application }}">Apply Here</a>
-          </p>
+{% if site.data.contentful.spaces.home_page.homePage[0].now_hiring or site.data.contentful.spaces.home_page.homePage[0].online_ordering %}
+  <div class="flex justify-center items-center mb5">
+    {% if site.data.contentful.spaces.home_page.homePage[0].now_hiring %}
+      <div class="flex flex-column items-center justify-center ba br3 bw0 w5 h4 pa1 ma2 bg-dark-gray white">
+        <div class="ba br3 b--dashed w-100 h-100">
+          <div class="flex flex-column justify-center pl1 pr1 w-100 h-100">
+            <p class="f3 fw5 tc pl2 pr2 mt0 mb1 serif">We’re Hiring!</p>
+            <p class="ma0 tc">
+              <a class="f3 white serif" target="_blank" rel="noopener noreferrer" href="{{ site.data.contentful.spaces.home_page.homePage[0].employee_application }}">Apply Here</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    {% endif %}
+    {% if site.data.contentful.spaces.home_page.homePage[0].online_ordering %}
+      <div class="flex flex-column items-center justify-center ba br3 bw0 w5 h4 pa1 ma2 bg-dark-gray white">
+        <div class="ba br3 b--dashed w-100 h-100">
+          <div class="flex flex-column justify-center pl1 pr1 w-100 h-100">
+            <p class="f3 fw5 tc pl2 pr2 mt0 mb1 serif">Online Ordering</p>
+            <p class="ma0 tc">
+              <a class="f3 white serif" target="_blank" rel="noopener noreferrer" href="https://my-site-104818-104920.square.site/">Click Here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
   </div>
 {% endif %}
 
@@ -96,10 +110,10 @@ layout: default
     <h2 class="f1 fw5 mt0 mb0 serif">We are Melt</h2>
     {{ site.data.contentful.spaces.home_page.homePage[0].about | markdownify }}
   </div>
-  {% asset MELT_Icon_Hi-Res_White.png
+  <img src="/assets/images/MELT_Icon_Hi-Res_White.png"
     alt="Melt"
     width="150"
-    height="150" %}
+    height="150">
 </div>
 
 <div class="flex flex-column items-center dark-gray mb4">
@@ -107,73 +121,73 @@ layout: default
   <div class="flex flex-wrap justify-center items-center mw8">
     <div class="w5 ma3 pa4 flex justify-center">
       <a href="http://www.atomicafe.com/" class="dib w-80 pa3 bg-black" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/atomic_coffee.png"
+        <img src="/assets/images/partners/atomic_coffee.png"
           alt="Atomic Coffee"
           title="Atomic Coffee"
-          class="db" %}
+          class="db">
       </a>
     </div>
 
     <div class="w5 ma3">
       <a href="https://www.facebook.com/BlueRibbonCake/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/blue_ribbon.jpg"
+        <img src="/assets/images/partners/blue_ribbon.jpg"
           alt="Blue Ribbon Cake Shop"
-          title="Blue Ribbon Cake Shop" %}
+          title="Blue Ribbon Cake Shop">
       </a>
     </div>
 
     <div class="w5 ma3">
       <a href="http://www.jodibeebakes.com/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/jodi_bee_bakes.png"
+        <img src="/assets/images/partners/jodi_bee_bakes.png"
           alt="Jodi Bee Bakes"
-          title="Jodi Bee Bakes" %}
+          title="Jodi Bee Bakes">
       </a>
     </div>
 
     <div class="w5 ma3 pa5">
       <a href="https://rumsons.com/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/rumsons.jpg"
+        <img src="/assets/images/partners/rumsons.jpg"
           alt="Rumsons"
-          title="Rumsons" %}
+          title="Rumsons">
       </a>
     </div>
 
     <div class="w5 ma3">
       <a href="http://www.sweetlydias.com/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/sweet_lydias.png"
+        <img src="/assets/images/partners/sweet_lydias.png"
           alt="Sweet Lydia’s"
-          title="Sweet Lydia’s" %}
+          title="Sweet Lydia’s">
       </a>
     </div>
 
     <div class="w5 ma3 pa4">
       <a href="https://www.memteaimports.com/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/mem_tea.png"
+        <img src="/assets/images/partners/mem_tea.png"
           alt="Mem Tea"
-          title="Mem Tea" %}
+          title="Mem Tea">
       </a>
     </div>
 
     <div class="w5 ma3 pa4">
       <a href="https://www.tazachocolate.com/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/taza.png"
+        <img src="/assets/images/partners/taza.png"
           alt="Taza Chocolate"
-          title="Taza Chocolate" %}
+          title="Taza Chocolate">
       </a>
     </div>
 
     <div class="w5 ma3">
       <a href="https://www.facebook.com/That-Nutty-Redhead-Praline-Gourmet-Nuts-GF-1534753510097578/" target="_blank" rel="noopener noreferrer">
-        {% asset "partners/that_nutty_redhead.png"
+        <img src="/assets/images/partners/that_nutty_redhead.png"
           alt="That Nutty Redhead"
-          title="That Nutty Redhead" %}
+          title="That Nutty Redhead">
       </a>
     </div>
   </div>
 </div>
 
 <footer class="flex flex-row-ns flex-column justify-center items-center dark-gray bg-light-blue pt5 pb5">
-  {% asset MELT_Primary_Hi-Res_Brown.png alt="Melt" class="w5" %}
+  <img src="/assets/images/MELT_Primary_Hi-Res_Brown.png" alt="Melt" class="w5">
 
   <div class="ml5 mr5 lh-copy">
     <div class="mb0-ns mb4 tl-ns tc">
@@ -194,16 +208,16 @@ layout: default
     </address>
     <div class="flex items-center justify-start-ns justify-center mb0-ns mb4">
       <a href="https://www.facebook.com/meltsalem/" class="no-underline mr3" target="_blank" rel="noopener noreferrer">
-        {% asset FB-f-Logo__blue_512.png
+        <img src="/assets/images/FB-f-Logo__blue_512.png"
           alt="Facebook"
           width="30"
-          height="30" %}
+          height="30">
       </a>
       <a href="https://www.instagram.com/meltsalem/" target="_blank" rel="noopener noreferrer">
-        {% asset glyph-logo_May2016.png
+        <img src="/assets/images/glyph-logo_May2016.png"
           alt="Instagram"
           width="30"
-          height="30" %}
+          height="30">
       </a>
     </div>
   </div>
